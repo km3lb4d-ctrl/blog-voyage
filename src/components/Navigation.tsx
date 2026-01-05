@@ -68,7 +68,7 @@ export default function Navigation() {
               >
                 <path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <span className="text-sm font-semibold">Voyages & Facile</span>
+              <span className="text-sm font-semibold">Cap sur Amérique Latine</span>
             </Link>
           </div>
         </div>
@@ -94,32 +94,28 @@ export default function Navigation() {
               Accueil
             </Link>
             <Link
-              href="/carnet-de-bord"
+              href="/blog"
               onClick={handleLinkClick}
               className="text-3xl sm:text-4xl font-semibold text-white hover:text-[#2997ff] transition-colors"
             >
-              Carnet de bord
+              Blog
             </Link>
             <Link
-              href="/itineraires"
+              href="/services"
               onClick={handleLinkClick}
-              className="text-3xl sm:text-4xl font-semibold text-white hover:text-[#2997ff] transition-colors"
+              className="text-3xl sm:text-4xl font-semibold text-white hover:text-[#2997ff] transition-colors relative group"
             >
-              Itinéraires de voyages
+              Services
+              <span className="absolute -top-2 -right-8 text-xs bg-[#2997ff] text-white px-2 py-0.5 rounded-full">
+                Nouveau
+              </span>
             </Link>
             <Link
-              href="/conseils"
+              href="/destinations"
               onClick={handleLinkClick}
               className="text-3xl sm:text-4xl font-semibold text-white hover:text-[#2997ff] transition-colors"
             >
-              Conseils de Voyage
-            </Link>
-            <Link
-              href="/contact"
-              onClick={handleLinkClick}
-              className="text-3xl sm:text-4xl font-semibold text-white hover:text-[#2997ff] transition-colors"
-            >
-              Contacts & Newsletter
+              Destinations
             </Link>
             <Link
               href="/a-propos"
@@ -127,6 +123,13 @@ export default function Navigation() {
               className="text-3xl sm:text-4xl font-semibold text-white hover:text-[#2997ff] transition-colors"
             >
               À propos
+            </Link>
+            <Link
+              href="/contact"
+              onClick={handleLinkClick}
+              className="text-3xl sm:text-4xl font-semibold text-white hover:text-[#2997ff] transition-colors"
+            >
+              Contact
             </Link>
           </nav>
         </div>

@@ -11,93 +11,140 @@ export default function Home() {
       {/* Hero Section */}
       <Hero />
 
-      {/* Présentation du blog */}
-      <section className="section section-light">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="headline mb-8">C'est ici</h2>
-          <h2 className="headline mb-8">que</h2>
-          <h2 className="headline mb-8">l'aventure commence</h2>
-          <div className="body-text space-y-6 text-left max-w-3xl mx-auto !mt-16">
+      {/* Présentation */}
+      <section className="section section-dark relative overflow-hidden">
+        <div className="absolute inset-0 opacity-20 bg-center bg-no-repeat bg-contain"
+          style={{
+            backgroundImage: 'url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80")',
+          }}
+        />
+        <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
+          <h2 className="headline mb-8 text-white">Voyager en Amérique Latine,</h2>
+          <h2 className="headline mb-8 text-white">mais</h2>
+          <h2 className="headline mb-8 text-white">autrement</h2>
+          <div className="body-text space-y-6 text-left max-w-3xl mx-auto !mt-16 text-[#f5f5f7]">
             <p>
-              Ce blog est né d&apos;une passion simple : <strong>rendre le voyage accessible à tous</strong>.
-              Trop souvent, on hésite à partir par peur de l&apos;inconnu, par manque d&apos;organisation
-              ou simplement parce qu&apos;on ne sait pas par où commencer.
+              Ce blog est né d&apos;une passion : <strong>l&apos;Amérique Latine</strong>.
             </p>
             <p>
-              Ici, vous trouverez des <strong>récits authentiques</strong> de mes aventures,
-              des <strong>itinéraires détaillés</strong> pour vous inspirer et des <strong>conseils pratiques</strong> pour voyager sereinement, même avec un petit budget.
+              Après avoir voyagé en Colombie, au Mexique et au Panama, j&apos;ai découvert une réalité :
+              les meilleurs bons plans, les restaurants authentiques, les hébergements locaux...
+              <strong> tout ça se trouve en espagnol</strong>.
             </p>
             <p>
-              Mon objectif ? Vous donner les clés pour <strong>oser partir</strong> et vivre
-              des expériences inoubliables, que ce soit pour un week-end en Europe ou un
-              road trip à l&apos;autre bout du monde.
+              Pas sur TripAdvisor. Pas dans les guides français. Dans les blogs colombiens,
+              les forums mexicains, les groupes Facebook panaméens.
+            </p>
+            <p>
+              <strong>Bilingue français-espagnol depuis 15 ans</strong>, je crée du contenu qui mixe
+              mes expériences terrain et les ressources locales inaccessibles aux voyageurs francophones.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Présentation des sections */}
-      <section className="py-20 px-4 bg-[#f5f5f7]">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="headline text-center mb-12">Explorez le blog</h2>
+      {/* Sections du site */}
+      <section className="py-20 bg-[#1d1d1f]">
+        <div className="w-full">
+          <h2 className="headline text-center text-white px-4" style={{ marginBottom: '64px' }}>
+            Sur ce blog
+          </h2>
 
-          <div className="space-y-8">
-            {/* Carnet de bord */}
-            <Link href="/carnet-de-bord" className="group">
-              <div className="bg-white rounded-3xl overflow-hidden transition-transform duration-300 group-hover:-translate-y-2 flex flex-col md:flex-row items-center">
-                <div className="md:w-1/2 aspect-[4/3] overflow-hidden">
+          <div className="space-y-0">
+            {/* Blog */}
+            <Link href="/blog" className="group block">
+              <div className="bg-[#2d2d2d] overflow-hidden transition-all duration-500 ease-out group-hover:-translate-y-2 group-hover:shadow-2xl flex flex-col md:flex-row items-stretch w-full h-[400px]">
+                <div className="md:w-1/2 overflow-hidden h-full">
                   <img
-                    src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&q=80"
-                    alt="Carnet de bord"
+                    src="https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=1200&q=80"
+                    alt="Blog Amérique Latine"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
-                <div className="p-6 md:w-1/2">
-                  <h3 className="text-xl font-semibold mb-2">Carnet de bord</h3>
-                  <p className="text-[#86868b] text-sm">
-                    Tous mes récits de voyage : Lisbonne, Marrakech, Islande, Bali et bien d&apos;autres destinations.
+                <div className="p-8 md:w-1/2 flex flex-col justify-center h-full">
+                  <h3 className="text-3xl font-bold mb-4 text-white">Mes récits de voyage</h3>
+                  <p className="text-[#a1a1a6] text-base">
+                    Colombie, Mexique, Panama : ce que j&apos;ai vécu, pas ce que j&apos;ai lu.
+                    Photos perso, budgets vrais, erreurs à éviter.
                   </p>
                 </div>
               </div>
             </Link>
 
-            {/* Itinéraires */}
-            <Link href="/itineraires" className="group">
-              <div className="bg-white rounded-3xl overflow-hidden transition-transform duration-300 group-hover:-translate-y-2 flex flex-col md:flex-row items-center">
-                <div className="md:w-1/2 aspect-[4/3] overflow-hidden">
+            {/* Services */}
+            <Link href="/services" className="group block">
+              <div className="bg-[#2d2d2d] overflow-hidden transition-all duration-500 ease-out group-hover:-translate-y-2 group-hover:shadow-2xl flex flex-col md:flex-row items-stretch w-full h-[400px] relative">
+                <div className="absolute top-4 right-4 z-10 px-3 py-1 bg-[#0071e3] rounded-full text-white text-sm font-medium">
+                  Nouveau
+                </div>
+                <div className="md:w-1/2 overflow-hidden h-full">
                   <img
-                    src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80"
-                    alt="Itinéraires"
+                    src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1200&q=80"
+                    alt="Services itinéraires"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
-                <div className="p-6 md:w-1/2">
-                  <h3 className="text-xl font-semibold mb-2">Itinéraires de voyages</h3>
-                  <p className="text-[#86868b] text-sm">
-                    Des programmes détaillés jour par jour pour organiser votre prochain voyage.
+                <div className="p-8 md:w-1/2 flex flex-col justify-center h-full">
+                  <h3 className="text-3xl font-bold mb-4 text-white">Itinéraires sur-mesure</h3>
+                  <p className="text-[#a1a1a6] text-base">
+                    Je crée ton planning personnalisé pour toute destination hispanophone.
+                    Recherches bilingues + contacts locaux. À partir de 299€.
                   </p>
                 </div>
               </div>
             </Link>
 
-            {/* Conseils */}
-            <Link href="/conseils" className="group">
-              <div className="bg-white rounded-3xl overflow-hidden transition-transform duration-300 group-hover:-translate-y-2 flex flex-col md:flex-row items-center">
-                <div className="md:w-1/2 aspect-[4/3] overflow-hidden">
+            {/* Destinations */}
+            <Link href="/blog" className="group block">
+              <div className="bg-[#2d2d2d] overflow-hidden transition-all duration-500 ease-out group-hover:-translate-y-2 group-hover:shadow-2xl flex flex-col md:flex-row items-stretch w-full h-[400px]">
+                <div className="md:w-1/2 overflow-hidden h-full">
                   <img
-                    src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80"
-                    alt="Conseils"
+                    src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=1200&q=80"
+                    alt="Destinations"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
-                <div className="p-6 md:w-1/2">
-                  <h3 className="text-xl font-semibold mb-2">Conseils de Voyage</h3>
-                  <p className="text-[#86868b] text-sm">
-                    Astuces pratiques : préparer son sac, gérer son budget, photographier ses souvenirs.
+                <div className="p-8 md:w-1/2 flex flex-col justify-center h-full">
+                  <h3 className="text-3xl font-bold mb-4 text-white">Mes destinations</h3>
+                  <p className="text-[#a1a1a6] text-base">
+                    Colombie ⭐ Mexique ⭐ Panama ⭐ | Pérou • Argentine • Costa Rica • Bolivie
                   </p>
                 </div>
               </div>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Ma différence */}
+      <section className="section section-dark text-center">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="headline mb-8">Pourquoi Cap sur Amérique Latine ?</h2>
+          <div className="grid md:grid-cols-3 gap-8 mt-12">
+            <div>
+              <div className="text-4xl mb-4">✓</div>
+              <h3 className="text-xl font-semibold mb-3 text-white">Expérience terrain</h3>
+              <p className="text-[#a1a1a6]">
+                3 semaines en Colombie, 30 jours au Mexique, 5 jours au Panama.
+                Mes guides gratuits = preuve de qualité.
+              </p>
+            </div>
+            <div>
+              <div className="text-4xl mb-4">✓</div>
+              <h3 className="text-xl font-semibold mb-3 text-white">Bilingue FR-ES</h3>
+              <p className="text-[#a1a1a6]">
+                15 ans de pratique. J&apos;accède aux infos locales que
+                les Francophones ne trouvent jamais.
+              </p>
+            </div>
+            <div>
+              <div className="text-4xl mb-4">✓</div>
+              <h3 className="text-xl font-semibold mb-3 text-white">100% transparent</h3>
+              <p className="text-[#a1a1a6]">
+                Pour les destinations où je ne suis pas allé : je te le dis.
+                Et j&apos;explique exactement ma méthode.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -106,16 +153,27 @@ export default function Home() {
       <section className="section section-dark text-center">
         <div className="max-w-2xl mx-auto px-4">
           <h2 className="headline mb-6">Prêt à partir ?</h2>
-          <p className="body-text text-[#86868b] mb-8">
-            Inscrivez-vous à la newsletter pour recevoir les derniers articles et conseils directement dans votre boîte mail.
+          <p className="body-text text-[#86868b] mb-12">
+            Découvre mes services d&apos;itinéraires sur-mesure ou inscris-toi à la newsletter
+            pour recevoir bons plans et nouveaux articles.
           </p>
-          <Link href="/contact" className="btn-primary btn-blue">
-            S&apos;inscrire à la newsletter
-          </Link>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href="/services"
+              className="inline-block rounded-full font-semibold transition-all duration-500 ease-out hover:scale-105 active:scale-95 bg-[#0071e3] hover:bg-[#0077ed] text-white px-8 py-4 text-lg"
+            >
+              Découvrir mes services
+            </Link>
+            <Link
+              href="/contact"
+              className="inline-block rounded-full font-semibold transition-all duration-500 ease-out hover:scale-105 active:scale-95 border-2 border-[#0071e3] text-[#0071e3] hover:bg-[#0071e3]/5 px-8 py-4 text-lg"
+            >
+              S&apos;inscrire à la newsletter
+            </Link>
+          </div>
         </div>
       </section>
 
-      {/* Footer */}
       <Footer />
     </>
   );

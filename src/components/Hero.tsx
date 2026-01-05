@@ -41,11 +41,11 @@ export default function Hero() {
       className="section section-dark min-h-screen flex flex-col items-center justify-center text-center"
     >
       <h1 ref={titleRef} className="headline mb-4">
-        Voyages & Facile
+        Cap sur Amérique Latine
       </h1>
       <div className="body-text space-y-6 text-left max-w-3xl mx-auto !mt-12"></div>
       <p ref={subtitleRef} className="subheadline text-[#86868b] mb-6 max-w-2xl px-4">
-        Récits authentiques, itinéraires détaillés et conseils pratiques pour voyageurs curieux.
+        Guides authentiques & itinéraires sur-mesure pour l&apos;Amérique hispanophone
       </p>
       <div className="body-text space-y-6 text-left max-w-3xl mx-auto !mt-12"></div>
 
@@ -53,8 +53,8 @@ export default function Hero() {
       <div ref={imageRef} className="mt-12 w-full max-w-5xl px-4">
         <div className="relative aspect-[16/9] rounded-3xl overflow-hidden">
           <img
-            src="/images/vef.jpg"
-            alt="Voyages et Facile"
+            src="https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=1600&q=80"
+            alt="Cap sur Amérique Latine"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
