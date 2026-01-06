@@ -6,26 +6,26 @@ export default function Footer() {
       title: 'Explorer',
       links: [
         { name: 'Accueil', href: '/' },
-        { name: 'Carnet de bord', href: '/carnet-de-bord' },
-        { name: 'Itinéraires', href: '/itineraires' },
-        { name: 'Conseils', href: '/conseils' },
+        { name: 'Blog', href: '/blog' },
+        { name: 'Services', href: '/services' },
+        { name: 'À propos', href: '/a-propos' },
       ],
     },
     {
       title: 'Destinations',
       links: [
-        { name: 'Europe', href: '/carnet-de-bord' },
-        { name: 'Asie', href: '/carnet-de-bord' },
-        { name: 'Afrique', href: '/carnet-de-bord' },
-        { name: 'Amériques', href: '/carnet-de-bord' },
+        { name: 'Colombie ⭐', href: '/blog' },
+        { name: 'Mexique ⭐', href: '/blog' },
+        { name: 'Panama ⭐', href: '/blog' },
+        { name: 'Autres destinations', href: '/services' },
       ],
     },
     {
-      title: 'Ressources',
+      title: 'Services',
       links: [
-        { name: 'Préparer son sac', href: '/conseils' },
-        { name: 'Budget voyage', href: '/conseils' },
-        { name: 'Photographie', href: '/conseils' },
+        { name: 'Itinéraires sur-mesure', href: '/services' },
+        { name: 'Comment ça marche', href: '/services' },
+        { name: 'Tarifs', href: '/services' },
       ],
     },
     {
@@ -43,8 +43,9 @@ export default function Footer() {
       <div className="max-w-[980px] mx-auto px-4 py-8">
         {/* Disclaimer */}
         <p className="text-[#6e6e73] mb-4 pb-4 border-b border-[#d2d2d7]">
-          Tous les récits et conseils partagés sur ce blog sont basés sur des expériences personnelles.
-          Les informations peuvent évoluer, pensez à vérifier avant votre départ.
+          Tous les récits partagés sur ce blog sont basés sur mes expériences personnelles.
+          Pour les destinations où je ne suis pas allé, je précise ma méthodologie de recherche.
+          Les informations peuvent évoluer, pense à vérifier avant ton départ.
         </p>
 
         {/* Links Grid */}
@@ -71,7 +72,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="pt-4 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
           <p className="text-[#6e6e73]">
-            © {new Date().getFullYear()} Voyages & Facile. Tous droits réservés.
+            © {new Date().getFullYear()} Cap sur Amérique Latine. Tous droits réservés.
           </p>
           <div className="flex flex-wrap gap-4 text-[#424245]">
             <Link href="/a-propos" className="hover:text-[#1d1d1f]">
