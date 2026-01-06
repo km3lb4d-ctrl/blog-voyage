@@ -53,7 +53,7 @@ export default function Hero() {
       <div ref={imageRef} className="mt-12 w-full max-w-5xl px-4">
         <div className="relative aspect-[16/9] rounded-3xl overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=1600&q=80"
+            src="/images/panama/taboga-1.jpg"
             alt="Cap sur Amérique Latine"
             className="w-full h-full object-cover"
           />
