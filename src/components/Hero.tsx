@@ -44,7 +44,7 @@ export default function Hero() {
 <h1 ref={titleRef} className="headline text-[#ff8c52] text-center" style={{ fontFamily: 'var(--font-pacifico)', fontWeight: 400, letterSpacing: '0.02em', fontSize: 'calc(clamp(2.5rem, 8vw, 5rem) * 1.3)' }}>
   Cap<br />
   Sur<br />
-  L'Amérique Latine
+  l'Amérique Latine
 </h1>
 <svg
   className="w-24 h-24 text-[#ff8c52] mt-4"
@@ -63,7 +63,7 @@ export default function Hero() {
       <div className="body-text space-y-6 text-left max-w-3xl mx-auto !mt-12"></div>
 
       {/* Hero Image */}
-      <div ref={imageRef} className="mt-12 w-full max-w-5xl px-4">
+      <div ref={imageRef} className="mt-12 w-full px-8 sm:px-12 lg:px-20">
         <div className="relative aspect-[16/9] rounded-3xl overflow-hidden">
           <img
             src="/images/panama/taboga-1.jpg"

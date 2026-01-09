@@ -15,12 +15,12 @@ export default function Home() {
       <section className="section section-dark relative overflow-hidden">
         {/* Globe en filigrane */}
         <div
-          className="absolute inset-0 opacity-20 bg-center bg-no-repeat bg-contain"
+          className="absolute inset-0 opacity-11 bg-center bg-no-repeat bg-contain"
           style={{
-            backgroundImage: 'url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80")',
+            backgroundImage: 'url("/images/hero/amlat.jpg")',
           }}
         />
-        <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h2 className="headline mb-8 text-white">C'est ici</h2>
           <h2 className="headline mb-8 text-white">que</h2>
           <h2 className="headline mb-8 text-white">l'aventure commence</h2>

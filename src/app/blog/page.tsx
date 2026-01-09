@@ -1,133 +1,142 @@
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
-import CardGrid from '@/components/CardGrid';
+import Link from 'next/link';
 
-export default function CarnetDeBord() {
-  const articles = [
-    {
-      title: 'Lisbonne',
-      subtitle: 'Portugal',
-      image: 'https://images.unsplash.com/photo-1585208798174-6cedd86e019a?w=800&q=80',
-      dark: false,
-    },
-    {
-      title: 'Marrakech',
-      subtitle: 'Maroc',
-      image: 'https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=800&q=80',
-      dark: true,
-    },
-    {
-      title: 'Islande',
-      subtitle: 'Aurores boréales',
-      image: 'https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800&q=80',
-      dark: false,
-    },
-    {
-      title: 'Bali',
-      subtitle: 'Indonésie',
-      image: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&q=80',
-      dark: true,
-    },
-  ];
-
+export default function BlogPage() {
   return (
     <>
       <Navigation />
 
       {/* Header */}
-      <section className="section section-dark min-h-[60vh] flex flex-col items-center justify-center text-center">
-        <h1 className="headline mb-4">Carnet de bord</h1>
-        <p className="subheadline text-[#86868b] max-w-2xl px-4">
-          Tous mes récits de voyage, des rencontres inoubliables aux paysages à couper le souffle.
-        </p>
+<section className="section section-dark min-h-[60vh] flex flex-col items-center justify-center text-center relative overflow-hidden">
+  {/* Background Image - Carte Amérique Latine */}
+  <div className="absolute inset-0">
+    <img 
+      src="/images/hero/amlat.jpg" 
+      alt="Carte Amérique Latine"
+      className="w-full h-full object-cover opacity-30"
+    />
+  </div>
+  
+  {/* Content */}
+  <div className="relative z-10">
+    <h1 className="headline mb-4">Blog de voyage</h1>
+    <p className="subheadline text-[#86868b] max-w-2xl px-4">
+      Mes récits de voyage en Amérique Latine : itinéraires détaillés, budgets réels, et conseils pratiques
+    </p>
+  </div>
+</section>
+      {/* Articles List - Vertical */}
+      <section className="py-20 bg-[#f5f5f7]">
+        <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+          
+          {/* Article Colombie - Cliquable */}
+          <Link href="/blog/colombie-3-semaines" className="group block">
+            <article className="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col md:flex-row">
+              <div className="md:w-2/5 aspect-[16/9] md:aspect-auto overflow-hidden">
+                <img 
+                  src="/images/colombie/carthagene.jpg" 
+                  alt="Colombie"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="md:w-3/5 p-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="text-sm font-semibold text-[#f56300] bg-[#fff3e0] px-4 py-1.5 rounded-full">
+                    ⭐ J&apos;y suis allé
+                  </span>
+                  <span className="text-sm text-[#6e6e73]">21 jours • 2000€</span>
+                </div>
+                <h3 className="text-3xl font-bold mb-3 text-[#1d1d1f] group-hover:text-[#f56300] transition-colors">
+                  Colombie : Guide complet 3 semaines
+                </h3>
+                <p className="text-[#424245] mb-6 leading-relaxed">
+                  Carthagène des Indes, Bogotá, et San Andrés. Mon itinéraire jour par jour avec budget détaillé, 
+                  toutes mes anecdotes (dont l&apos;arnaque du premier jour !), et mes conseils pratiques après 
+                  3 semaines sur place.
+                </p>
+                <div className="flex items-center gap-4 text-sm">
+                  <span className="text-[#6e6e73]">📍 Carthagène • Bogotá • San Andrés</span>
+                  <span className="text-[#0071e3] font-semibold group-hover:underline ml-auto">
+                    Lire l&apos;article →
+                  </span>
+                </div>
+              </div>
+            </article>
+          </Link>
+
+          {/* Article Mexique - Placeholder */}
+          <article className="bg-white rounded-3xl overflow-hidden shadow-sm opacity-60 flex flex-col md:flex-row">
+            <div className="md:w-2/5 aspect-[16/9] md:aspect-auto overflow-hidden bg-[#e0e0e0] flex items-center justify-center">
+              <span className="text-[#6e6e73] text-sm">Photo à venir</span>
+            </div>
+            <div className="md:w-3/5 p-8">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-sm font-semibold text-[#f56300] bg-[#fff3e0] px-4 py-1.5 rounded-full">
+                  ⭐ J&apos;y suis allé
+                </span>
+                <span className="text-sm text-[#6e6e73]">30 jours cumulés</span>
+              </div>
+              <h3 className="text-3xl font-bold mb-3 text-[#1d1d1f]">
+                Mexique : Guide Yucatan
+              </h3>
+              <p className="text-[#424245] mb-6 leading-relaxed">
+                Cancún, Playa del Carmen, Tulum, Isla Mujeres. Mes 3 voyages au Yucatan, mes spots préférés, 
+                le problème des sargasses en 2023, et pourquoi j&apos;ai dû traduire pour le guide à Chichen Itza.
+              </p>
+              <div className="flex items-center gap-4 text-sm">
+                <span className="text-[#6e6e73]">📍 Cancún • Tulum • Isla Mujeres</span>
+                <span className="text-[#6e6e73] ml-auto">Bientôt disponible</span>
+              </div>
+            </div>
+          </article>
+
+          {/* Article Panama - Placeholder */}
+          <article className="bg-white rounded-3xl overflow-hidden shadow-sm opacity-60 flex flex-col md:flex-row">
+            <div className="md:w-2/5 aspect-[16/9] md:aspect-auto overflow-hidden">
+              <img 
+                src="/images/panama/panama.jpg" 
+                alt="Panama"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="md:w-3/5 p-8">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-sm font-semibold text-[#f56300] bg-[#fff3e0] px-4 py-1.5 rounded-full">
+                  ⭐ J&apos;y suis allé
+                </span>
+                <span className="text-sm text-[#6e6e73]">5 jours</span>
+              </div>
+              <h3 className="text-3xl font-bold mb-3 text-[#1d1d1f]">
+                Panama : Îles du Pacifique
+              </h3>
+              <p className="text-[#424245] mb-6 leading-relaxed">
+                Panama City, Taboga et Saboga. Un court séjour motivé par un vol Air France à prix attractif, 
+                mais qui m&apos;a fait découvrir des îles magnifiques et un pays sous-estimé.
+              </p>
+              <div className="flex items-center gap-4 text-sm">
+                <span className="text-[#6e6e73]">📍 Panama City • Taboga • Saboga</span>
+                <span className="text-[#6e6e73] ml-auto">Bientôt disponible</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
       </section>
 
-      {/* Articles List */}
-      <section className="py-20 px-4 bg-[#f5f5f7]">
-        <div className="max-w-6xl mx-auto">
-          {/* Lisbonne */}
-          <article className="bg-white rounded-3xl overflow-hidden mb-8">
-            <div className="md:flex">
-              <div className="md:w-1/2">
-                <img
-                  src="https://images.unsplash.com/photo-1585208798174-6cedd86e019a?w=800&q=80"
-                  alt="Lisbonne"
-                  className="w-full h-64 md:h-full object-cover"
-                />
-              </div>
-              <div className="p-8 md:w-1/2 flex flex-col justify-center">
-                <p className="text-[#f56300] font-semibold text-sm mb-2">PORTUGAL</p>
-                <h2 className="text-2xl font-semibold mb-4">Découverte de Lisbonne : entre tradition et modernité</h2>
-                <p className="text-[#86868b] mb-4">
-                  Lisbonne m&apos;a immédiatement séduit par son atmosphère unique. Entre les ruelles pavées de l&apos;Alfama et les fresques street art de LX Factory, la capitale portugaise offre un contraste saisissant.
-                </p>
-                <p className="text-sm text-[#86868b]">15 janvier 2024</p>
-              </div>
-            </div>
-          </article>
-
-          {/* Marrakech */}
-          <article className="bg-black text-white rounded-3xl overflow-hidden mb-8">
-            <div className="md:flex md:flex-row-reverse">
-              <div className="md:w-1/2">
-                <img
-                  src="https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=800&q=80"
-                  alt="Marrakech"
-                  className="w-full h-64 md:h-full object-cover"
-                />
-              </div>
-              <div className="p-8 md:w-1/2 flex flex-col justify-center">
-                <p className="text-[#f56300] font-semibold text-sm mb-2">MAROC</p>
-                <h2 className="text-2xl font-semibold mb-4">Marrakech : se perdre dans la médina</h2>
-                <p className="text-[#86868b] mb-4">
-                  Ses ruelles labyrinthiques, ses odeurs d&apos;épices et ses couleurs ocre créent une expérience sensorielle unique. Perdez-vous volontairement dans les souks.
-                </p>
-                <p className="text-sm text-[#86868b]">10 février 2024</p>
-              </div>
-            </div>
-          </article>
-
-          {/* Islande */}
-          <article className="bg-white rounded-3xl overflow-hidden mb-8">
-            <div className="md:flex">
-              <div className="md:w-1/2">
-                <img
-                  src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800&q=80"
-                  alt="Islande"
-                  className="w-full h-64 md:h-full object-cover"
-                />
-              </div>
-              <div className="p-8 md:w-1/2 flex flex-col justify-center">
-                <p className="text-[#f56300] font-semibold text-sm mb-2">ISLANDE</p>
-                <h2 className="text-2xl font-semibold mb-4">Islande : à la chasse aux aurores boréales</h2>
-                <p className="text-[#86868b] mb-4">
-                  L&apos;Islande en hiver, c&apos;est l&apos;assurance de paysages à couper le souffle et, avec un peu de chance, le spectacle magique des aurores boréales.
-                </p>
-                <p className="text-sm text-[#86868b]">1 mars 2024</p>
-              </div>
-            </div>
-          </article>
-
-          {/* Bali */}
-          <article className="bg-black text-white rounded-3xl overflow-hidden mb-8">
-            <div className="md:flex md:flex-row-reverse">
-              <div className="md:w-1/2">
-                <img
-                  src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&q=80"
-                  alt="Bali"
-                  className="w-full h-64 md:h-full object-cover"
-                />
-              </div>
-              <div className="p-8 md:w-1/2 flex flex-col justify-center">
-                <p className="text-[#f56300] font-semibold text-sm mb-2">INDONÉSIE</p>
-                <h2 className="text-2xl font-semibold mb-4">Bali : temples et rizières</h2>
-                <p className="text-[#86868b] mb-4">
-                  Bali ne se résume pas à ses plages. L'intérieur des terres recèle des trésors de spiritualité et de beauté naturelle.
-                </p>
-                <p className="text-sm text-[#86868b]">15 mars 2024</p>
-              </div>
-            </div>
-          </article>
+      {/* CTA - CENTRÉ */}
+      <section className="py-20 bg-white">
+        <div className="max-w-2xl mx-auto px-4 text-center">
+          <h2 className="text-3xl font-bold mb-4 text-[#1d1d1f]">Tu prépares ton voyage ?</h2>
+          <p className="text-[#424245] mb-8">
+            Je crée des itinéraires sur-mesure pour toute l&apos;Amérique Latine avec mes recherches bilingues.
+          </p>
+          <Link
+            href="/services"
+            className="inline-block px-8 py-3 rounded-full bg-[#0071e3] hover:bg-[#0077ed] text-white transition-colors font-medium"
+          >
+            Découvrir mes services
+          </Link>
         </div>
       </section>
 
