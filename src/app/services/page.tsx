@@ -7,12 +7,12 @@ export default function ServicesPage() {
       <Navigation />
 
       {/* Header */}
-      <section className="section section-dark min-h-[70vh] flex flex-col items-center justify-center text-center px-4">
-        <h1 className="headline mb-4">
+      <section className="section section-dark min-h-[70vh] flex flex-col items-center justify-center text-center px-4 gap-12">
+        <h1 className="headline">
           Ton voyage en Amérique Latine,<br />
           planifié par un expert bilingue
         </h1>
-        <p className="subheadline text-[#86868b] max-w-3xl mb-4">
+        <p className="subheadline text-[#86868b] max-w-3xl">
           Je crée ton itinéraire 100% personnalisé en 48-72h
         </p>
         <p className="text-[#a1a1a6] text-lg">
@@ -21,84 +21,78 @@ export default function ServicesPage() {
       </section>
 
       {/* Le Problème */}
-      <section className="py-20 px-4 bg-white border-b border-[#d2d2d7]">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-semibold mb-8 text-[#1d1d1f]">
-            Pourquoi planifier seul est compliqué
-          </h2>
-          <div className="body-text space-y-4">
-            <p className="text-[#1d1d1f]">
-              Tu passes <strong className="text-[#1d1d1f]">20-30 heures</strong> à chercher des informations :
-            </p>
-            <ul className="space-y-3 ml-6">
-              <li className="flex items-start gap-3 text-[#1d1d1f]">
-                <span className="text-[#f56300] font-bold text-xl">•</span>
-                <span>Infos contradictoires sur blogs et forums</span>
-              </li>
-              <li className="flex items-start gap-3 text-[#1d1d1f]">
-                <span className="text-[#f56300] font-bold text-xl">•</span>
-                <span>Recommandations TripAdvisor (pièges touristes)</span>
-              </li>
-              <li className="flex items-start gap-3 text-[#1d1d1f]">
-                <span className="text-[#f56300] font-bold text-xl">•</span>
-                <span>ChatGPT qui invente des restaurants fermés</span>
-              </li>
-              <li className="flex items-start gap-3 text-[#1d1d1f]">
-                <span className="text-[#f56300] font-bold text-xl">•</span>
-                <span>Guides Lonely Planet datés de 3 ans</span>
-              </li>
-            </ul>
-            <p className="pt-4 text-[#1d1d1f]">
-              <strong className="text-[#1d1d1f]">Résultat ?</strong> Un itinéraire moyen, et tu rates les vrais bons plans locaux (ceux qui sont en espagnol).
-            </p>
-          </div>
+      <section className="py-20 px-4 bg-white border-b border-[#d2d2d7] text-center">
+        <h2 className="text-3xl font-semibold mb-8 text-[#1d1d1f]">
+          Pourquoi planifier seul est compliqué
+        </h2>
+        <div className="max-w-2xl mx-auto space-y-4">
+          <p className="text-[#1d1d1f]">
+            Tu passes <strong className="text-[#1d1d1f]">20-30 heures</strong> à chercher des informations :
+          </p>
+          <ul className="space-y-3 text-left inline-block">
+            <li className="flex items-start gap-3 text-[#1d1d1f]">
+              <span className="text-[#f56300] font-bold text-xl">•</span>
+              <span>Infos contradictoires sur blogs et forums</span>
+            </li>
+            <li className="flex items-start gap-3 text-[#1d1d1f]">
+              <span className="text-[#f56300] font-bold text-xl">•</span>
+              <span>Recommandations TripAdvisor (pièges touristes)</span>
+            </li>
+            <li className="flex items-start gap-3 text-[#1d1d1f]">
+              <span className="text-[#f56300] font-bold text-xl">•</span>
+              <span>ChatGPT qui invente des restaurants fermés</span>
+            </li>
+            <li className="flex items-start gap-3 text-[#1d1d1f]">
+              <span className="text-[#f56300] font-bold text-xl">•</span>
+              <span>Guides Lonely Planet datés de 3 ans</span>
+            </li>
+          </ul>
+          <p className="text-[#1d1d1f]">
+            <strong className="text-[#1d1d1f]">Résultat ?</strong> Un itinéraire moyen, et tu rates les vrais bons plans locaux (ceux qui sont en espagnol).
+          </p>
         </div>
       </section>
 
       {/* Ma Méthode */}
-      <section className="py-20 px-4 bg-[#f5f5f7]">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-semibold mb-12 text-center text-[#1d1d1f]">
-            Ma méthode de recherche bilingue
-          </h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-white rounded-3xl p-8 shadow-sm">
-              <h3 className="text-xl font-semibold mb-3 text-[#1d1d1f]">Blogs voyage locaux</h3>
-              <p className="text-[#424245]">
-                Les vrais bons plans que les touristes ne connaissent pas
-              </p>
-            </div>
-            <div className="bg-white rounded-3xl p-8 shadow-sm">
-              <h3 className="text-xl font-semibold mb-3 text-[#1d1d1f]">Forums en espagnol</h3>
-              <p className="text-[#424245]">
-                Conseils entre locaux, événements, spots secrets
-              </p>
-            </div>
-            <div className="bg-white rounded-3xl p-8 shadow-sm">
-              <h3 className="text-xl font-semibold mb-3 text-[#1d1d1f]">YouTubers du pays</h3>
-              <p className="text-[#424245]">
-                Découvrir lieux tendance, restaurants authentiques
-              </p>
-            </div>
-            <div className="bg-white rounded-3xl p-8 shadow-sm">
-              <h3 className="text-xl font-semibold mb-3 text-[#1d1d1f]">Contact direct prestataires</h3>
-              <p className="text-[#424245]">
-                Négocier tarifs, vérifier disponibilités en espagnol
-              </p>
-            </div>
+      <section className="py-20 px-4 bg-[#f5f5f7] text-center">
+        <h2 className="text-3xl font-semibold mb-12 text-[#1d1d1f]">
+          Ma méthode de recherche bilingue
+        </h2>
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="bg-white rounded-3xl p-8 shadow-sm">
+            <h3 className="text-xl font-semibold mb-3 text-[#1d1d1f]">Blogs voyage locaux</h3>
+            <p className="text-[#424245]">
+              Les vrais bons plans que les touristes ne connaissent pas
+            </p>
+          </div>
+          <div className="bg-white rounded-3xl p-8 shadow-sm">
+            <h3 className="text-xl font-semibold mb-3 text-[#1d1d1f]">Forums en espagnol</h3>
+            <p className="text-[#424245]">
+              Conseils entre locaux, événements, spots secrets
+            </p>
+          </div>
+          <div className="bg-white rounded-3xl p-8 shadow-sm">
+            <h3 className="text-xl font-semibold mb-3 text-[#1d1d1f]">YouTubers du pays</h3>
+            <p className="text-[#424245]">
+              Découvrir lieux tendance, restaurants authentiques
+            </p>
+          </div>
+          <div className="bg-white rounded-3xl p-8 shadow-sm">
+            <h3 className="text-xl font-semibold mb-3 text-[#1d1d1f]">Contact direct prestataires</h3>
+            <p className="text-[#424245]">
+              Négocier tarifs, vérifier disponibilités en espagnol
+            </p>
           </div>
         </div>
       </section>
 
       {/* Packages */}
-      <section className="py-20 px-4 bg-white">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-semibold mb-4 text-center text-[#1d1d1f]">Mes packages</h2>
-          <p className="text-center text-[#424245] mb-12 max-w-2xl mx-auto text-lg">
-            Choisis la formule qui correspond à tes besoins
-          </p>
-          
-          <div className="grid md:grid-cols-3 gap-8">
+      <section className="py-20 px-4 bg-white text-center">
+        <h2 className="text-3xl font-semibold mb-4 text-[#1d1d1f]">Mes packages</h2>
+        <p className="text-[#424245] mb-12 max-w-2xl mx-auto text-lg">
+          Choisis la formule qui correspond à tes besoins
+        </p>
+        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {/* Package Essentiel */}
             <div className="bg-[#f5f5f7] rounded-3xl p-8 flex flex-col">
               <h3 className="text-2xl font-semibold mb-2 text-[#1d1d1f]">Essentiel</h3>
@@ -203,17 +197,14 @@ export default function ServicesPage() {
               </button>
             </div>
           </div>
-        </div>
       </section>
 
       {/* FAQ */}
-      <section className="py-20 px-4 bg-[#f5f5f7]">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-semibold mb-12 text-center text-[#1d1d1f]">
-            Questions fréquentes
-          </h2>
-          
-          <div className="space-y-4">
+      <section className="py-20 px-4 bg-[#f5f5f7] text-center">
+        <h2 className="text-3xl font-semibold mb-12 text-[#1d1d1f]">
+          Questions fréquentes
+        </h2>
+        <div className="space-y-4 max-w-4xl mx-auto">
             <details className="bg-white rounded-2xl p-6 shadow-sm">
               <summary className="text-lg font-semibold cursor-pointer text-[#1d1d1f]">
                 Pourquoi te faire confiance si tu es pas allé partout ?
@@ -244,7 +235,6 @@ export default function ServicesPage() {
                 Si urgence, contacte-moi.
               </p>
             </details>
-          </div>
         </div>
       </section>
 

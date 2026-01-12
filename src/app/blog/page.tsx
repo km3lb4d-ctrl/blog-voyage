@@ -65,61 +65,69 @@ export default function BlogPage() {
             </article>
           </Link>
 
-          {/* Article Mexique - Placeholder */}
-          <article className="bg-white rounded-3xl overflow-hidden shadow-sm opacity-60 flex flex-col md:flex-row">
-            <div className="md:w-2/5 aspect-[16/9] md:aspect-auto overflow-hidden bg-[#e0e0e0] flex items-center justify-center">
-              <span className="text-[#6e6e73] text-sm">Photo à venir</span>
-            </div>
-            <div className="md:w-3/5 p-8">
-              <div className="flex items-center gap-3 mb-4">
-                <span className="text-sm font-semibold text-[#f56300] bg-[#fff3e0] px-4 py-1.5 rounded-full">
-                  ⭐ J&apos;y suis allé
-                </span>
-                <span className="text-sm text-[#6e6e73]">30 jours cumulés</span>
-              </div>
-              <h3 className="text-3xl font-bold mb-3 text-[#1d1d1f]">
-                Mexique : Guide Yucatan
-              </h3>
-              <p className="text-[#424245] mb-6 leading-relaxed">
-                Cancún, Playa del Carmen, Tulum, Isla Mujeres. Mes 3 voyages au Yucatan, mes spots préférés, 
-                le problème des sargasses en 2023, et pourquoi j&apos;ai dû traduire pour le guide à Chichen Itza.
-              </p>
-              <div className="flex items-center gap-4 text-sm">
-                <span className="text-[#6e6e73]">📍 Cancún • Tulum • Isla Mujeres</span>
-                <span className="text-[#6e6e73] ml-auto">Bientôt disponible</span>
-              </div>
-            </div>
-          </article>
+         {/* Article Mexique - Cliquable */}
+<Link href="/blog/mexique-yucatan" className="group block">
+  <article className="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col md:flex-row">
+    <div className="md:w-2/5 aspect-[16/9] md:aspect-auto overflow-hidden bg-[#e0e0e0] flex items-center justify-center">
+      <span className="text-[#6e6e73] text-sm">Photo à venir</span>
+    </div>
+    <div className="md:w-3/5 p-8">
+      <div className="flex items-center gap-3 mb-4">
+        <span className="text-sm font-semibold text-[#f56300] bg-[#fff3e0] px-4 py-1.5 rounded-full">
+          ⭐ J&apos;y suis allé
+        </span>
+        <span className="text-sm text-[#6e6e73]">30 jours cumulés</span>
+      </div>
+      <h3 className="text-3xl font-bold mb-3 text-[#1d1d1f] group-hover:text-[#f56300] transition-colors">
+        Mexique : Guide Yucatan
+      </h3>
+      <p className="text-[#424245] mb-6 leading-relaxed">
+        Cancún, Playa del Carmen, Tulum, Isla Mujeres. Mes 3 voyages au Yucatan, mes spots préférés, 
+        le problème des sargasses en 2023, et pourquoi j&apos;ai dû traduire pour le guide à Chichen Itza.
+      </p>
+      <div className="flex items-center gap-4 text-sm">
+        <span className="text-[#6e6e73]">📍 Cancún • Tulum • Isla Mujeres</span>
+        <span className="text-[#0071e3] font-semibold group-hover:underline ml-auto">
+          Lire l&apos;article →
+        </span>
+      </div>
+    </div>
+  </article>
+</Link>
 
-          {/* Article Panama - Placeholder */}
-          <article className="bg-white rounded-3xl overflow-hidden shadow-sm opacity-60 flex flex-col md:flex-row">
-            <div className="md:w-2/5 aspect-[16/9] md:aspect-auto overflow-hidden">
-              <img 
-                src="/images/panama/panama.jpg" 
-                alt="Panama"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="md:w-3/5 p-8">
-              <div className="flex items-center gap-3 mb-4">
-                <span className="text-sm font-semibold text-[#f56300] bg-[#fff3e0] px-4 py-1.5 rounded-full">
-                  ⭐ J&apos;y suis allé
-                </span>
-                <span className="text-sm text-[#6e6e73]">5 jours</span>
-              </div>
-              <h3 className="text-3xl font-bold mb-3 text-[#1d1d1f]">
-                Panama : Îles du Pacifique
-              </h3>
-              <p className="text-[#424245] mb-6 leading-relaxed">
-                Panama City, Taboga et Saboga. Un court séjour motivé par un vol Air France à prix attractif, 
-                mais qui m&apos;a fait découvrir des îles magnifiques et un pays sous-estimé.
-              </p>
-              <div className="flex items-center gap-4 text-sm">
-                <span className="text-[#6e6e73]">📍 Panama City • Taboga • Saboga</span>
-                <span className="text-[#6e6e73] ml-auto">Bientôt disponible</span>
-              </div>
-            </div>
-          </article>
+          {/* Article Panama - Cliquable */}
+<Link href="/blog/panama-pacifique" className="group block">
+  <article className="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col md:flex-row">
+    <div className="md:w-2/5 aspect-[16/9] md:aspect-auto overflow-hidden">
+      <img 
+        src="/images/panama/panama.jpg" 
+        alt="Panama"
+        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+      />
+    </div>
+    <div className="md:w-3/5 p-8">
+      <div className="flex items-center gap-3 mb-4">
+        <span className="text-sm font-semibold text-[#f56300] bg-[#fff3e0] px-4 py-1.5 rounded-full">
+          ⭐ J&apos;y suis allé
+        </span>
+        <span className="text-sm text-[#6e6e73]">5 jours</span>
+      </div>
+      <h3 className="text-3xl font-bold mb-3 text-[#1d1d1f] group-hover:text-[#f56300] transition-colors">
+        Panama : Îles du Pacifique
+      </h3>
+      <p className="text-[#424245] mb-6 leading-relaxed">
+        Panama City, Taboga et Saboga. Un court séjour motivé par un vol Air France à prix attractif, 
+        mais qui m&apos;a fait découvrir des îles magnifiques et un pays sous-estimé.
+      </p>
+      <div className="flex items-center gap-4 text-sm">
+        <span className="text-[#6e6e73]">📍 Panama City • Taboga • Saboga</span>
+        <span className="text-[#0071e3] font-semibold group-hover:underline ml-auto">
+          Lire l&apos;article →
+        </span>
+      </div>
+    </div>
+  </article>
+</Link>
 
         </div>
       </section>
