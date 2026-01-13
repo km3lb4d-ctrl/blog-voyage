@@ -68,9 +68,13 @@ export default function BlogPage() {
          {/* Article Mexique - Cliquable */}
 <Link href="/blog/mexique-yucatan" className="group block">
   <article className="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col md:flex-row">
-    <div className="md:w-2/5 aspect-[16/9] md:aspect-auto overflow-hidden bg-[#e0e0e0] flex items-center justify-center">
-      <span className="text-[#6e6e73] text-sm">Photo à venir</span>
-    </div>
+    <div className="md:w-2/5 aspect-[16/9] md:aspect-auto overflow-hidden">
+  <img 
+    src="/images/mexique/chichenitza.jpg"
+    alt="Chichen Itza Mexique"
+    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+  />
+</div>
     <div className="md:w-3/5 p-8">
       <div className="flex items-center gap-3 mb-4">
         <span className="text-sm font-semibold text-[#f56300] bg-[#fff3e0] px-4 py-1.5 rounded-full">
