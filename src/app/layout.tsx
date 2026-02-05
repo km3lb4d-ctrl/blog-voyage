@@ -38,7 +38,7 @@ const pacifico = Pacifico({
 });
 
 export const metadata: Metadata = {
-  title: "Cap sur L'Amérique Latine",
+  title: "Voyage & Facile",
   description: "Récits authentiques, itinéraires détaillés et conseils pratiques pour voyageurs curieux",
 };
 

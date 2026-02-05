@@ -72,7 +72,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="pt-4 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
           <p className="text-[#6e6e73]">
-            © {new Date().getFullYear()} Cap sur L'Amérique Latine. Tous droits réservés.
+            © {new Date().getFullYear()} Voyage & Facile. Tous droits réservés.
           </p>
           <div className="flex flex-wrap gap-4 text-[#424245]">
             <Link href="/a-propos" className="hover:text-[#1d1d1f]">

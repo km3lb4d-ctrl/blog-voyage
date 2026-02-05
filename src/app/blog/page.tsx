@@ -22,7 +22,7 @@ export default function BlogPage() {
   <div className="relative z-10">
     <h1 className="headline mb-4">Blog de voyage</h1>
     <p className="subheadline text-[#86868b] max-w-2xl px-4">
-      Mes récits de voyage en Amérique Latine : itinéraires détaillés, budgets réels, et conseils pratiques
+      Mes récits de voyage : itinéraires détaillés, budgets réels, et conseils pratiques
     </p>
   </div>
 </section>

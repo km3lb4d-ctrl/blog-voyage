@@ -44,8 +44,8 @@ export default function Home() {
       </section>
 
       {/* Présentation des sections */}
-      <section className="py-20 bg-[#1d1d1f]">
-        <div className="w-full">
+      <section className="min-h-screen bg-[#1d1d1f] flex flex-col items-center py-20">
+        <div className="w-full mt-56">
           <h2 className="headline text-center text-white px-4" style={{ marginBottom: '64px' }}>Explorez le blog</h2>
 
           <div className="space-y-0">
