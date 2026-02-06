@@ -20,14 +20,14 @@ export default function FrancePage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir la France</h2>
-              <p className="text-gray-700 mb-6">
+              <h2 className="text-black font-bold !mb-6">Découvrir la France</h2>
+              <p className="text-gray-700 !mb-6">
                 La France, pays de l'élégance et de la culture, offre une diversité exceptionnelle de destinations.
                 De Paris, la ville lumière, aux plages ensoleillées de la Côte d'Azur, en passant par les châteaux
                 de la Loire et les vignobles de Bordeaux, chaque région révèle son caractère unique.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Destinations principales</h3>
+              <h3 className="text-black font-bold mt-8 !mb-6">Destinations principales</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Paris</strong> - La capitale mondiale de la mode et de la culture</li>
                 <li><strong>Provence</strong> - Champs de lavande et villages perchés</li>
@@ -36,9 +36,9 @@ export default function FrancePage() {
                 <li><strong>Normandie</strong> - Histoire et paysages maritimes</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
-                <strong>Meilleure période :</strong> Printemps (avril-juin) et automne (septembre-octobre)<br />
+                <strong>Meilleure période :</strong> Toute l'année selon la régionvoic<br />
                 <strong>Langue :</strong> Français<br />
                 <strong>Monnaie :</strong> Euro (€)<br />
                 <strong>Visa :</strong> Espace Schengen

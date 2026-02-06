@@ -15,9 +15,9 @@ export default function Home() {
       <section className="section section-dark relative overflow-hidden">
         {/* Globe en filigrane */}
         <div
-          className="absolute inset-0 opacity-11 bg-center bg-no-repeat bg-contain"
+          className="absolute inset-0 opacity-15 bg-center bg-no-repeat bg-contain"
           style={{
-            backgroundImage: 'url("/images/hero/amlat.jpg")',
+            backgroundImage: 'url("/images/hero/carte du monde.png")',
           }}
         />
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">

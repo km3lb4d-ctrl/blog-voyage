@@ -4,7 +4,13 @@ import { useState } from 'react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import DestinationCard from '@/components/DestinationCard';
-import type { Destination } from '@/app/blog/page';
+interface Destination {
+  id: string;
+  title: string;
+  description: string;
+  image: string;
+  link: string;
+}
 
 const africanDestinations: Destination[] = [
   {
