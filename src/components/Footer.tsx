@@ -12,7 +12,7 @@ export default function Footer() {
       ],
     },
     {
-      title: 'Destinations',
+      title: 'Blog',
       links: [
         { name: 'Colombie ⭐', href: '/blog' },
         { name: 'Mexique ⭐', href: '/blog' },
@@ -40,7 +40,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-[#f5f5f7] text-[#1d1d1f] text-xs">
-      <div className="max-w-[980px] mx-auto px-4 py-8">
+      <div className="max-w-[980px] mx-auto px-4 py-8 !pl-[10px]">
         {/* Disclaimer */}
         <p className="text-[#6e6e73] mb-4 pb-4 border-b border-[#d2d2d7]">
           Tous les récits partagés sur ce blog sont basés sur mes expériences personnelles.

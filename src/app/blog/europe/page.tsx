@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import DestinationCard from '@/components/DestinationCard';
-import type { Destination } from '@/app/destinations/page';
+import type { Destination } from '@/app/blog/page';
 
 const europeanDestinations: Destination[] = [
   {

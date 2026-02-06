@@ -52,7 +52,7 @@ export default function ColombiePage() {
             <h2 className="text-4xl font-bold text-center mb-12">Villes visitées</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Bogotá */}
-              <Link href="/destinations/ameriques/colombie/bogota" className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer block">
+              <Link href="/blog/ameriques/colombie/bogota" className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer block">
                 <div className="relative h-64 overflow-hidden">
                   <div className="absolute inset-0 w-full h-full" style={{backgroundImage: 'url(/images/colombie/randonnee-bogota.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', transform: 'scale(1.1)'}} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-500"></div>
@@ -80,7 +80,7 @@ export default function ColombiePage() {
               </Link>
 
               {/* Carthagène */}
-              <Link href="/destinations/ameriques/colombie/carthagene" className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer block">
+              <Link href="/blog/ameriques/colombie/carthagene" className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer block">
                 <div className="relative h-64 overflow-hidden">
                   <div className="absolute inset-0 w-full h-full" style={{backgroundImage: 'url(/images/colombie/carthagene.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', transform: 'scale(1.1)'}} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-500"></div>
@@ -109,7 +109,7 @@ export default function ColombiePage() {
               </Link>
 
               {/* San Andrés */}
-              <Link href="/destinations/ameriques/colombie/san-andres" className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer block">
+              <Link href="/blog/ameriques/colombie/san-andres" className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer block">
                 <div className="relative h-64 overflow-hidden">
                   <div className="absolute inset-0 w-full h-full" style={{backgroundImage: 'url(/images/colombie/san-andres.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', transform: 'scale(1.1)'}} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-500"></div>

@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Link from 'next/link';
-import type { Destination } from '@/app/destinations/page';
+import type { Destination } from '@/app/blog/page';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -23,7 +23,7 @@ const getCountryUrl = (destination: Destination) => {
   };
 
   const countrySlug = destination.id;
-  return `/destinations/${continentMap[continent]}/${countrySlug}`;
+  return `/blog/${continentMap[continent]}/${countrySlug}`;
 };
 
 export default function DestinationCard({ destination }: DestinationCardProps) {

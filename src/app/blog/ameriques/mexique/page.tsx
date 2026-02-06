@@ -52,7 +52,7 @@ export default function MexiquePage() {
             <h2 className="text-4xl font-bold text-center mb-12">Villes visitées</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Cancún */}
-              <Link href="/destinations/ameriques/mexique/cancun" className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer block">
+              <Link href="/blog/ameriques/mexique/cancun" className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer block">
                 <div className="relative h-64 overflow-hidden">
                   <div className="absolute inset-0 w-full h-full" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1568402102990-bc541580b59f?w=1200&q=80)', backgroundSize: 'cover', backgroundPosition: 'center', transform: 'scale(1.1)'}} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-500"></div>
@@ -80,7 +80,7 @@ export default function MexiquePage() {
               </Link>
 
               {/* Isla Mujeres */}
-              <Link href="/destinations/ameriques/mexique/isla-mujeres" className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer block">
+              <Link href="/blog/ameriques/mexique/isla-mujeres" className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer block">
                 <div className="relative h-64 overflow-hidden">
                   <div className="absolute inset-0 w-full h-full" style={{backgroundImage: 'url(/images/mexique/islamujeres.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', transform: 'scale(1.1)'}} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-500"></div>
@@ -108,7 +108,7 @@ export default function MexiquePage() {
               </Link>
 
               {/* Playa del Carmen */}
-              <Link href="/destinations/ameriques/mexique/playa-del-carmen" className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer block">
+              <Link href="/blog/ameriques/mexique/playa-del-carmen" className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer block">
                 <div className="relative h-64 overflow-hidden">
                   <div className="absolute inset-0 w-full h-full" style={{backgroundImage: 'url(/images/mexique/playadelcarmen.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', transform: 'scale(1.1)'}} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-500"></div>
@@ -136,7 +136,7 @@ export default function MexiquePage() {
               </Link>
 
               {/* Valladolid */}
-              <Link href="/destinations/ameriques/mexique/valladolid" className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer block">
+              <Link href="/blog/ameriques/mexique/valladolid" className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer block">
                 <div className="relative h-64 overflow-hidden">
                   <div className="absolute inset-0 w-full h-full" style={{backgroundImage: 'url(/images/mexique/valladolid.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', transform: 'scale(1.1)'}} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-500"></div>
@@ -164,7 +164,7 @@ export default function MexiquePage() {
               </Link>
 
               {/* Tulum */}
-              <Link href="/destinations/ameriques/mexique/tulum" className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer block">
+              <Link href="/blog/ameriques/mexique/tulum" className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer block">
                 <div className="relative h-64 overflow-hidden">
                   <div className="absolute inset-0 w-full h-full" style={{backgroundImage: 'url(/images/mexique/chichenitza.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', transform: 'scale(1.1)'}} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-500"></div>

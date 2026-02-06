@@ -52,7 +52,7 @@ export default function EtatsUnisPage() {
             <h2 className="text-4xl font-bold text-center mb-12">Villes visitées</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* New York */}
-              <Link href="/destinations/ameriques/etats-unis/new-york" className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer block">
+              <Link href="/blog/ameriques/etats-unis/new-york" className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer block">
                 <div className="relative h-64 overflow-hidden">
                   <div className="absolute inset-0 w-full h-full" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&q=80)', backgroundSize: 'cover', backgroundPosition: 'center', transform: 'scale(1.1)'}} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-500"></div>
@@ -80,7 +80,7 @@ export default function EtatsUnisPage() {
               </Link>
 
               {/* Miami */}
-              <Link href="/destinations/ameriques/etats-unis/miami" className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer block">
+              <Link href="/blog/ameriques/etats-unis/miami" className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer block">
                 <div className="relative h-64 overflow-hidden">
                   <div className="absolute inset-0 w-full h-full" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1506966953602-c20cc11f75e3?w=1200&q=80)', backgroundSize: 'cover', backgroundPosition: 'center', transform: 'scale(1.1)'}} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-500"></div>

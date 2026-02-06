@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import DestinationCard from '@/components/DestinationCard';
-import type { Destination } from '@/app/destinations/page';
+import type { Destination } from '@/app/blog/page';
 
 const africanDestinations: Destination[] = [
   {
@@ -19,20 +19,7 @@ const africanDestinations: Destination[] = [
     visited: '2023',
     highlights: ['Lagons', 'Plongée', 'Le Morne']
   },
-  {
-    id: 'maroc',
-    name: 'Maroc',
-    country: 'Maroc',
-    continent: 'Afrique',
-    type: ['Culture', 'Histoire', 'Nature'],
-    description: 'Royaume millénaire, entre médinas impériales, désert du Sahara et montagnes de l\'Atlas.',
-    image: 'https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=1200&q=80',
-    coordinates: { lat: 31.7917, lng: -7.0926 },
-    visited: '2021',
-    highlights: ['Marrakech', 'Sahara', 'Fès']
-  }
 ];
-
 export default function AfriquePage() {
   const [selectedType, setSelectedType] = useState<string>('Tous');
   const types = ['Tous', 'Culture', 'Plage', 'Aventure', 'Ville', 'Nature', 'Histoire'];
@@ -40,7 +27,6 @@ export default function AfriquePage() {
   const filteredDestinations = africanDestinations.filter(dest => {
     return selectedType === 'Tous' || dest.type.includes(selectedType);
   });
-
   return (
     <>
       <Navigation />

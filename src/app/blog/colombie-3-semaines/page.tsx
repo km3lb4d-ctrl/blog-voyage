@@ -147,7 +147,7 @@ export default function ColombiePage() {
 
           {/* Conseils & Sécurité - CORRIGÉ POUR LISIBILITÉ */}
           <div className="max-w-2xl w-full text-center space-y-12 mb-20">
-            <h2 className="text-4xl font-bold text-[#1d1d1f]">Mes conseils pratiques</h2>
+            <h2 className="text-4xl font-bold text-[#1d1d1f]">Mes consrreils pratiques</h2>
             
             <div className="flex flex-col items-center">
               <h3 className="text-2xl font-bold mb-6 text-[#1d1d1f]">Sécurité</h3>

@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
-import type { Destination } from '@/app/destinations/page';
+import type { Destination } from '@/app/blog/page';
 
 interface WorldMapProps {
   destinations: Destination[];
