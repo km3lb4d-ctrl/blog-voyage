@@ -2,7 +2,17 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
-import type { Destination } from '@/app/blog/page';
+
+// 1. On définit le type localement puisqu'il n'existe plus ailleurs
+interface Destination {
+  id: string;
+  name: string;
+  description: string;
+  image: string;
+  continent: string;
+  coordinates: { lat: number; lng: number };
+  type: string[];
+}
 
 interface WorldMapProps {
   destinations: Destination[];
@@ -60,10 +70,10 @@ export default function WorldMap({ destinations }: WorldMapProps) {
       </p>
 
       {/* Map Container */}
-      <div className="relative w-full bg-[#d4e7f5] rounded-3xl overflow-hidden shadow-2xl">
+      <div className="relative w-full bg-black rounded-3xl overflow-hidden shadow-2xl">
         <div className="relative w-full" style={{ paddingBottom: '45%' }}>
           {/* Carte Amérique Latine */}
-          <div className="absolute inset-0 bg-[#d4e7f5]">
+          <div className="absolute inset-0 bg-black">
             <img
               src="/images/hero/amlat.jpg"
               alt="Amérique Latine Map"
