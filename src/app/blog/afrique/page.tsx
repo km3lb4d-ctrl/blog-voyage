@@ -6,10 +6,15 @@ import Footer from '@/components/Footer';
 import DestinationCard from '@/components/DestinationCard';
 interface Destination {
   id: string;
-  title: string;
+  name: string;
+  country: string;
+  continent: string;
+  type: string[];
   description: string;
   image: string;
-  link: string;
+  coordinates: { lat: number; lng: number };
+  visited: string;
+  highlights: string[];
 }
 
 const africanDestinations: Destination[] = [
