@@ -5,7 +5,20 @@ import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import DestinationCard from '@/components/DestinationCard';
 
-const americanDestinations: Destinations[] = [
+interface Destination {
+  id: string;
+  name: string;
+  country: string;
+  continent: string;
+  type: string[];
+  description: string;
+  image: string;
+  coordinates: { lat: number; lng: number };
+  visited: string;
+  highlights: string[];
+}
+
+const americanDestinations: Destination[] = [
   {
     id: 'mexique',
     name: 'Mexique',
