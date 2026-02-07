@@ -93,7 +93,7 @@ export default function AsiePage() {
         <section className="section section-dark relative overflow-hidden py-12">
           <div className="absolute inset-0">
             <img
-              src="/images/hero/amlat.jpg"
+             src="/images/hero/carte du monde.png"
               alt="Background"
               className="w-full h-full object-cover opacity-30"
             />
