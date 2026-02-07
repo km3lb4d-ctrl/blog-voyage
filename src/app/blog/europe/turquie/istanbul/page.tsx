@@ -103,203 +103,257 @@ export default function IstanbulPage() {
         {/* Quartiers Section */}
         <section className="section py-20 bg-[#f5f5f7]">
           <div className="container mx-auto px-6">
-            <h2 className="text-4xl font-bold text-center mb-12">Quartiers explorés</h2>
-            <div className="flex flex-col gap-8 max-w-4xl mx-auto">
+            <h2 className="text-4xl font-bold text-center mb-16">Quartiers explorés</h2>
+            <div className="flex flex-col gap-16 max-w-6xl mx-auto">
 
               {/* Sultanahmet */}
-              <div className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
-                <div className="relative h-64 overflow-hidden">
-                  <div
-                    className="absolute inset-0 w-full h-full"
-                    style={{
-                      backgroundImage: 'url(https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=1200&q=80)',
-                      backgroundSize: 'cover',
-                      backgroundPosition: 'center',
-                      transform: 'scale(1.1)'
-                    }}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-500"></div>
-                  <div className="absolute top-4 left-4">
-                    <span className="px-3 py-1 bg-white/90 backdrop-blur-sm text-gray-800 rounded-full text-xs font-semibold">Histoire</span>
+              <div className="bg-white rounded-3xl overflow-hidden shadow-xl">
+                <div className="flex flex-col md:flex-row">
+                  {/* Image */}
+                  <div className="md:w-1/2 relative h-80 md:h-auto overflow-hidden">
+                    <img
+                      src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=1200&q=80"
+                      alt="Sultanahmet"
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute top-4 left-4">
+                      <span className="px-3 py-1 bg-white/90 backdrop-blur-sm text-gray-800 rounded-full text-xs font-semibold">Histoire</span>
+                    </div>
                   </div>
-                  <div className="absolute bottom-4 left-4 right-4">
-                    <h3 className="text-2xl font-semibold text-white mb-1 group-hover:translate-y-[-4px] transition-transform duration-300">Sultanahmet</h3>
-                    <p className="text-white/90 text-sm">Cœur historique</p>
-                  </div>
-                </div>
-                <div className="p-6">
-                  <p className="text-gray-600 mb-4">
-                    Quartier historique concentrant Sainte-Sophie, Mosquée Bleue, Palais de Topkapi
-                    et Basilique Citerne. Âme byzantine et ottomane d'Istanbul.
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">UNESCO</span>
-                    <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">Monuments</span>
+                  {/* Texte */}
+                  <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
+                    <h3 className="text-3xl font-bold text-gray-900 mb-3">Sultanahmet</h3>
+                    <p className="text-sm text-[#f56300] font-semibold mb-4">Cœur historique d'Istanbul</p>
+                    <div className="prose prose-gray">
+                      <p className="text-gray-700 mb-4">
+                        Le quartier de Sultanahmet est le cœur historique d'Istanbul, où chaque pierre raconte mille ans d'histoire.
+                        C'est ici que se concentrent les monuments les plus emblématiques de la ville : la majestueuse Sainte-Sophie
+                        avec ses dômes imposants, la Mosquée Bleue aux six minarets élancés, et le somptueux Palais de Topkapi.
+                      </p>
+                      <p className="text-gray-700 mb-4">
+                        En déambulant dans ses ruelles pavées, on découvre la Basilique Citerne, cathédrale souterraine aux colonnes
+                        mystérieuses, et l'Hippodrome byzantin où se déroulaient autrefois courses de chars et cérémonies impériales.
+                        L'atmosphère unique de Sultanahmet mêle touristes émerveillés et vendeurs de simit dans une ambiance à la fois
+                        grandiose et authentique.
+                      </p>
+                      <p className="text-gray-600 text-sm italic">
+                        [Espace réservé pour votre récit personnel]
+                      </p>
+                    </div>
+                    <div className="flex flex-wrap gap-2 mt-4">
+                      <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">UNESCO</span>
+                      <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">Monuments</span>
+                    </div>
                   </div>
                 </div>
               </div>
 
               {/* Beyoğlu */}
-              <div className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
-                <div className="relative h-64 overflow-hidden">
-                  <div
-                    className="absolute inset-0 w-full h-full"
-                    style={{
-                      backgroundImage: 'url(https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?w=1200&q=80)',
-                      backgroundSize: 'cover',
-                      backgroundPosition: 'center',
-                      transform: 'scale(1.1)'
-                    }}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-500"></div>
-                  <div className="absolute top-4 left-4">
-                    <span className="px-3 py-1 bg-white/90 backdrop-blur-sm text-gray-800 rounded-full text-xs font-semibold">Moderne</span>
+              <div className="bg-white rounded-3xl overflow-hidden shadow-xl">
+                <div className="flex flex-col md:flex-row-reverse">
+                  {/* Image */}
+                  <div className="md:w-1/2 relative h-80 md:h-auto overflow-hidden">
+                    <img
+                      src="https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?w=1200&q=80"
+                      alt="Beyoğlu"
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute top-4 right-4">
+                      <span className="px-3 py-1 bg-white/90 backdrop-blur-sm text-gray-800 rounded-full text-xs font-semibold">Moderne</span>
+                    </div>
                   </div>
-                  <div className="absolute bottom-4 left-4 right-4">
-                    <h3 className="text-2xl font-semibold text-white mb-1 group-hover:translate-y-[-4px] transition-transform duration-300">Beyoğlu</h3>
-                    <p className="text-white/90 text-sm">Quartier bohème</p>
-                  </div>
-                </div>
-                <div className="p-6">
-                  <p className="text-gray-600 mb-4">
-                    Quartier animé avec l'avenue Istiklal, tour de Galata, galeries d'art,
-                    boutiques vintage et vie nocturne trépidante.
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">Art</span>
-                    <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">Shopping</span>
+                  {/* Texte */}
+                  <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
+                    <h3 className="text-3xl font-bold text-gray-900 mb-3">Beyoğlu</h3>
+                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le quartier bohème et branché</p>
+                    <div className="prose prose-gray">
+                      <p className="text-gray-700 mb-4">
+                        Beyoğlu incarne l'Istanbul moderne et créative. Son artère principale, l'avenue Istiklal, est une rue piétonne
+                        effervescente où se mêlent boutiques de mode, librairies indépendantes, pâtisseries traditionnelles et cafés
+                        branchés. Le tramway nostalgique rouge serpente au milieu de la foule cosmopolite.
+                      </p>
+                      <p className="text-gray-700 mb-4">
+                        Dominant le quartier, la tour de Galata offre une vue panoramique époustouflante sur la ville et le Bosphore.
+                        Les ruelles adjacentes regorgent de galeries d'art contemporain, de bars à vin cachés et de restaurants
+                        fusion. Le soir, Beyoğlu s'anime avec sa vie nocturne légendaire, des concerts de jazz aux clubs underground.
+                      </p>
+                      <p className="text-gray-600 text-sm italic">
+                        [Espace réservé pour votre récit personnel]
+                      </p>
+                    </div>
+                    <div className="flex flex-wrap gap-2 mt-4">
+                      <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">Art</span>
+                      <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">Shopping</span>
+                    </div>
                   </div>
                 </div>
               </div>
 
               {/* Balat */}
-              <div className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
-                <div className="relative h-64 overflow-hidden">
-                  <div
-                    className="absolute inset-0 w-full h-full"
-                    style={{
-                      backgroundImage: 'url(https://images.unsplash.com/photo-1576844940033-17f7bad7f063?w=1200&q=80)',
-                      backgroundSize: 'cover',
-                      backgroundPosition: 'center',
-                      transform: 'scale(1.1)'
-                    }}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-500"></div>
-                  <div className="absolute top-4 left-4">
-                    <span className="px-3 py-1 bg-white/90 backdrop-blur-sm text-gray-800 rounded-full text-xs font-semibold">Photogénique</span>
+              <div className="bg-white rounded-3xl overflow-hidden shadow-xl">
+                <div className="flex flex-col md:flex-row">
+                  {/* Image */}
+                  <div className="md:w-1/2 relative h-80 md:h-auto overflow-hidden">
+                    <img
+                      src="https://images.unsplash.com/photo-1576844940033-17f7bad7f063?w=1200&q=80"
+                      alt="Balat"
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute top-4 left-4">
+                      <span className="px-3 py-1 bg-white/90 backdrop-blur-sm text-gray-800 rounded-full text-xs font-semibold">Photogénique</span>
+                    </div>
                   </div>
-                  <div className="absolute bottom-4 left-4 right-4">
-                    <h3 className="text-2xl font-semibold text-white mb-1 group-hover:translate-y-[-4px] transition-transform duration-300">Balat</h3>
-                    <p className="text-white/90 text-sm">Maisons colorées</p>
-                  </div>
-                </div>
-                <div className="p-6">
-                  <p className="text-gray-600 mb-4">
-                    Ancien quartier juif aux ruelles pentues et maisons colorées devenu
-                    Instagram hotspot. Cafés hipsters et églises orthodoxes.
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">Authentique</span>
-                    <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">Photos</span>
+                  {/* Texte */}
+                  <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
+                    <h3 className="text-3xl font-bold text-gray-900 mb-3">Balat</h3>
+                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le quartier aux maisons arc-en-ciel</p>
+                    <div className="prose prose-gray">
+                      <p className="text-gray-700 mb-4">
+                        Balat est l'ancien quartier juif d'Istanbul, devenu célèbre pour ses maisons colorées qui dévalent les ruelles
+                        pentues jusqu'à la Corne d'Or. Rouge vif, jaune canari, bleu azur : chaque façade est une explosion de couleurs
+                        qui fait le bonheur des photographes et influenceurs du monde entier.
+                      </p>
+                      <p className="text-gray-700 mb-4">
+                        Mais Balat, c'est bien plus qu'un décor Instagram. C'est un quartier vivant où l'histoire se lit à chaque coin
+                        de rue : églises orthodoxes grecques, synagogues séfarades, mosquées ottomanes cohabitent harmonieusement.
+                        Les cafés bohèmes se sont installés dans les anciennes maisons, proposant lattes artistiques et brunchs créatifs
+                        dans une ambiance hipster authentique.
+                      </p>
+                      <p className="text-gray-600 text-sm italic">
+                        [Espace réservé pour votre récit personnel]
+                      </p>
+                    </div>
+                    <div className="flex flex-wrap gap-2 mt-4">
+                      <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">Authentique</span>
+                      <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">Photos</span>
+                    </div>
                   </div>
                 </div>
               </div>
 
               {/* Bosphore */}
-              <div className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
-                <div className="relative h-64 overflow-hidden">
-                  <div
-                    className="absolute inset-0 w-full h-full"
-                    style={{
-                      backgroundImage: 'url(https://images.unsplash.com/photo-1527838832700-5059252407fa?w=1200&q=80)',
-                      backgroundSize: 'cover',
-                      backgroundPosition: 'center',
-                      transform: 'scale(1.1)'
-                    }}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-500"></div>
-                  <div className="absolute top-4 left-4">
-                    <span className="px-3 py-1 bg-white/90 backdrop-blur-sm text-gray-800 rounded-full text-xs font-semibold">Nature</span>
+              <div className="bg-white rounded-3xl overflow-hidden shadow-xl">
+                <div className="flex flex-col md:flex-row-reverse">
+                  {/* Image */}
+                  <div className="md:w-1/2 relative h-80 md:h-auto overflow-hidden">
+                    <img
+                      src="https://images.unsplash.com/photo-1527838832700-5059252407fa?w=1200&q=80"
+                      alt="Bosphore"
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute top-4 right-4">
+                      <span className="px-3 py-1 bg-white/90 backdrop-blur-sm text-gray-800 rounded-full text-xs font-semibold">Nature</span>
+                    </div>
                   </div>
-                  <div className="absolute bottom-4 left-4 right-4">
-                    <h3 className="text-2xl font-semibold text-white mb-1 group-hover:translate-y-[-4px] transition-transform duration-300">Bosphore</h3>
-                    <p className="text-white/90 text-sm">Détroit légendaire</p>
-                  </div>
-                </div>
-                <div className="p-6">
-                  <p className="text-gray-600 mb-4">
-                    Détroit séparant l'Europe de l'Asie, parsemé de palais, mosquées
-                    et villages de pêcheurs. Croisière incontournable au coucher du soleil.
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">Ferry</span>
-                    <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">Paysages</span>
+                  {/* Texte */}
+                  <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
+                    <h3 className="text-3xl font-bold text-gray-900 mb-3">Bosphore</h3>
+                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le détroit entre deux continents</p>
+                    <div className="prose prose-gray">
+                      <p className="text-gray-700 mb-4">
+                        Le Bosphore est bien plus qu'un simple détroit : c'est l'âme d'Istanbul, la ligne magique qui sépare l'Europe
+                        de l'Asie. Sur ses rives se succèdent palais ottomans aux yali en bois précieux, mosquées aux minarets élancés,
+                        forteresses médiévales et villages de pêcheurs préservés du temps.
+                      </p>
+                      <p className="text-gray-700 mb-4">
+                        Une croisière sur le Bosphore au coucher du soleil est un incontournable absolu. À bord d'un ferry public
+                        bondé de locaux ou d'un bateau privé plus intimiste, on contemple Istanbul sous son plus beau jour : la lumière
+                        dorée caressant les dômes, les mouettes qui dansent dans le sillage du bateau, et cette sensation unique
+                        de naviguer entre deux continents en quelques minutes.
+                      </p>
+                      <p className="text-gray-600 text-sm italic">
+                        [Espace réservé pour votre récit personnel]
+                      </p>
+                    </div>
+                    <div className="flex flex-wrap gap-2 mt-4">
+                      <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">Ferry</span>
+                      <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">Paysages</span>
+                    </div>
                   </div>
                 </div>
               </div>
 
               {/* Grand Bazar */}
-              <div className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
-                <div className="relative h-64 overflow-hidden">
-                  <div
-                    className="absolute inset-0 w-full h-full"
-                    style={{
-                      backgroundImage: 'url(https://images.unsplash.com/photo-1578408990219-33d6ee39fe8c?w=1200&q=80)',
-                      backgroundSize: 'cover',
-                      backgroundPosition: 'center',
-                      transform: 'scale(1.1)'
-                    }}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-500"></div>
-                  <div className="absolute top-4 left-4">
-                    <span className="px-3 py-1 bg-white/90 backdrop-blur-sm text-gray-800 rounded-full text-xs font-semibold">Shopping</span>
+              <div className="bg-white rounded-3xl overflow-hidden shadow-xl">
+                <div className="flex flex-col md:flex-row">
+                  {/* Image */}
+                  <div className="md:w-1/2 relative h-80 md:h-auto overflow-hidden">
+                    <img
+                      src="https://images.unsplash.com/photo-1578408990219-33d6ee39fe8c?w=1200&q=80"
+                      alt="Grand Bazar"
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute top-4 left-4">
+                      <span className="px-3 py-1 bg-white/90 backdrop-blur-sm text-gray-800 rounded-full text-xs font-semibold">Shopping</span>
+                    </div>
                   </div>
-                  <div className="absolute bottom-4 left-4 right-4">
-                    <h3 className="text-2xl font-semibold text-white mb-1 group-hover:translate-y-[-4px] transition-transform duration-300">Grand Bazar</h3>
-                    <p className="text-white/90 text-sm">4000 boutiques</p>
-                  </div>
-                </div>
-                <div className="p-6">
-                  <p className="text-gray-600 mb-4">
-                    Plus grand marché couvert du monde, labyrinthe de 61 rues abritant
-                    tapis, bijoux, épices et antiquités. Expérience sensorielle unique.
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">Artisanat</span>
-                    <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">Tradition</span>
+                  {/* Texte */}
+                  <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
+                    <h3 className="text-3xl font-bold text-gray-900 mb-3">Grand Bazar</h3>
+                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le labyrinthe aux 4000 boutiques</p>
+                    <div className="prose prose-gray">
+                      <p className="text-gray-700 mb-4">
+                        Entrer dans le Grand Bazar (Kapalı Çarşı), c'est plonger dans un monde à part, une caverne d'Ali Baba
+                        géante où scintillent tapis persans, lampes en mosaïque, bijoux en or et épices multicolores. Avec ses
+                        61 rues couvertes et plus de 4000 boutiques, c'est le plus ancien et le plus grand marché couvert du monde,
+                        un labyrinthe envoûtant où il est presque obligatoire de se perdre.
+                      </p>
+                      <p className="text-gray-700 mb-4">
+                        L'art de la négociation est roi ici : les commerçants vous accueillent avec un çay brûlant et le prix affiché
+                        n'est qu'une suggestion. Entre deux négociations acharnées pour un kilim anatolien, on admire les plafonds
+                        voûtés ottomans et l'effervescence d'un commerce vieux de 500 ans qui n'a jamais cessé de vibrer.
+                      </p>
+                      <p className="text-gray-600 text-sm italic">
+                        [Espace réservé pour votre récit personnel]
+                      </p>
+                    </div>
+                    <div className="flex flex-wrap gap-2 mt-4">
+                      <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">Artisanat</span>
+                      <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">Tradition</span>
+                    </div>
                   </div>
                 </div>
               </div>
 
               {/* Kadiköy */}
-              <div className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
-                <div className="relative h-64 overflow-hidden">
-                  <div
-                    className="absolute inset-0 w-full h-full"
-                    style={{
-                      backgroundImage: 'url(https://images.unsplash.com/photo-1570939274717-7eda259b50ed?w=1200&q=80)',
-                      backgroundSize: 'cover',
-                      backgroundPosition: 'center',
-                      transform: 'scale(1.1)'
-                    }}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-500"></div>
-                  <div className="absolute top-4 left-4">
-                    <span className="px-3 py-1 bg-white/90 backdrop-blur-sm text-gray-800 rounded-full text-xs font-semibold">Asie</span>
+              <div className="bg-white rounded-3xl overflow-hidden shadow-xl">
+                <div className="flex flex-col md:flex-row-reverse">
+                  {/* Image */}
+                  <div className="md:w-1/2 relative h-80 md:h-auto overflow-hidden">
+                    <img
+                      src="https://images.unsplash.com/photo-1570939274717-7eda259b50ed?w=1200&q=80"
+                      alt="Kadiköy"
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute top-4 right-4">
+                      <span className="px-3 py-1 bg-white/90 backdrop-blur-sm text-gray-800 rounded-full text-xs font-semibold">Asie</span>
+                    </div>
                   </div>
-                  <div className="absolute bottom-4 left-4 right-4">
-                    <h3 className="text-2xl font-semibold text-white mb-1 group-hover:translate-y-[-4px] transition-transform duration-300">Kadiköy</h3>
-                    <p className="text-white/90 text-sm">Côté asiatique</p>
-                  </div>
-                </div>
-                <div className="p-6">
-                  <p className="text-gray-600 mb-4">
-                    Quartier authentique de la rive asiatique, loin des touristes.
-                    Marchés locaux, street food et ambiance bohème relaxée.
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">Local</span>
-                    <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">Gastronomie</span>
+                  {/* Texte */}
+                  <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
+                    <h3 className="text-3xl font-bold text-gray-900 mb-3">Kadiköy</h3>
+                    <p className="text-sm text-[#f56300] font-semibold mb-4">L'Istanbul authentique de la rive asiatique</p>
+                    <div className="prose prose-gray">
+                      <p className="text-gray-700 mb-4">
+                        Traverser le Bosphore pour rejoindre Kadiköy, c'est découvrir l'Istanbul des Stambouliotes, loin de l'agitation
+                        touristique de Sultanahmet. Ce quartier de la rive asiatique pulse au rythme d'une vie locale authentique :
+                        marchés de quartier débordant de produits frais, vendeurs de balık ekmek (sandwichs au poisson) sur le port,
+                        et cafés où les habitués jouent au backgammon en sirotant leur çay.
+                      </p>
+                      <p className="text-gray-700 mb-4">
+                        La rue commerçante de Bahariye regorge de boutiques vintage, librairies alternatives et pâtisseries artisanales.
+                        L'ambiance y est résolument bohème et décontractée, avec des murals de street art à chaque coin de rue. Le soir,
+                        les meyhane (tavernes) se remplissent pour des soirées rakı-meze arrosées, dans une atmosphère conviviale
+                        typiquement locale. Kadiköy, c'est l'Istanbul sans filtre, tel que le vivent ses habitants.
+                      </p>
+                      <p className="text-gray-600 text-sm italic">
+                        [Espace réservé pour votre récit personnel]
+                      </p>
+                    </div>
+                    <div className="flex flex-wrap gap-2 mt-4">
+                      <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">Local</span>
+                      <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">Gastronomie</span>
+                    </div>
                   </div>
                 </div>
               </div>
