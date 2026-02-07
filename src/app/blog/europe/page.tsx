@@ -44,16 +44,16 @@ const europeanDestinations: Destination[] = [
     highlights: ['Barcelone', 'Madrid', 'Andalousie']
   },
   {
-    id: 'istanbul',
-    name: 'Istanbul',
+    id: 'turquie',
+    name: 'Turquie',
     country: 'Turquie',
     continent: 'Europe',
     type: ['Culture', 'Histoire', 'Ville'],
-    description: 'Pont entre deux continents, mêlant traditions ottomanes, bazars colorés et patrimoine byzantin.',
+    description: 'Pont entre Orient et Occident, où traditions ancestrales et modernité se rencontrent.',
     image: 'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=1200&q=80',
     coordinates: { lat: 41.0082, lng: 28.9784 },
     visited: '2022',
-    highlights: ['Sainte-Sophie', 'Bosphore', 'Grand Bazar']
+    highlights: ['Istanbul', 'Cappadoce', 'Pamukkale']
   },
   {
     id: 'malte',
