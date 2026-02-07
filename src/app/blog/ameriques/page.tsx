@@ -4,9 +4,8 @@ import { useState } from 'react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import DestinationCard from '@/components/DestinationCard';
-import type { Destination } from '@/app/blog/page';
 
-const americanDestinations: Destination[] = [
+const americanDestinations: Destinations[] = [
   {
     id: 'mexique',
     name: 'Mexique',
