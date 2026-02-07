@@ -7,11 +7,14 @@ import { gsap } from 'gsap';
 interface Destination {
   id: string;
   name: string;
+  country: string;
+  continent: string;
+  type: string[];
   description: string;
   image: string;
-  continent: string;
   coordinates: { lat: number; lng: number };
-  type: string[];
+  visited: string;
+  highlights: string[];
 }
 
 interface WorldMapProps {

@@ -7,6 +7,19 @@ import Link from 'next/link';
 
 gsap.registerPlugin(ScrollTrigger);
 
+interface Destination {
+  id: string;
+  name: string;
+  country: string;
+  continent: string;
+  type: string[];
+  description: string;
+  image: string;
+  coordinates: { lat: number; lng: number };
+  visited: string;
+  highlights: string[];
+}
+
 interface DestinationCardProps {
   destination: Destination;
 }
