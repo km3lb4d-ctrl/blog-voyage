@@ -112,7 +112,7 @@ export default function IstanbulPage() {
                   {/* Image */}
                   <div className="md:w-1/2 relative h-80 md:h-auto overflow-hidden">
                     <img
-                      src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=1200&q=80"
+                      src="/images/agia sofia.png"
                       alt="Sultanahmet"
                       className="w-full h-full object-cover"
                     />
