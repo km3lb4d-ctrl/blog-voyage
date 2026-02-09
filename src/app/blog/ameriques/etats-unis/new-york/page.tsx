@@ -21,7 +21,7 @@ export default function NewYorkPage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir New York</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir New York</h2>
               <p className="text-gray-700 mb-6">
                 New York City, la Big Apple, est bien plus qu'une simple ville : c'est un univers en soi, une métropole
                 vibrante de 8,3 millions d'habitants qui incarne l'essence même du rêve américain. Entre les gratte-ciels
@@ -32,7 +32,7 @@ export default function NewYorkPage() {
                 une histoire différente de cette ville-monde qui ne dort jamais et attire les rêveurs du monde entier.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Les incontournables</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Les incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Statue de la Liberté</strong> - Symbole iconique des États-Unis et de l'immigration</li>
                 <li><strong>Central Park</strong> - Oasis verte de 341 hectares au cœur de Manhattan</li>
@@ -44,7 +44,7 @@ export default function NewYorkPage() {
                 <li><strong>High Line</strong> - Parc suspendu sur ancienne voie ferrée</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Quartiers emblématiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Quartiers emblématiques</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Manhattan</strong> - Cœur économique et culturel, gratte-ciels et musées</li>
                 <li><strong>Brooklyn</strong> - Quartier artistique et branché, cafés hipsters et galleries</li>
@@ -53,7 +53,7 @@ export default function NewYorkPage() {
                 <li><strong>Williamsburg</strong> - Brooklyn hipster, street art et rooftops bars</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Expériences à vivre</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Expériences à vivre</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>Traverser le Brooklyn Bridge au lever du soleil</li>
                 <li>Assister à un spectacle de Broadway (Hamilton, Le Roi Lion, Wicked)</li>
@@ -65,7 +65,7 @@ export default function NewYorkPage() {
                 <li>Voir la Statue de la Liberté depuis le Staten Island Ferry (gratuit)</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Avril-juin et septembre-novembre (climat agréable, moins de touristes)<br />
                 <strong>Langue :</strong> Anglais (mais 800 langues parlées dans la ville)<br />
@@ -75,7 +75,7 @@ export default function NewYorkPage() {
                 <strong>Durée conseillée :</strong> 5-7 jours minimum (2 semaines idéal)
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Mes conseils</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Mes conseils</h3>
               <p className="text-gray-700">
                 🎫 Acheter le New York CityPASS pour économiser sur attractions principales<br />
                 🚇 Métro 24/7 est le moyen le plus efficace (MetroCard à 34$ pour 7 jours illimités)<br />
@@ -87,7 +87,7 @@ export default function NewYorkPage() {
                 🎨 Musées ont des horaires "pay what you wish" certains jours
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Spécialités culinaires à goûter</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Spécialités culinaires à goûter</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>New York-style pizza</strong> - Part géante fine et pliée, culte absolu</li>
                 <li><strong>Bagel with lox</strong> - Bagel au saumon fumé, cream cheese, typical NYC breakfast</li>
@@ -123,9 +123,9 @@ export default function NewYorkPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Manhattan & Times Square</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le cœur battant du monde</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le cœur battant du monde</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Manhattan est l'île légendaire qui incarne New York dans l'imaginaire collectif, un rectangle de
                         59 km² où se concentrent gratte-ciels vertigineux, sièges sociaux de multinationales, théâtres de
                         Broadway et musées de renommée mondiale. Times Square en est l'épicentre chaotique et fascinant :
@@ -133,7 +133,7 @@ export default function NewYorkPage() {
                         les artistes de rue costumés, les vendeurs de hot-dogs et l'énergie électrique typiquement
                         new-yorkaise qui pulse 24/7.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Se tenir au milieu de Times Square, entouré de gratte-ciels tapissés d'écrans publicitaires géants
                         diffusant mille couleurs simultanément, c'est ressentir l'essence même du capitalisme américain et
                         de la culture de masse. Bien que ultra-touristique, l'expérience reste incontournable et
@@ -168,9 +168,9 @@ export default function NewYorkPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Central Park</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">L'oasis verte au cœur du béton</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">L'oasis verte au cœur du béton</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Central Park est le poumon vert de Manhattan, un rectangle de 341 hectares minutieusement paysagé
                         qui offre une bulle de nature au milieu des gratte-ciels. Créé artificiellement au XIXe siècle,
                         ce parc iconique est devenu le terrain de jeu préféré des New-Yorkais : joggeurs matinaux,
@@ -178,7 +178,7 @@ export default function NewYorkPage() {
                         cherchant le banc de la scène culte de "When Harry Met Sally". Le contraste entre les pelouses
                         verdoyantes et les tours de verre qui bordent le parc est saisissant.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Louer un vélo et longer les 10 km du parc permet d'en saisir l'immensité : on traverse lacs
                         artificiels peuplés de canards, ponts romantiques en pierre, aires de jeux animées et même un
                         château médiéval (Belvedere Castle). L'automne, quand les 26 000 arbres se parent de rouge et d'or,
@@ -213,9 +213,9 @@ export default function NewYorkPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Brooklyn & Brooklyn Bridge</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le borough créatif et authentique</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le borough créatif et authentique</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Brooklyn, jadis ville indépendante avant son annexion en 1898, est devenu le borough le plus cool
                         et artistique de NYC, incarnant l'esprit créatif et multiculturel de la ville. Le mythique Brooklyn
                         Bridge, pont suspendu inauguré en 1883, relie Manhattan à Brooklyn en offrant l'une des plus belles
@@ -223,7 +223,7 @@ export default function NewYorkPage() {
                         dorée caresse les gratte-ciels et que les câbles du pont dessinent des toiles géométriques, est
                         une expérience incontournable du voyage à NYC.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Une fois à Brooklyn, on découvre un univers totalement différent de Manhattan : Dumbo et ses rues
                         pavées bordées de warehouses reconvertis, Williamsburg et ses cafés hipsters, rooftop bars et
                         friperies vintage, ou encore le gigantesque Prospect Park qui fait de l'ombre à Central Park.
@@ -258,9 +258,9 @@ export default function NewYorkPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Statue de la Liberté</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Symbole universel de liberté et d'immigration</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Symbole universel de liberté et d'immigration</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         La Statue de la Liberté, colossale sculpture de 93 mètres offerte par la France en 1886, est bien
                         plus qu'un monument touristique : c'est le symbole universel de la liberté et du rêve américain,
                         la première vision des millions d'immigrants arrivant par bateau à Ellis Island au début du XXe
@@ -268,7 +268,7 @@ export default function NewYorkPage() {
                         ces familles fuyant pauvreté et persécutions. Aujourd'hui encore, elle reste l'icône la plus
                         reconnaissable des États-Unis.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Accéder à Liberty Island en ferry permet d'admirer la statue de près et de monter jusqu'au piédestal
                         (ou même dans la couronne avec réservation anticipée). Le musée adjacent retrace l'histoire de la
                         construction et de l'immigration américaine. Astuce budget : le Staten Island Ferry gratuit passe

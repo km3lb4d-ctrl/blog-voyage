@@ -21,7 +21,7 @@ export default function ChyprePage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir Chypre</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir Chypre</h2>
               <p className="text-gray-700 mb-6">
                 Chypre, île de la déesse Aphrodite, séduit par son mélange unique d'histoire millénaire,
                 de plages paradisiaques et de traditions méditerranéennes. De Paphos à Nicosie, en passant
@@ -29,7 +29,7 @@ export default function ChyprePage() {
                 entre mer turquoise et villages authentiques.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Les incontournables</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Les incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Paphos</strong> - Ville archéologique et lieu de naissance d'Aphrodite</li>
                 <li><strong>Rocher d'Aphrodite (Petra tou Romiou)</strong> - Site mythologique légendaire</li>
@@ -40,7 +40,7 @@ export default function ChyprePage() {
                 <li><strong>Larnaca</strong> - Promenade des Palmiers et lac salé</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Expériences à vivre</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Expériences à vivre</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>Se baigner au coucher du soleil au Rocher d'Aphrodite</li>
                 <li>Visiter les mosaïques romaines du Parc archéologique de Paphos</li>
@@ -50,7 +50,7 @@ export default function ChyprePage() {
                 <li>Randonner dans les gorges d'Avakas</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Avril-juin et septembre-octobre (climat idéal, moins de touristes)<br />
                 <strong>Langues :</strong> Grec et turc (anglais très répandu)<br />
@@ -59,7 +59,7 @@ export default function ChyprePage() {
                 <strong>Durée conseillée :</strong> 5-7 jours minimum
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Mes conseils</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Mes conseils</h3>
               <p className="text-gray-700">
                 🚗 Louez une voiture pour explorer l'île en toute liberté<br />
                 🏖️ Les plages d'Ayia Napa et Protaras sont parmi les plus belles de Méditerranée<br />
@@ -70,7 +70,7 @@ export default function ChyprePage() {
                 🍴 Commandez un meze complet pour découvrir toute la gastronomie chypriote
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Spécialités culinaires</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Spécialités culinaires</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Halloumi</strong> - Fromage grillé emblématique de l'île</li>
                 <li><strong>Meze</strong> - Assortiment de 20-30 petits plats à partager</li>
@@ -287,24 +287,6 @@ export default function ChyprePage() {
               </div>
 
             </div>
-          </div>
-        </section>
-
-        {/* CTA Section */}
-        <section className="section section-dark py-20">
-          <div className="max-w-4xl mx-auto px-6 text-center">
-            <h2 className="text-4xl font-bold text-white mb-6">
-              Retour en Europe
-            </h2>
-            <p className="text-[#a1a1a6] text-lg mb-8">
-              Découvrez d'autres destinations européennes et leurs trésors culturels.
-            </p>
-            <Link
-              href="/blog/europe"
-              className="inline-block px-8 py-4 bg-[#0071e3] text-white rounded-full font-semibold hover:bg-[#0077ED] transition-colors duration-300"
-            >
-              Explorer l'Europe
-            </Link>
           </div>
         </section>
       </main>

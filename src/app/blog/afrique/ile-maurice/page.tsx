@@ -21,7 +21,7 @@ export default function IleMauricePage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir l'Île Maurice</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir l'Île Maurice</h2>
               <p className="text-gray-700 mb-6">
                 L'Île Maurice incarne le paradis tropical par excellence, une perle de l'océan Indien où Mark Twain disait
                 que "le paradis a été copié d'après Maurice". Cette île volcanique offre un mélange enchanteur de plages
@@ -31,7 +31,7 @@ export default function IleMauricePage() {
                 rhum arrangé et cuisine métissée savoureuse, Maurice séduit par sa diversité et son authenticité préservée.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Les incontournables</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Les incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Le Morne Brabant</strong> - Montagne iconique classée UNESCO et plages sauvages</li>
                 <li><strong>Île aux Cerfs</strong> - Lagon paradisiaque et sports nautiques (accessible en bateau)</li>
@@ -41,7 +41,7 @@ export default function IleMauricePage() {
                 <li><strong>Black River Gorges</strong> - Parc national avec forêts primaires et cascades</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Mai-décembre (hiver austral, sec et doux), éviter janvier-mars (cyclones)<br />
                 <strong>Langue :</strong> Anglais et français officiels, créole mauricien parlé couramment<br />
@@ -52,7 +52,7 @@ export default function IleMauricePage() {
                 <strong>Transport :</strong> Location de voiture indispensable (conduite à gauche)
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Mes conseils</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Mes conseils</h3>
               <p className="text-gray-700">
                 🚗 Louez une voiture, les transports publics sont limités<br />
                 🏖️ Côte ouest (Flic-en-Flac) pour couchers de soleil, côte est pour lever de soleil<br />
@@ -64,7 +64,7 @@ export default function IleMauricePage() {
                 💰 Maurice est plus cher que l'Asie du Sud-Est mais raisonnable
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Spécialités culinaires</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Spécialités culinaires</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Dholl puri</strong> - Galette farcie de pois cassés, street food iconique</li>
                 <li><strong>Vindaye</strong> - Poisson mariné aux épices, influence indienne</li>
@@ -97,16 +97,16 @@ export default function IleMauricePage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Le Morne Brabant</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Montagne sacrée et plages de rêve</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Montagne sacrée et plages de rêve</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le Morne Brabant est l'icône de l'Île Maurice, une montagne basaltique de 556 mètres qui se dresse
                         majestueusement au sud-ouest de l'île, classée au patrimoine mondial de l'UNESCO. Son histoire est
                         poignante : au 18ème siècle, elle servait de refuge aux esclaves en fuite (les "marrons"), et la
                         légende raconte que certains se seraient jetés du sommet en 1835 en voyant des soldats approcher,
                         ignorant qu'ils venaient annoncer l'abolition de l'esclavage.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Aujourd'hui, la randonnée jusqu'au sommet (3-4h aller-retour) offre des vues panoramiques à couper
                         le souffle sur le lagon aux nuances infinies de bleu. En contrebas, les plages sauvages du Morne
                         sont parmi les plus belles de Maurice, et le spot de kitesurf attire les riders du monde entier avec
@@ -140,16 +140,16 @@ export default function IleMauricePage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Île aux Cerfs</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le joyau du lagon mauricien</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le joyau du lagon mauricien</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         L'Île aux Cerfs est une petite île paradisiaque au large de la côte est de Maurice, accessible
                         uniquement par bateau. Imaginez des plages de sable blanc poudreux, un lagon aux eaux cristallines
                         qui déclinent toutes les nuances de turquoise et d'émeraude, des filaos (sorte de pins tropicaux)
                         offrant de l'ombre naturelle, et une atmosphère de Robinson Crusoé version luxe. C'est l'excursion
                         d'une journée la plus populaire de l'île pour de bonnes raisons.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Sur place, vous pouvez pratiquer toutes sortes de sports nautiques : parasailing avec vue plongeante
                         sur le lagon, jet-ski, kayak, paddle, ou simplement snorkeling dans les eaux peu profondes grouillantes
                         de poissons tropicaux. Plusieurs restaurants proposent des BBQ de fruits de mer les pieds dans le sable.
@@ -183,16 +183,16 @@ export default function IleMauricePage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Chamarel & Terres des 7 Couleurs</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Phénomène géologique unique au monde</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Phénomène géologique unique au monde</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Chamarel, dans le sud-ouest montagneux de Maurice, abrite l'un des phénomènes naturels les plus
                         étranges et fascinants de l'île : les Terres des 7 Couleurs. Ces dunes de sable ondulées arborent
                         naturellement sept teintes différentes (rouge, brun, violet, vert, bleu, pourpre et jaune) dues à
                         la décomposition de roches volcaniques riches en minéraux. Par temps ensoleillé, les couleurs
                         s'illuminent dans un dégradé surréaliste qui semble tout droit sorti d'un tableau psychédélique.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         À quelques minutes se trouve la cascade de Chamarel, qui plonge de 100 mètres dans une gorge
                         verdoyante luxuriante. Ne manquez pas de visiter la Rhumerie de Chamarel, une distillerie artisanale
                         produisant certains des meilleurs rhums agricoles de l'île. La dégustation avec vue panoramique sur
@@ -226,9 +226,9 @@ export default function IleMauricePage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Port-Louis</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Capitale créole vibrante</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Capitale créole vibrante</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Port-Louis, capitale de Maurice, offre un contraste saisissant avec les plages idylliques de l'île.
                         Cette ville portuaire bouillonnante mélange architecture coloniale française, gratte-ciels modernes,
                         et une diversité culturelle fascinante. Le marché central est l'âme de la ville : étals débordant
@@ -236,7 +236,7 @@ export default function IleMauricePage() {
                         fumants, et tissus colorés s'entassant jusqu'au plafond. C'est Maurice sans filtre, bruyant, chaotique
                         et authentique.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le Caudan Waterfront, zone rénovée du front de mer, offre shopping, restaurants et le Blue Penny Museum
                         qui abrite les timbres les plus rares au monde. Ne manquez pas l'Aapravasi Ghat, site UNESCO où
                         débarquaient les travailleurs engagés indiens au 19ème siècle, témoignage émouvant de l'histoire
@@ -256,24 +256,6 @@ export default function IleMauricePage() {
               </div>
 
             </div>
-          </div>
-        </section>
-
-        {/* CTA Section */}
-        <section className="section section-dark py-20">
-          <div className="max-w-4xl mx-auto px-6 text-center">
-            <h2 className="text-4xl font-bold text-white mb-6">
-              Retour en Afrique
-            </h2>
-            <p className="text-[#a1a1a6] text-lg mb-8">
-              Découvrez d'autres destinations africaines et leurs merveilles.
-            </p>
-            <Link
-              href="/blog/afrique"
-              className="inline-block px-8 py-4 bg-[#0071e3] text-white rounded-full font-semibold hover:bg-[#0077ED] transition-colors duration-300"
-            >
-              Explorer l'Afrique
-            </Link>
           </div>
         </section>
       </main>

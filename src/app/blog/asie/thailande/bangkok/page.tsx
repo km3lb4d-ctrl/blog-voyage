@@ -21,7 +21,7 @@ export default function BangkokPage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir Bangkok</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir Bangkok</h2>
               <p className="text-gray-700 mb-6">
                 Bangkok, surnommée la "Venise de l'Asie" pour ses nombreux canaux (khlongs), est une métropole fascinante
                 où l'ancien et le moderne se côtoient dans un chaos organisé captivant. Capitale énergique de la Thaïlande,
@@ -31,7 +31,7 @@ export default function BangkokPage() {
                 et vie nocturne électrisante, Bangkok est une ville d'extrêmes qui ne laisse personne indifférent.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Les incontournables</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Les incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Grand Palais & Wat Phra Kaew</strong> - Complexe royal éblouissant avec le Bouddha d'Émeraude sacré</li>
                 <li><strong>Wat Pho</strong> - Temple du Bouddha couché doré de 46 mètres, plus ancien temple de Bangkok</li>
@@ -41,7 +41,7 @@ export default function BangkokPage() {
                 <li><strong>Chinatown (Yaowarat)</strong> - Street food légendaire et ambiance nocturne trépidante</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Novembre-février (saison fraîche et sèche), éviter mars-mai (canicule)<br />
                 <strong>Langue :</strong> Thaï, anglais basique dans zones touristiques<br />
@@ -51,7 +51,7 @@ export default function BangkokPage() {
                 <strong>Transport :</strong> BTS Skytrain, MRT métro, bateaux sur Chao Phraya, taxis Grab, tuk-tuks
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Mes conseils</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Mes conseils</h3>
               <p className="text-gray-700">
                 🕌 Vêtements couvrant épaules et genoux obligatoires dans les temples<br />
                 🚇 Le BTS Skytrain est le moyen le plus rapide d'éviter les embouteillages<br />
@@ -63,7 +63,7 @@ export default function BangkokPage() {
                 🔥 Attention à la nourriture ultra-épicée, demandez "mai phet" (pas piquant)
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Street food incontournable</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Street food incontournable</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Pad Thai</strong> - Nouilles sautées emblématiques de Thaïlande</li>
                 <li><strong>Tom Yum Goong</strong> - Soupe épicée aux crevettes, explosion de saveurs</li>
@@ -96,16 +96,16 @@ export default function BangkokPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Grand Palais & Temples</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le cœur spirituel et royal de Bangkok</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le cœur spirituel et royal de Bangkok</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le Grand Palais est LE monument incontournable de Bangkok, un complexe éblouissant de bâtiments dorés
                         qui fut la résidence officielle des rois de Thaïlande pendant 150 ans. À l'intérieur, le Wat Phra Kaew
                         (Temple du Bouddha d'Émeraude) abrite la statue la plus sacrée du bouddhisme thaï, une petite figurine
                         de jade vénérée par des millions de fidèles. L'architecture est somptueuse : toits aux tuiles orangées
                         et vertes étincelantes, flèches dorées pointant vers le ciel, mosaïques multicolores scintillantes.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         À quelques minutes à pied, le Wat Pho impressionne avec son gigantesque Bouddha couché recouvert de
                         feuilles d'or (46 mètres de long !), ainsi que ses 1000 statues de Bouddha disséminées dans le complexe.
                         C'est aussi le berceau du massage thaï traditionnel. Le Wat Arun de l'autre côté du fleuve, avec sa tour
@@ -138,16 +138,16 @@ export default function BangkokPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Chinatown (Yaowarat)</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le paradis de la street food</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le paradis de la street food</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Chinatown de Bangkok est l'un des quartiers les plus authentiques et fascinants de la ville. La rue
                         Yaowarat Road, artère principale, se transforme chaque soir en un festival gastronomique géant où
                         les néons rouges et dorés illuminent des centaines de stands de street food fumants. L'atmosphère y
                         est électrique : vendeurs criant leurs spécialités, woks crachant des flammes, files d'attente devant
                         les meilleures adresses connues des locaux.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         C'est ici que vous trouverez la meilleure cuisine de rue de Bangkok : nouilles au porc braisé,
                         dim sum fumants, fruits de mer grillés au feu de bois, desserts traditionnels chinois. Pendant la
                         journée, explorez le marché de Sampeng Lane et ses 1,5 km de boutiques vendant absolument tout.
@@ -180,16 +180,16 @@ export default function BangkokPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Khao San Road</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">La mecque des backpackers</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">La mecque des backpackers</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Khao San Road est une légende vivante du circuit des backpackers mondiaux. Cette rue de 300 mètres
                         concentre l'essence du voyage routard : auberges de jeunesse bon marché, bars ouverts jusqu'à l'aube,
                         stands de pad thaï à 2 dollars, vendeurs de vêtements hippies, salons de massage, tatoueurs, et cette
                         ambiance électrique unique où se croisent voyageurs de tous les continents. C'est le point de départ
                         ou d'arrivée de pratiquement tous les backpackers explorant l'Asie du Sud-Est.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le soir, la rue piétonne devient une fête géante : musique tonitruante, seaux de cocktails colorés,
                         jongleurs de feu, et cette énergie chaotique addictive. Amour ou déteste, Khao San ne laisse personne
                         indifférent. Si vous cherchez l'authenticité thaïe, ce n'est clairement pas ici. Mais pour l'expérience
@@ -222,16 +222,16 @@ export default function BangkokPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Rooftop Bars</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Bangkok vue d'en haut</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Bangkok vue d'en haut</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Bangkok possède certains des rooftop bars les plus spectaculaires au monde, perchés au sommet de
                         gratte-ciels vertigineux. Le Sky Bar au 63ème étage du Lebua State Tower (rendu célèbre par le film
                         "Very Bad Trip 2") offre une vue à 360 degrés sur la mégalopole scintillante. Vertigo au Banyan Tree,
                         Octave au Marriott Sukhumvit, CRU Champagne Bar : chaque rooftop a son atmosphère unique mais tous
                         partagent ces vues époustouflantes sur la skyline illuminée de Bangkok.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Sirotez un cocktail sophistiqué (certes hors de prix) au coucher du soleil, quand le ciel orangé se
                         reflète sur le fleuve Chao Phraya serpentant entre les tours, et que les millions de lumières de la
                         ville s'allument progressivement. L'air chaud tropical caresse votre visage tandis que les bruits

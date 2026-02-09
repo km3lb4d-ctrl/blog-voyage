@@ -21,7 +21,7 @@ export default function CarthagenePage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir Carthagène</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir Carthagène</h2>
               <p className="text-gray-700 mb-6">
                 Carthagène des Indes (Cartagena de Indias) est la ville coloniale la plus romantique et photogénique
                 de Colombie, véritable joyau architectural de la côte caraïbe. Fondée en 1533, cette cité fortifiée
@@ -33,7 +33,7 @@ export default function CarthagenePage() {
                 de culture afro-caribéenne et de douceur tropicale.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Les incontournables</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Les incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Vieille Ville Fortifiée (Ciudad Amurallada)</strong> - Labyrinthe colonial de ruelles colorées</li>
                 <li><strong>Castillo de San Felipe de Barajas</strong> - Plus grande forteresse espagnole d'Amérique</li>
@@ -45,7 +45,7 @@ export default function CarthagenePage() {
                 <li><strong>Playa Blanca</strong> - Plage de sable blanc (excursion d'une journée)</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Quartiers à explorer</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Quartiers à explorer</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Centro Histórico</strong> - Vieille ville fortifiée, hôtels de charme et restaurants</li>
                 <li><strong>Getsemaní</strong> - Quartier populaire transformé, hostels et vie nocturne</li>
@@ -54,7 +54,7 @@ export default function CarthagenePage() {
                 <li><strong>La Boquilla</strong> - Village de pêcheurs authentique au nord</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Expériences à vivre</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Expériences à vivre</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>Regarder le coucher de soleil depuis le Café del Mar sur les remparts</li>
                 <li>Se perdre dans les ruelles colorées de la vieille ville au petit matin</li>
@@ -66,7 +66,7 @@ export default function CarthagenePage() {
                 <li>Faire un tour en chiva (bus coloré) à travers la ville</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Décembre-mars (saison sèche, mais très touristique et cher) - Avril-novembre plus calme<br />
                 <strong>Langue :</strong> Espagnol (anglais dans zones touristiques)<br />
@@ -76,7 +76,7 @@ export default function CarthagenePage() {
                 <strong>Durée conseillée :</strong> 3-4 jours minimum
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Mes conseils</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Mes conseils</h3>
               <p className="text-gray-700">
                 🏨 Loger à Getsemaní pour l'authenticité et les prix, ou vieille ville pour le charme<br />
                 🌅 Réserver une place au Café del Mar 2h avant le coucher de soleil (très prisé)<br />
@@ -88,7 +88,7 @@ export default function CarthagenePage() {
                 ⚠️ Attention aux arnaques touristiques (faux guides, prix gonflés pour photos)
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Spécialités culinaires à goûter</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Spécialités culinaires à goûter</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Arepa de huevo</strong> - Arepa frite fourrée d'un œuf, spécialité locale</li>
                 <li><strong>Ceviche</strong> - Poisson mariné au citron vert, version colombienne</li>
@@ -124,9 +124,9 @@ export default function CarthagenePage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Ciudad Amurallada</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le cœur colonial fortifié</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le cœur colonial fortifié</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         La Ciudad Amurallada (Ville Fortifiée) est le cœur historique et romantique de Carthagène, un
                         labyrinthe enchanteur de ruelles pavées où chaque coin de rue révèle une scène digne d'une carte
                         postale. Les façades coloniales aux couleurs pastel (jaune moutarde, rose corail, bleu azur)
@@ -134,7 +134,7 @@ export default function CarthagenePage() {
                         portes monumentales des palais coloniaux laissent entrevoir des patios secrets aux fontaines
                         murmurant.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Protégée par 11 kilomètres de murailles épaisses qui repoussèrent pirates et envahisseurs pendant
                         trois siècles, la vieille ville abrite églises baroques aux retables dorés, places ombragées où
                         se produisent musiciens de vallenato, boutiques d'artisanat et restaurants gastronomiques installés
@@ -168,9 +168,9 @@ export default function CarthagenePage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Getsemaní</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le quartier bohème et authentique</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le quartier bohème et authentique</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Getsemaní, autrefois quartier populaire délaissé, est devenu en quelques années l'épicentre de
                         la culture alternative et de la vie nocturne de Carthagène. Séparé de la vieille ville par une
                         simple rue, ce barrio vibrant a conservé son âme authentique tout en accueillant hostels branchés,
@@ -178,7 +178,7 @@ export default function CarthagenePage() {
                         basses se parent désormais de fresques murales géantes et colorées qui font de Getsemaní un musée
                         de street art à ciel ouvert.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le cœur du quartier bat à la Plaza de la Trinidad, où chaque soir, locaux et voyageurs se
                         retrouvent assis sur les marches, bière ou rhum à la main, dans une ambiance festive et
                         cosmopolite. Des vendeurs ambulants proposent cigarettes, snacks et fruits coupés, tandis que
@@ -213,16 +213,16 @@ export default function CarthagenePage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Castillo de San Felipe</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">La forteresse imprenable</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">La forteresse imprenable</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le Castillo de San Felipe de Barajas est la plus grande et la plus imposante forteresse jamais
                         construite par les Espagnols en Amérique, un chef-d'œuvre d'ingénierie militaire qui domine
                         Carthagène du haut de la colline San Lázaro. Construit entre 1536 et 1657, puis agrandi au XVIIIe
                         siècle, ce mastodonte de pierre ocre n'a jamais été pris malgré les nombreux sièges de pirates
                         anglais et français attirés par les richesses qui transitaient par le port.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         La visite du château révèle un dédale de tunnels souterrains acoustiquement conçus pour permettre
                         aux défenseurs de communiquer, des batteries de canons pointés vers la mer, et des rampes
                         stratégiques offrant des vues panoramiques sur la ville moderne et la mer des Caraïbes. L'architecture
@@ -257,9 +257,9 @@ export default function CarthagenePage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Îles Rosario</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Archipel paradisiaque des Caraïbes</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Archipel paradisiaque des Caraïbes</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Les Îles Rosario (Islas del Rosario) forment un archipel paradisiaque de 27 îlots coralliens
                         situés à une heure de bateau de Carthagène, dans un parc national protégé aux eaux cristallines.
                         Ces petites îles tropicales incarnent le fantasme caribéen absolu : plages de sable blanc poudreux,
@@ -267,7 +267,7 @@ export default function CarthagenePage() {
                         raies et parfois même tortues marines. Le contraste avec l'effervescence urbaine de Carthagène
                         est saisissant.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         La plupart des visiteurs optent pour une excursion d'une journée qui combine navigation en lancha
                         rapide, snorkeling dans les eaux limpides, déjeuner de fruits de mer les pieds dans le sable, et
                         farniente sur une plage privée. Certaines îles abritent des éco-resorts de luxe pour ceux qui

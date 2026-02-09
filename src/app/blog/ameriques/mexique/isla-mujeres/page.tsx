@@ -21,7 +21,7 @@ export default function IslaMujeresPage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir Isla Mujeres</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir Isla Mujeres</h2>
               <p className="text-gray-700 mb-6">
                 Isla Mujeres, petite île paradisiaque située à seulement 20 minutes en ferry de Cancún, offre une
                 atmosphère radicalement différente de sa voisine touristique : plus calme, plus authentique, plus
@@ -32,7 +32,7 @@ export default function IslaMujeresPage() {
                 de transport, Isla Mujeres est l'escapade parfaite pour échapper à l'agitation urbaine.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Les incontournables</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Les incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Playa Norte</strong> - Une des plus belles plages du Mexique, eaux turquoise peu profondes</li>
                 <li><strong>Punta Sur</strong> - Falaises spectaculaires, temple maya d'Ixchel et sculptures contemporaines</li>
@@ -44,7 +44,7 @@ export default function IslaMujeresPage() {
                 <li><strong>Coucher de soleil</strong> - Spectaculaire depuis n'importe quelle plage ouest</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Plages et spots</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Plages et spots</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Playa Norte</strong> - Eaux calmes et peu profondes, parfaite pour familles</li>
                 <li><strong>Playa Centro</strong> - Proche du centre-ville, ambiance locale</li>
@@ -53,7 +53,7 @@ export default function IslaMujeresPage() {
                 <li><strong>El Garrafón</strong> - Parc naturel avec récifs coralliens et tyrolienne</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Expériences à vivre</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Expériences à vivre</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>Nager dans les eaux cristallines de Playa Norte au lever du soleil</li>
                 <li>Observer les tortues marines lors d'une session snorkeling</li>
@@ -65,7 +65,7 @@ export default function IslaMujeresPage() {
                 <li>Se détendre dans un hamac au bord de l'eau avec une michelada</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Novembre-avril (éviter saison des pluies mai-octobre)<br />
                 <strong>Langue :</strong> Espagnol (anglais parlé dans zones touristiques)<br />
@@ -75,7 +75,7 @@ export default function IslaMujeresPage() {
                 <strong>Durée conseillée :</strong> 2-3 jours (ou excursion d'une journée depuis Cancún)
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Mes conseils</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Mes conseils</h3>
               <p className="text-gray-700">
                 ⛴️ Prenez ferry tôt le matin pour éviter foule et profiter de l'île calme<br />
                 🏍️ Louez golf cart ou scooter pour explorer île facilement et rapidement<br />
@@ -87,7 +87,7 @@ export default function IslaMujeresPage() {
                 🎒 Apportez crème solaire biodégradable pour protéger écosystème marin
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Spécialités culinaires à goûter</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Spécialités culinaires à goûter</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Ceviche de Pescado</strong> - Poisson frais mariné citron vert, spécialité incontournable</li>
                 <li><strong>Tikin Xic</strong> - Poisson entier grillé mariné achiote, recette maya traditionnelle</li>
@@ -123,15 +123,15 @@ export default function IslaMujeresPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Playa Norte</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">La plus belle plage du Mexique</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">La plus belle plage du Mexique</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Playa Norte est régulièrement classée parmi les plus belles plages du monde, et pour cause : son sable
                         blanc poudreux, ses eaux turquoise cristallines peu profondes et ses palmiers qui se balancent créent
                         un décor de carte postale parfait. La plage s'étend sur le côté nord de l'île, protégée des vagues
                         par sa position géographique, offrant une mer calme idéale pour patauger, nager et jouer avec les enfants.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         L'eau est si claire qu'on peut voir ses pieds même à 50 mètres du rivage. Des beach clubs jalonnent
                         la plage, proposant transats, palapas en feuilles de palmier, musique chill et cocktails tropicaux.
                         Le matin tôt, avant l'arrivée des touristes en excursion depuis Cancún, Playa Norte est un paradis
@@ -165,16 +165,16 @@ export default function IslaMujeresPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Downtown</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le cœur coloré de l'île</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le cœur coloré de l'île</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le centre-ville d'Isla Mujeres est un charmant village caribéen aux maisons colorées et ruelles pavées
                         où le golf cart est roi. L'avenue Hidalgo, artère principale piétonne, est bordée de restaurants locaux
                         servant fruits de mer fraîchement pêchés, boutiques d'artisanat mexicain, galeries d'art local et bars
                         de plage décontractés. L'ambiance est résolument laid-back, avec musique reggae en fond sonore et
                         habitants souriants qui saluent les passants.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le Mercado Municipal offre une immersion dans la vie locale avec ses étals de fruits tropicaux, légumes
                         frais et épices colorées. Le soir, les restaurants installent leurs tables sur la rue, créant une atmosphère
                         festive où touristes et locaux se mêlent autour de ceviches et micheladas. Le malecón (promenade en bord
@@ -208,16 +208,16 @@ export default function IslaMujeresPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Punta Sur</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">La pointe spectaculaire de l'île</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">La pointe spectaculaire de l'île</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Punta Sur, la pointe sud de l'île, offre un contraste saisissant avec les plages de sable : des falaises
                         rocheuses battues par les vagues de la mer des Caraïbes, un paysage dramatique où la nature sauvage règne.
                         C'est ici que se trouvent les ruines du temple maya dédié à Ixchel, déesse de la lune et de la fertilité,
                         qui donnait autrefois son caractère sacré à l'île. Le parc écologique Garrafón entoure cette zone avec
                         sentiers naturels, miradors panoramiques et accès privilégié aux falaises.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Des sculptures contemporaines monumentales ponctuent le paysage : un couple enlacé face à l'océan, symbole
                         d'amour éternel, et d'autres œuvres d'art qui dialoguent avec la mer et le ciel. Le point de vue depuis
                         la falaise offre une perspective à 360° : d'un côté les eaux calmes turquoise de la côte ouest, de l'autre
@@ -251,16 +251,16 @@ export default function IslaMujeresPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Snorkeling avec tortues</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Rencontre magique avec la vie marine</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Rencontre magique avec la vie marine</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Isla Mujeres est l'un des meilleurs spots au Mexique pour observer les tortues marines en liberté dans
                         leur habitat naturel. Les eaux cristallines autour de l'île abritent principalement des tortues vertes
                         et imbriquées qui viennent se nourrir d'algues marines sur les récifs peu profonds. Équipé d'un simple
                         masque et tuba, on peut nager aux côtés de ces créatures majestueuses qui glissent gracieusement entre
                         les coraux, indifférentes à la présence humaine tant qu'on respecte leur espace.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Les excursions snorkeling partent généralement du centre-ville et emmènent les visiteurs vers plusieurs
                         spots : El Garrafón pour les tortues, le récif Manchones pour les poissons tropicaux colorés, et le
                         musée sous-marin MUSA avec ses 500+ sculptures immergées qui ont créé un récif artificiel colonisé par

@@ -21,7 +21,7 @@ export default function IlesGiliPage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir les Îles Gili</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir les Îles Gili</h2>
               <p className="text-gray-700 mb-6">
                 Les trois îles Gili (Trawangan, Meno et Air) au large de Lombok incarnent le paradis tropical par excellence.
                 Ces petites îles sans voitures ni scooters offrent une escapade hors du temps où l'on se déplace uniquement
@@ -30,7 +30,7 @@ export default function IlesGiliPage() {
                 Chaque île a sa personnalité : Gili T pour la fête, Gili Meno pour la romance, Gili Air pour l'équilibre parfait.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Les incontournables</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Les incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Gili Trawangan</strong> - L'île festive avec bars, restaurants et fêtes en bord de plage</li>
                 <li><strong>Gili Meno</strong> - L'île romantique, la plus petite et la plus calme</li>
@@ -40,7 +40,7 @@ export default function IlesGiliPage() {
                 <li><strong>Tour des trois îles</strong> - Excursion en bateau pour explorer chaque île</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Mai-septembre (saison sèche), éviter janvier-mars (pluies)<br />
                 <strong>Langue :</strong> Indonésien, anglais courant<br />
@@ -50,7 +50,7 @@ export default function IlesGiliPage() {
                 <strong>Transport :</strong> Vélo ou cidomo uniquement (zéro véhicule motorisé)
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Mes conseils</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Mes conseils</h3>
               <p className="text-gray-700">
                 🐢 Tôt le matin ou en fin d'après-midi pour voir les tortues en snorkeling<br />
                 🚲 Louez un vélo pour faire le tour de l'île (30-45 min selon l'île)<br />
@@ -85,16 +85,16 @@ export default function IlesGiliPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Gili Trawangan</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">L'île party des Gili</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">L'île party des Gili</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Gili Trawangan, surnommée "Gili T", est la plus grande et la plus animée des trois îles. C'est LE spot
                         des backpackers et fêtards en Asie du Sud-Est, avec une ambiance cosmopolite et festive inégalée.
                         Le jour, on bronze sur les plages paradisiaques, on fait du snorkeling avec les tortues, ou on plonge
                         sur les épaves sous-marines. Le soir, l'île s'anime : beach bars avec DJ sets, fêtes en bord de mer,
                         et le fameux "sunset swing" qui fait tourner toutes les têtes d'Instagram.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Malgré son développement touristique rapide, Gili T conserve son charme insulaire : pas de voitures,
                         juste le bruit des vagues et les clochettes des cidomos. L'île se fait le tour à vélo en 45 minutes,
                         révélant plages désertes sur la côte est et restaurants branchés sur la côte ouest. Pour ceux qui veulent
@@ -127,15 +127,15 @@ export default function IlesGiliPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Gili Meno</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">L'île romantique et préservée</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">L'île romantique et préservée</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Gili Meno est la plus petite et la plus paisible des trois sœurs, véritable havre de paix pour couples
                         en lune de miel et voyageurs en quête de tranquillité absolue. Ici, le temps semble suspendu : quelques
                         petits resorts discrets, des plages désertes à perte de vue, et un calme presque irréel comparé à
                         l'effervescence de Gili T. C'est l'île où l'on vient se ressourcer, loin de tout et de tous.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le lac salé au centre de l'île attire quelques oiseaux tropicaux, mais c'est surtout sous l'eau que
                         Gili Meno révèle ses trésors. Les jardins de corail autour de l'île regorgent de vie marine, et le
                         site de plongée "Turtle Heaven" porte admirablement bien son nom : il est presque garanti d'y croiser
@@ -169,16 +169,16 @@ export default function IlesGiliPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Gili Air</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le juste milieu parfait</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le juste milieu parfait</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Gili Air offre le meilleur des deux mondes : l'animation de Gili T sans le côté trop festif, et la
                         tranquillité de Gili Meno sans l'isolement total. C'est l'île du juste équilibre, parfaite pour ceux
                         qui veulent à la fois se détendre sur des plages paradisiaques et profiter d'une petite vie sociale
                         avec bars et restaurants sympathiques. La communauté locale sasak y est plus présente que sur les
                         autres îles, ajoutant une touche d'authenticité bienvenue.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le côté sud-est de Gili Air, près du village principal, concentre la vie avec ses warungs locaux,
                         ses écoles de plongée réputées et ses cafés healthy. Le reste de l'île (tour à vélo en 30 minutes)
                         révèle des plages quasi désertes bordées de cocotiers, idéales pour une journée de farniente total.

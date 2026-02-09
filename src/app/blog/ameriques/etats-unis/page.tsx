@@ -19,14 +19,14 @@ export default function EtatsUnisPage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir les États-Unis</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir les États-Unis</h2>
               <p className="text-gray-700 mb-6">
                 Les États-Unis fascinent par leur diversité culturelle et géographique. Des gratte-ciels de New York
                 aux plages de Californie, en passant par les parcs nationaux spectaculaires, ce pays continent
                 promet des expériences infinies.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Destinations principales</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Destinations principales</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>New York</strong> - La ville qui ne dort jamais</li>
                 <li><strong>Miami</strong> - Plages Art Déco et culture latine</li>
@@ -35,7 +35,7 @@ export default function EtatsUnisPage() {
                 <li><strong>Los Angeles</strong> - Hollywood et culture surf</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Variable selon les régions<br />
                 <strong>Langue :</strong> Anglais<br />

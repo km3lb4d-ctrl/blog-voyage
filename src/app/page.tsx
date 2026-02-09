@@ -49,25 +49,6 @@ export default function Home() {
           <h2 className="headline text-center text-white px-4" style={{ marginBottom: '64px' }}>Explorez le blog</h2>
 
           <div className="space-y-0">
-            {/* Carnet de bord */}
-            <Link href="/carnet-de-bord" className="group block">
-              <div className="bg-[#2d2d2d] overflow-hidden transition-all duration-500 ease-out group-hover:-translate-y-2 group-hover:shadow-2xl flex flex-col md:flex-row items-stretch w-full h-[400px]">
-                <div className="md:w-1/2 overflow-hidden h-full">
-                  <img
-                    src="/images/colombie/carthagene.jpg"
-                    alt="Carnet de bord"
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
-                <div className="p-8 md:w-1/2 flex flex-col justify-center h-full">
-                  <h3 className="text-3xl font-bold mb-4 text-white">Carnet de bord</h3>
-                  <p className="text-[#a1a1a6] text-base">
-                    Tous mes récits de voyage : Colombie, Indonésie, Ile Maurice et bien d&apos;autres destinations.
-                  </p>
-                </div>
-              </div>
-            </Link>
-
             {/* Itinéraires */}
             <Link href="/itineraires" className="group block">
               <div className="bg-[#2d2d2d] overflow-hidden transition-all duration-500 ease-out group-hover:-translate-y-2 group-hover:shadow-2xl flex flex-col md:flex-row items-stretch w-full h-[400px]">

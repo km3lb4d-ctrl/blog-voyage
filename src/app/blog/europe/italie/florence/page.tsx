@@ -21,7 +21,7 @@ export default function FlorencePage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir Florence</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir Florence</h2>
               <p className="text-gray-700 mb-6">
                 Florence, capitale de la Toscane, est un véritable musée à ciel ouvert où naquirent la Renaissance
                 et les plus grands génies de l'histoire de l'art. Dans cette ville compacte posée sur les rives de
@@ -32,7 +32,7 @@ export default function FlorencePage() {
                 savoir-faire séculaires.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Les incontournables</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Les incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Duomo</strong> - Cathédrale Santa Maria del Fiore avec coupole de Brunelleschi</li>
                 <li><strong>Galerie des Offices</strong> - Plus grande collection d'art Renaissance au monde</li>
@@ -44,7 +44,7 @@ export default function FlorencePage() {
                 <li><strong>Mercato Centrale</strong> - Marché couvert gastronomique</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Quartiers emblématiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Quartiers emblématiques</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Centro Storico</strong> - Cœur historique avec Duomo et Piazza della Signoria</li>
                 <li><strong>Oltrarno</strong> - Rive gauche authentique, ateliers d'artisans</li>
@@ -53,7 +53,7 @@ export default function FlorencePage() {
                 <li><strong>San Niccolò</strong> - Village dans la ville, terrasses panoramiques</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Expériences à vivre</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Expériences à vivre</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>Grimper au sommet du Duomo pour une vue vertigineuse</li>
                 <li>Admirer le coucher de soleil depuis Piazzale Michelangelo</li>
@@ -65,7 +65,7 @@ export default function FlorencePage() {
                 <li>Se perdre dans les salles des Offices un matin de semaine</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Avril-juin et septembre-octobre (moins de foule, climat idéal)<br />
                 <strong>Langue :</strong> Italien (anglais dans les zones touristiques)<br />
@@ -75,7 +75,7 @@ export default function FlorencePage() {
                 <strong>Conseil :</strong> Réserver musées en ligne plusieurs semaines à l'avance
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Mes conseils</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Mes conseils</h3>
               <p className="text-gray-700">
                 🎫 Réservez TOUS vos musées en ligne, files d'attente de plusieurs heures sinon<br />
                 🏛️ Visitez les Offices dès l'ouverture à 8h15 pour éviter la foule<br />
@@ -87,7 +87,7 @@ export default function FlorencePage() {
                 📚 La Firenze Card (85€) peut valoir le coup si vous visitez beaucoup de musées
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Spécialités culinaires à goûter</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Spécialités culinaires à goûter</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Bistecca alla Fiorentina</strong> - Énorme côte de bœuf grillée, minimum 1kg</li>
                 <li><strong>Lampredotto</strong> - Sandwich tripes florentines, street food local</li>
@@ -125,16 +125,16 @@ export default function FlorencePage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Duomo</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">La cathédrale iconique de Florence</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">La cathédrale iconique de Florence</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le Duomo de Florence, officiellement cathédrale Santa Maria del Fiore, domine le paysage urbain avec
                         sa coupole rouge brique imaginée par Brunelleschi, véritable prouesse technique de la Renaissance.
                         Sa façade de marbre polychrome blanc, vert et rose crée un effet visuel saisissant qui capture
                         instantanément le regard. Le campanile de Giotto, tour-clocher élancée de 85 mètres, complète
                         harmonieusement cet ensemble architectural exceptionnel.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Grimper les 463 marches jusqu'au sommet de la coupole est une expérience inoubliable : on traverse
                         les couloirs étroits entre les deux coques de la coupole, découvre de près les fresques du Jugement
                         Dernier de Vasari, et débouche sur une terrasse panoramique offrant une vue à 360° sur Florence et
@@ -170,16 +170,16 @@ export default function FlorencePage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Galerie des Offices</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le temple de la Renaissance italienne</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le temple de la Renaissance italienne</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         La Galerie des Offices (Uffizi) est l'un des musées les plus prestigieux au monde, abritant la plus
                         importante collection d'art de la Renaissance italienne. Fondée par les Médicis, elle rassemble des
                         chefs-d'œuvre absolus : La Naissance de Vénus et Le Printemps de Botticelli, L'Annonciation de
                         Léonard de Vinci, la Vénus d'Urbino du Titien, et des œuvres de Michel-Ange, Raphaël, Caravage...
                         Chaque salle est un concentré de beauté et d'histoire de l'art.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         La visite des Offices est une expérience intense qui demande du temps et de l'énergie. Les salles
                         se succèdent dans un parcours chronologique permettant de suivre l'évolution de l'art italien du
                         Moyen Âge à l'époque baroque. Les fenêtres du corridor offrent des vues magnifiques sur l'Arno et
@@ -215,16 +215,16 @@ export default function FlorencePage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Ponte Vecchio</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le pont médiéval emblématique de Florence</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le pont médiéval emblématique de Florence</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le Ponte Vecchio, "Vieux Pont" en italien, est le plus ancien pont de Florence et l'un des symboles
                         les plus romantiques de la ville. Construit en 1345, il a la particularité unique d'être bordé de
                         boutiques construites en encorbellement au-dessus de l'Arno. Autrefois occupées par des bouchers et
                         tanneurs, ces échoppes abritent aujourd'hui des joailliers et orfèvres perpétuant une tradition
                         artisanale séculaire qui fait la renommée du pont.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Au-dessus des boutiques court le corridor de Vasari, passage secret construit en 1565 pour permettre
                         aux Médicis de circuler entre le Palazzo Vecchio et le Palazzo Pitti sans se mêler au peuple. Le pont
                         offre des vues magnifiques sur l'Arno, particulièrement au coucher du soleil quand la lumière dorée
@@ -260,16 +260,16 @@ export default function FlorencePage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">David de Michel-Ange</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Chef-d'œuvre absolu de la sculpture Renaissance</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Chef-d'œuvre absolu de la sculpture Renaissance</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le David de Michel-Ange, conservé à la Galerie de l'Académie, est sans doute la sculpture la plus
                         célèbre au monde. Cette statue colossale de 5,17 mètres représente le héros biblique avant son combat
                         contre Goliath, dans une posture de contrapposto parfaite qui exprime à la fois la tension et
                         l'harmonie. Sculptée dans un seul bloc de marbre de Carrare entre 1501 et 1504, elle témoigne du
                         génie de Michel-Ange qui n'avait que 26 ans lorsqu'il l'a réalisée.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Face au David, on est saisi par la perfection anatomique, la finesse des détails (veines, muscles,
                         mèches de cheveux) et l'intensité du regard tourné vers son ennemi. La sculpture symbolise la force,
                         le courage et l'idéal humaniste de la Renaissance florentine. La galerie présente également d'autres

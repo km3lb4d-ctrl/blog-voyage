@@ -21,7 +21,7 @@ export default function LombokPage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir Lombok</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir Lombok</h2>
               <p className="text-gray-700 mb-6">
                 Lombok, voisine moins touristique de Bali, séduit par son authenticité préservée. Dominée par le
                 volcan Rinjani, deuxième plus haut sommet d'Indonésie, l'île offre des plages de sable blanc désertes,
@@ -30,7 +30,7 @@ export default function LombokPage() {
                 et l'authenticité loin des foules.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Les incontournables</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Les incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Mont Rinjani</strong> - Trek mythique de 2-3 jours vers le cratère et le lac Segara Anak</li>
                 <li><strong>Kuta Lombok</strong> - Plages paradisiaques pour surfeurs (ne pas confondre avec Kuta Bali)</li>
@@ -40,7 +40,7 @@ export default function LombokPage() {
                 <li><strong>Villages sasak</strong> - Découverte de la culture traditionnelle authentique</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Mai-septembre (saison sèche)<br />
                 <strong>Langue :</strong> Indonésien, langue sasak, anglais basique<br />
@@ -50,7 +50,7 @@ export default function LombokPage() {
                 <strong>Transport :</strong> Location de scooter indispensable
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Mes conseils</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Mes conseils</h3>
               <p className="text-gray-700">
                 🥾 Prévoyez 3-4 jours pour le trek du Rinjani avec guide obligatoire<br />
                 🏍️ Le scooter est le meilleur moyen de découvrir l'île en liberté<br />
@@ -84,14 +84,14 @@ export default function LombokPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Mont Rinjani</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le trek mythique d'Indonésie</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le trek mythique d'Indonésie</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le Mont Rinjani, à 3726 mètres d'altitude, est le deuxième plus haut volcan d'Indonésie et l'un
                         des treks les plus spectaculaires d'Asie du Sud-Est. L'ascension de 2-3 jours mène au cratère
                         abritant le magnifique lac Segara Anak aux eaux turquoise, considéré comme sacré par les locaux.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le trek traverse différents écosystèmes : savane, forêt tropicale et paysages lunaires volcaniques.
                         L'effort est intense mais la récompense est immense : lever de soleil au sommet avec vue sur Bali
                         et Sumbawa, baignade dans les sources chaudes naturelles au bord du lac, et nuit à la belle étoile
@@ -124,15 +124,15 @@ export default function LombokPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Kuta Lombok</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le paradis des surfeurs</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le paradis des surfeurs</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         À ne pas confondre avec son homonyme balinais, Kuta Lombok est un petit village de pêcheurs
                         devenu spot de surf légendaire. Ses plages de sable blanc immaculé s'étendent à perte de vue,
                         bordées de collines verdoyantes. Tanjung Aan, Selong Belanak, Mawun : chaque plage a son caractère
                         unique, mais toutes partagent cette beauté sauvage préservée du tourisme de masse.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         L'atmosphère y est décontractée et bohème : warungs (restaurants locaux) les pieds dans le sable,
                         cours de surf au lever du soleil, et soirées tranquilles à contempler les vagues. C'est le lieu
                         parfait pour se ressourcer après l'effort du Rinjani ou simplement profiter de la dolce vita
@@ -165,14 +165,14 @@ export default function LombokPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Cascades de Tiu Kelep</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Joyau caché dans la jungle</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Joyau caché dans la jungle</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Les cascades de Tiu Kelep, nichées au pied du Mont Rinjani, sont parmi les plus belles d'Indonésie.
                         Pour y accéder, il faut entreprendre une randonnée d'environ 45 minutes à travers la jungle luxuriante,
                         en traversant plusieurs fois la rivière à gué (maillot de bain sous les vêtements recommandé !).
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         La récompense est à la hauteur de l'effort : une cascade impressionnante de 42 mètres qui se jette
                         dans un bassin naturel d'eau cristalline. Selon la légende locale, passer derrière le rideau d'eau
                         rajeunit d'un an. Vrai ou pas, l'expérience de se baigner dans ce décor de carte postale au milieu
@@ -205,15 +205,15 @@ export default function LombokPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Villages Sasak</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Immersion dans la tradition</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Immersion dans la tradition</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Les Sasak sont le peuple autochtone de Lombok, et visiter leurs villages traditionnels comme Sade
                         ou Ende offre un voyage dans le temps. Les maisons aux toits de chaume, les greniers à riz sur
                         pilotis (lumbung) et les techniques artisanales ancestrales témoignent d'un mode de vie préservé
                         depuis des siècles.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Les habitants perpétuent les traditions : tissage de textiles colorés sur métiers à tisser manuels,
                         fabrication de paniers en bambou, et architecture unique avec sols en terre battue mélangée à de
                         la bouse de buffle (étonnamment propre et écologique). Les villageois accueillent chaleureusement

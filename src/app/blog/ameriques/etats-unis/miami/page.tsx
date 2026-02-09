@@ -21,7 +21,7 @@ export default function MiamiPage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir Miami</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir Miami</h2>
               <p className="text-gray-700 mb-6">
                 Miami, perle de la Floride baignée de soleil toute l'année, est une ville unique où l'influence latine
                 se mêle à la culture américaine pour créer une atmosphère électrique et cosmopolite. Entre plages
@@ -31,7 +31,7 @@ export default function MiamiPage() {
                 à Brickell, et où chaque quartier raconte une histoire différente de ce melting-pot culturel fascinant.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Les incontournables</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Les incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>South Beach</strong> - Plage mythique avec bâtiments Art Déco colorés et Ocean Drive</li>
                 <li><strong>Wynwood Walls</strong> - Quartier de street art mondialement reconnu avec murals géantes</li>
@@ -43,7 +43,7 @@ export default function MiamiPage() {
                 <li><strong>Key Biscayne</strong> - Île paradisiaque avec plages tranquilles et phare historique</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Quartiers emblématiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Quartiers emblématiques</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>South Beach</strong> - Plages, Art Déco, vie nocturne et ambiance glamour</li>
                 <li><strong>Wynwood</strong> - Galeries d'art, street art, cafés hipster et brasseries artisanales</li>
@@ -52,7 +52,7 @@ export default function MiamiPage() {
                 <li><strong>Coconut Grove</strong> - Quartier bohème avec végétation luxuriante et marina</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Expériences à vivre</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Expériences à vivre</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>Regarder le coucher de soleil depuis South Pointe Park</li>
                 <li>Prendre un café cubain (cafecito) à Little Havana</li>
@@ -64,7 +64,7 @@ export default function MiamiPage() {
                 <li>Nager avec les dauphins à Key Biscayne</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Novembre-avril (éviter chaleur écrasante et risque d'ouragans en été)<br />
                 <strong>Langue :</strong> Anglais et espagnol (ville bilingue)<br />
@@ -74,7 +74,7 @@ export default function MiamiPage() {
                 <strong>Durée conseillée :</strong> 4-5 jours minimum
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Mes conseils</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Mes conseils</h3>
               <p className="text-gray-700">
                 🚗 Louez une voiture décapotable pour vivre l'expérience Miami à fond<br />
                 🏖️ South Beach est bondée le week-end, préférez les matins en semaine<br />
@@ -86,7 +86,7 @@ export default function MiamiPage() {
                 🎉 La vie nocturne démarre tard (minuit), prévoyez des nuits blanches
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Spécialités culinaires à goûter</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Spécialités culinaires à goûter</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Cuban Sandwich</strong> - Sandwich cubain au porc rôti, jambon et cornichons pressé</li>
                 <li><strong>Stone Crabs</strong> - Pinces de crabe de pierre, spécialité locale (oct-mai)</li>
@@ -124,15 +124,15 @@ export default function MiamiPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">South Beach</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le cœur glamour de Miami</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le cœur glamour de Miami</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         South Beach incarne tout ce qu'on imagine de Miami : plages de sable blanc bordées de palmiers,
                         bâtiments Art Déco aux façades pastel (rose, turquoise, jaune citron), et une énergie vibrante
                         qui pulse jour et nuit. Ocean Drive, l'artère mythique, est bordée de terrasses où mannequins,
                         célébrités et touristes sirotent des cocktails en regardant défiler décapotables et rollers.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le quartier historique Art Déco concentre la plus grande collection d'architecture Art Déco au monde,
                         avec plus de 800 bâtiments préservés datant des années 1930-1940. Le soir, les néons illuminent
                         les façades et les clubs ouvrent leurs portes pour une vie nocturne légendaire. La plage elle-même
@@ -168,16 +168,16 @@ export default function MiamiPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Wynwood</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">La galerie d'art à ciel ouvert</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">La galerie d'art à ciel ouvert</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Wynwood est un ancien quartier industriel transformé en véritable musée d'art urbain à ciel ouvert.
                         Les Wynwood Walls, créées en 2009, ont attiré les plus grands street artists du monde entier :
                         Shepard Fairey, Os Gemeos, Banksy... Chaque mur, chaque entrepôt, chaque ruelle est une explosion
                         de couleurs et de créativité, avec des murals géantes qui racontent des histoires politiques,
                         sociales ou simplement visuellement époustouflantes.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Au-delà du street art, Wynwood s'est transformé en quartier hipster bourdonnant de vie : galeries d'art
                         contemporain dans d'anciens entrepôts, brasseries artisanales dans des espaces industriels reconvertis,
                         restaurants fusion créatifs et boutiques de designers locaux. Le soir, le quartier s'anime avec ses
@@ -213,16 +213,16 @@ export default function MiamiPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Little Havana</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le cœur cubain de Miami</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le cœur cubain de Miami</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Little Havana est le quartier où bat le cœur de la communauté cubaine de Miami. Sur Calle Ocho
                         (8ème rue), l'artère principale, on entre dans un autre monde : musique salsa qui s'échappe des
                         boutiques, fumée de cigares roulés à la main, vieillards jouant aux dominos au Domino Park sous
                         les arbres, et murals colorées célébrant l'héritage cubain. Ici, l'espagnol domine l'anglais,
                         et l'ambiance est résolument tropicale et festive.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Les institutions locales racontent l'histoire de l'exil cubain : le restaurant Versailles, véritable
                         institution où se retrouve la communauté pour débattre politique autour d'un cafecito, les fabriques
                         de cigares où les torcedores roulent à la main comme à La Havane, et les galeries d'art célébrant
@@ -259,16 +259,16 @@ export default function MiamiPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Design District</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le temple du luxe et du design</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le temple du luxe et du design</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le Miami Design District est le quartier où le luxe, l'art et l'architecture se rencontrent pour
                         créer une expérience shopping haut de gamme unique. Ancienne zone industrielle transformée en
                         destination de luxe, le quartier aligne les boutiques des plus grandes maisons : Hermès, Louis Vuitton,
                         Dior, Prada... Mais contrairement aux malls traditionnels, ici l'architecture elle-même est une œuvre
                         d'art avec des bâtiments avant-gardistes signés par des architectes de renom.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Entre deux sessions shopping, on découvre des installations d'art public monumentales : sculptures
                         contemporaines, murals géantes, et le Museum Garage, parking de sept étages où chaque niveau a été
                         conçu par un collectif d'architectes différent. Les restaurants gastronomiques du quartier attirent

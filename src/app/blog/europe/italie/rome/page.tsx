@@ -21,7 +21,7 @@ export default function RomePage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir Rome</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir Rome</h2>
               <p className="text-gray-700 mb-6">
                 Rome, capitale italienne et cœur de l'ancien Empire romain, enchante par ses vestiges antiques,
                 ses places baroques et son art de vivre incomparable. Marchant dans ses rues pavées, on traverse
@@ -31,7 +31,7 @@ export default function RomePage() {
                 son nom, offrant aux visiteurs un voyage dans le temps absolument unique.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Les incontournables</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Les incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Colisée</strong> - Amphithéâtre emblématique où combattaient les gladiateurs</li>
                 <li><strong>Forum Romain</strong> - Cœur politique et religieux de la Rome antique</li>
@@ -43,7 +43,7 @@ export default function RomePage() {
                 <li><strong>Piazza Navona</strong> - Place baroque aux trois fontaines monumentales</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Quartiers emblématiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Quartiers emblématiques</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Centro Storico</strong> - Cœur historique avec Panthéon et Piazza Navona</li>
                 <li><strong>Trastevere</strong> - Bohème et authentique, vie nocturne animée</li>
@@ -52,7 +52,7 @@ export default function RomePage() {
                 <li><strong>Prati</strong> - Quartier résidentiel élégant près du Vatican</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Expériences à vivre</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Expériences à vivre</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>Jeter une pièce dans la Fontaine de Trevi au lever du soleil</li>
                 <li>Déguster un gelato artisanal chez Giolitti ou Fatamorgana</li>
@@ -64,7 +64,7 @@ export default function RomePage() {
                 <li>Dîner dans une trattoria familiale à Testaccio</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Avril-juin et septembre-octobre (climat agréable, moins de touristes)<br />
                 <strong>Langue :</strong> Italien (anglais dans les zones touristiques)<br />
@@ -74,7 +74,7 @@ export default function RomePage() {
                 <strong>Conseil :</strong> Réserver Colisée et Vatican en ligne à l'avance
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Mes conseils</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Mes conseils</h3>
               <p className="text-gray-700">
                 🎫 Achetez la Roma Pass (transports + entrées musées)<br />
                 🕐 Visitez le Colisée et le Vatican tôt le matin ou en fin d'après-midi<br />
@@ -86,7 +86,7 @@ export default function RomePage() {
                 🌙 Rome la nuit est magique, promenez-vous après le dîner
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Spécialités culinaires à goûter</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Spécialités culinaires à goûter</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Cacio e Pepe</strong> - Pâtes au pecorino et poivre noir, simplicité romaine</li>
                 <li><strong>Carbonara</strong> - Authentique avec guanciale, œufs et pecorino (pas de crème !)</li>
@@ -124,15 +124,15 @@ export default function RomePage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Colisée</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">L'amphithéâtre le plus célèbre du monde</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">L'amphithéâtre le plus célèbre du monde</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le Colisée, symbole absolu de Rome et de la puissance de l'Empire romain, impressionne par ses dimensions
                         colossales et son histoire fascinante. Cet amphithéâtre pouvait accueillir jusqu'à 50 000 spectateurs
                         venus assister aux combats de gladiateurs, aux chasses d'animaux exotiques et aux reconstitutions de
                         batailles navales. Construit en 80 après J.-C., il témoigne du génie architectural romain.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         En parcourant ses galeries souterraines récemment ouvertes au public, on découvre les coulisses des jeux :
                         cages des fauves, systèmes de trappes et de monte-charges qui permettaient des apparitions spectaculaires
                         dans l'arène. Malgré les tremblements de terre et les pillages au fil des siècles, le Colisée reste
@@ -167,15 +167,15 @@ export default function RomePage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Vatican</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le plus petit État du monde, trésor d'art sacré</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le plus petit État du monde, trésor d'art sacré</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le Vatican, enclave indépendante au cœur de Rome, abrite certaines des plus grandes œuvres d'art de
                         l'humanité. La Chapelle Sixtine, avec ses fresques extraordinaires de Michel-Ange représentant la Création
                         et le Jugement Dernier, laisse sans voix. Les Musées du Vatican constituent un labyrinthe de galeries
                         remplies de sculptures antiques, tapisseries flamandes et peintures de maîtres de la Renaissance.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         La Basilique Saint-Pierre, plus grande église du monde chrétien, impressionne par sa coupole vertigineuse
                         dessinée par Michel-Ange et sa Pietà sculptée avec une délicatesse incroyable. Grimper au sommet du dôme
                         offre une vue panoramique époustouflante sur Rome. L'audience papale du mercredi matin, gratuite et
@@ -210,15 +210,15 @@ export default function RomePage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Fontaine de Trevi</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">La plus célèbre fontaine du monde</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">La plus célèbre fontaine du monde</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         La Fontaine de Trevi est un chef-d'œuvre baroque spectaculaire qui jaillit au détour d'une petite place,
                         surprenant par sa grandeur théâtrale. Haute de 26 mètres et large de 49 mètres, elle représente Neptune
                         sur son char tiré par des chevaux marins, entouré de tritons et d'allégories. L'eau cristalline cascade
                         en créant un bruit apaisant qui contraste avec l'agitation touristique permanente.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         La tradition veut qu'on y jette une pièce par-dessus l'épaule : une pour revenir à Rome, deux pour
                         trouver l'amour, trois pour se marier. Ces pièces, collectées chaque nuit, financent des œuvres
                         caritatives. Pour vraiment apprécier la fontaine, venez au lever du soleil quand la place est encore
@@ -253,15 +253,15 @@ export default function RomePage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Trastevere</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le quartier bohème du vrai Rome</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le quartier bohème du vrai Rome</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Trastevere, littéralement "au-delà du Tibre", est le quartier le plus authentique et charmant de Rome.
                         Ses ruelles pavées étroites, ses façades ocre ornées de glycines, ses petites places animées et ses
                         trattorias familiales incarnent la dolce vita romaine. Le jour, les artisans travaillent dans leurs
                         ateliers, les nonnas discutent sur le pas des portes, et le linge sèche aux fenêtres.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le soir, Trastevere se transforme en épicentre de la vie nocturne romaine. Les places comme Piazza
                         Santa Maria se remplissent de Romains venus boire un spritz, les restaurants sortent leurs tables sur
                         les pavés, et les musiciens de rue créent une ambiance festive. C'est ici qu'il faut venir pour déguster

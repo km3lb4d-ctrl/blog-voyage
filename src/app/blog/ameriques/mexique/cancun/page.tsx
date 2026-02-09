@@ -21,7 +21,7 @@ export default function CancunPage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir Cancún</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir Cancún</h2>
               <p className="text-gray-700 mb-6">
                 Cancún, destination balnéaire phare du Mexique et porte d'entrée de la Riviera Maya, séduit par
                 ses plages de carte postale aux eaux turquoise cristallines et son sable blanc poudreux. Ancienne
@@ -32,7 +32,7 @@ export default function CancunPage() {
                 une expérience caribéenne authentiquement mexicaine.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Les incontournables</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Les incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Zona Hotelera</strong> - Langue de sable de 22 km bordée de resorts et plages paradisiaques</li>
                 <li><strong>Playa Delfines</strong> - Plage publique moins bondée avec vagues et lettres colorées CANCÚN</li>
@@ -44,7 +44,7 @@ export default function CancunPage() {
                 <li><strong>Mercado 28</strong> - Marché artisanal pour souvenirs et artisanat mexicain</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Zones et plages</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Zones et plages</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Zona Hotelera</strong> - Resorts all-inclusive, plages privées, vie nocturne et shopping</li>
                 <li><strong>Centro (Downtown)</strong> - Authenticité mexicaine, restaurants locaux et prix abordables</li>
@@ -53,7 +53,7 @@ export default function CancunPage() {
                 <li><strong>Puerto Juárez</strong> - Port de départ pour Isla Mujeres</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Expériences à vivre</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Expériences à vivre</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>Nager avec les tortues marines à Akumal</li>
                 <li>Plonger dans les cenotes de la Riviera Maya</li>
@@ -65,7 +65,7 @@ export default function CancunPage() {
                 <li>Observer les baleines requins (juin-septembre)</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Novembre-avril (éviter saison des ouragans juin-novembre)<br />
                 <strong>Langue :</strong> Espagnol (anglais très répandu dans Zona Hotelera)<br />
@@ -75,7 +75,7 @@ export default function CancunPage() {
                 <strong>Durée conseillée :</strong> 4-7 jours (base pour explorer Riviera Maya)
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Mes conseils</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Mes conseils</h3>
               <p className="text-gray-700">
                 💰 Payez en pesos pour meilleurs taux, évitez de payer en USD<br />
                 🏖️ Plages publiques accessibles même en Zona Hotelera (tous les 500m)<br />
@@ -87,7 +87,7 @@ export default function CancunPage() {
                 🕐 Visitez Chichén Itzá tôt le matin pour éviter foule et chaleur
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Spécialités culinaires à goûter</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Spécialités culinaires à goûter</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Tacos al Pastor</strong> - Tacos au porc mariné avec ananas grillé</li>
                 <li><strong>Cochinita Pibil</strong> - Porc mariné achiote cuit lentement, spécialité yucatèque</li>
@@ -125,16 +125,16 @@ export default function CancunPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Zona Hotelera</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le paradis balnéaire de Cancún</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le paradis balnéaire de Cancún</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         La Zona Hotelera est une langue de terre en forme de "7" de 22 kilomètres qui sépare la lagune
                         Nichupté de la mer des Caraïbes. C'est ici que se concentrent les resorts all-inclusive luxueux,
                         les plages paradisiaques au sable blanc et aux eaux turquoise, les centres commerciaux climatisés
                         et les clubs de nuit légendaires. L'avenue Kukulcán traverse toute la zone, bordée de palmiers
                         et offrant des vues spectaculaires sur le lagon d'un côté et la mer de l'autre.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Chaque plage a sa personnalité : Playa Delfines avec ses vagues et son sable immaculé, Playa Tortugas
                         pour les sports nautiques et parasailing, Playa Caracol pour les familles avec enfants. Le soir,
                         la zone se transforme en capitale de la fête caribéenne avec Coco Bongo, The City et autres temples
@@ -170,16 +170,16 @@ export default function CancunPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Isla Mujeres</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">L'île aux Femmes, échappée paradisiaque</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">L'île aux Femmes, échappée paradisiaque</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Isla Mujeres, située à seulement 30 minutes en ferry de Cancún, offre une atmosphère complètement
                         différente : plus calme, plus authentique, plus caribéenne. Cette petite île de 8 km de long sur
                         400 mètres de large était autrefois un sanctuaire dédié à la déesse maya Ixchel. Aujourd'hui,
                         c'est un paradis pour les amoureux de snorkeling avec ses eaux cristallines habitées par des tortues
                         marines, raies et poissons tropicaux multicolores.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Playa Norte, régulièrement classée parmi les plus belles plages du Mexique, offre des eaux turquoise
                         peu profondes parfaites pour patauger. Le village coloré du centre-ville pulse au rythme des golf
                         carts électriques (moyen de transport principal), avec ses restaurants de fruits de mer, boutiques
@@ -216,16 +216,16 @@ export default function CancunPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Cenotes de la Riviera Maya</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Piscines sacrées des Mayas</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Piscines sacrées des Mayas</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Les cenotes sont l'une des merveilles naturelles les plus fascinantes du Yucatán : des puits naturels
                         d'eau douce cristalline formés par l'effondrement du sol calcaire, révélant un réseau souterrain
                         de rivières et grottes. Pour les Mayas, ces cenotes étaient sacrés, considérés comme des portes
                         vers Xibalbá, le monde souterrain. Aujourd'hui, ils offrent une expérience de baignade unique,
                         rafraîchissante alternative aux plages salées de la côte.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Chaque cenote a son caractère unique : Ik Kil près de Chichén Itzá est spectaculaire avec ses lianes
                         tombant des hauteurs, Dos Ojos offre plongée dans un système de cavernes sous-marines, Gran Cenote
                         permet de nager avec les tortues, et Cenote Azul séduit les plongeurs du haut de ses falaises.
@@ -262,16 +262,16 @@ export default function CancunPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Chichén Itzá</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Merveille du monde maya</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Merveille du monde maya</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Chichén Itzá, l'une des Sept Nouvelles Merveilles du Monde, est le site archéologique maya le plus
                         emblématique du Mexique. Situé à 2h30 de Cancún, ce complexe spectaculaire dominé par la pyramide
                         de Kukulcán (El Castillo) témoigne du génie architectural et astronomique des Mayas. Avec 30 mètres
                         de hauteur et 91 marches sur chaque face (365 au total avec la plateforme supérieure = jours de
                         l'année), la pyramide est un calendrier en pierre aligné avec précision sur les équinoxes.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le site révèle d'autres merveilles : le terrain de jeu de balle, le plus grand de Méso-Amérique
                         avec une acoustique stupéfiante, le Cenote Sagrado où les Mayas faisaient des sacrifices, l'observatoire
                         astronomique El Caracol avec sa forme d'escargot, et le Temple des Guerriers avec ses colonnes sculptées.

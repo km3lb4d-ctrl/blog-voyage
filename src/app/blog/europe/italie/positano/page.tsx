@@ -21,7 +21,7 @@ export default function PositanoPage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir Positano</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir Positano</h2>
               <p className="text-gray-700 mb-6">
                 Positano, joyau de la côte Amalfitaine, est un tableau vivant où des maisons pastel rose, jaune et
                 ocre dévalent en cascade la falaise jusqu'à la mer Tyrrhénienne d'un bleu profond. Ancien village de
@@ -32,7 +32,7 @@ export default function PositanoPage() {
                 époustouflant.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Les incontournables</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Les incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Spiaggia Grande</strong> - Plage principale bordée de bars et restaurants</li>
                 <li><strong>Sentier des Dieux</strong> - Randonnée panoramique spectaculaire sur les falaises</li>
@@ -44,7 +44,7 @@ export default function PositanoPage() {
                 <li><strong>Franco's Bar</strong> - Terrasse panoramique légendaire pour l'aperitivo</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Quartiers et zones</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Quartiers et zones</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Centro</strong> - Cœur du village avec boutiques et restaurants</li>
                 <li><strong>Fornillo</strong> - Quartier résidentiel plus calme à l'ouest</li>
@@ -53,7 +53,7 @@ export default function PositanoPage() {
                 <li><strong>La Scogliera</strong> - Zone côtière avec clubs de plage exclusifs</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Expériences à vivre</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Expériences à vivre</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>Regarder le coucher de soleil depuis Franco's Bar</li>
                 <li>Parcourir le Sentier des Dieux de Positano à Praiano</li>
@@ -65,7 +65,7 @@ export default function PositanoPage() {
                 <li>Dîner au restaurant Da Adolfo accessible uniquement en bateau</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Mai-juin et septembre (juillet-août très fréquenté)<br />
                 <strong>Langue :</strong> Italien (anglais largement parlé dans le tourisme)<br />
@@ -75,7 +75,7 @@ export default function PositanoPage() {
                 <strong>Conseil :</strong> Réserver hébergement longtemps à l'avance, prix élevés
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Mes conseils</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Mes conseils</h3>
               <p className="text-gray-700">
                 🚌 Arrivez tôt le matin ou en fin d'après-midi pour éviter les embouteillages<br />
                 👟 Portez des chaussures confortables, tout est en pente et en escaliers<br />
@@ -87,7 +87,7 @@ export default function PositanoPage() {
                 🍋 Les citrons d'Amalfi sont énormes, goûtez tout ce qui est au limoncello
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Spécialités culinaires à goûter</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Spécialités culinaires à goûter</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Scialatielli ai Frutti di Mare</strong> - Pâtes fraîches aux fruits de mer</li>
                 <li><strong>Limoncello</strong> - Liqueur de citron artisanale, spécialité locale</li>
@@ -125,9 +125,9 @@ export default function PositanoPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Spiaggia Grande</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le cœur animé de Positano au bord de l'eau</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le cœur animé de Positano au bord de l'eau</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         La Spiaggia Grande est la plage principale de Positano, point névralgique où convergent toutes les
                         ruelles escarpées du village. Cette longue étendue de galets gris est bordée de clubs de plage privés
                         aux transats colorés, de restaurants les pieds dans l'eau et de bars à cocktails. Le dôme en
@@ -135,7 +135,7 @@ export default function PositanoPage() {
                         parfaite. L'atmosphère est chic et décontractée à la fois : familles italiennes, jet-setters discrets
                         et touristes émerveillés se côtoient dans une ambiance de vacances élégantes.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         C'est aussi le point de départ des ferries pour Capri, Amalfi et la côte, ainsi que des bateaux-taxis
                         qui permettent d'accéder aux plages isolées. Le matin, les pêcheurs locaux vendent encore leur prise
                         du jour, perpétuant une tradition séculaire. Le soir, la plage se transforme en promenade romantique
@@ -171,9 +171,9 @@ export default function PositanoPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Sentier des Dieux</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Randonnée spectaculaire au-dessus de la côte</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Randonnée spectaculaire au-dessus de la côte</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le Sentiero degli Dei (Sentier des Dieux) est l'une des plus belles randonnées d'Italie, serpentant
                         à flanc de montagne à 600 mètres au-dessus de la mer Tyrrhénienne. Le parcours de 8 kilomètres relie
                         Bomerano (au-dessus de Positano) à Nocelle (près de Praiano), offrant des panoramas à couper le souffle
@@ -181,7 +181,7 @@ export default function PositanoPage() {
                         falaises vertigineuses, végétation méditerranéenne parfumée, criques turquoise en contrebas et villages
                         accrochés aux montagnes.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le sentier, ancien chemin muletier pavé, traverse des terrasses de vignes et de citronniers abandonnées,
                         passe devant des bergeries de pierre et des chapelles votives. La difficulté est modérée mais le dénivelé
                         important requiert une bonne condition physique. Partez tôt le matin en été pour éviter la chaleur,
@@ -218,9 +218,9 @@ export default function PositanoPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Village vertical et ruelles</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">L'architecture unique en cascade</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">L'architecture unique en cascade</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Positano n'a pas vraiment de rues au sens traditionnel : son tissu urbain est un labyrinthe vertical
                         d'escaliers pentus, de passages voûtés et de ruelles étroites qui zigzaguent entre les maisons colorées
                         accrochées à la falaise. Chaque niveau offre une perspective différente sur le village et la mer, créant
@@ -228,7 +228,7 @@ export default function PositanoPage() {
                         construites en terrasses successives, ont leurs jardins sur le toit de la maison d'en dessous, formant
                         un empilement harmonieux de cubes colorés ornés de bougainvilliers et de citronniers.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Se promener dans ces ruelles est une aventure en soi : on découvre des boutiques artisanales cachées
                         vendant robes en lin, sandales sur mesure et céramiques peintes, des galeries d'art contemporain, des
                         restaurants familiaux où trois générations cuisinent ensemble. Les terrasses fleuries offrent des coins
@@ -265,9 +265,9 @@ export default function PositanoPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Explorer la côte en bateau</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">La meilleure perspective sur Positano</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">La meilleure perspective sur Positano</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Voir Positano et la côte Amalfitaine depuis la mer est une expérience inoubliable qui révèle toute la
                         beauté spectaculaire de la région. Louer un bateau privé avec skipper pour la journée permet d'explorer
                         les criques secrètes, grottes marines et plages isolées inaccessibles par la terre. On navigue au pied
@@ -275,7 +275,7 @@ export default function PositanoPage() {
                         se baigner, et on découvre des restaurants de plage comme Da Adolfo accessibles uniquement par bateau,
                         où l'on déjeune de poisson grillé les pieds dans le sable.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         L'archipel Li Galli, trois îlots rocheux au large de Positano où Noureev possédait une villa, se visite
                         en faisant le tour en bateau. On peut pousser jusqu'à la Grotte d'Émeraude près d'Amalfi, où la lumière
                         sous-marine crée des reflets verts magiques. Mais le moment le plus photogénique reste le retour vers

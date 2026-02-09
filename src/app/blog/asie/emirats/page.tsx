@@ -18,14 +18,14 @@ export default function EmiratsPage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir les Émirats Arabes Unis</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir les Émirats Arabes Unis</h2>
               <p className="text-gray-700 mb-6">
                 Les Émirats Arabes Unis incarnent l'alliance entre traditions bédouines et modernité ultra-sophistiquée.
                 De Dubaï et ses gratte-ciels aux dunes dorées du désert, ce pays offre une expérience unique
                 de luxe et d'aventure.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Destinations principales</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Destinations principales</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Dubaï</strong> - Burj Khalifa, malls géants et îles artificielles</li>
                 <li><strong>Abu Dhabi</strong> - Grande Mosquée et île de Yas</li>
@@ -34,7 +34,7 @@ export default function EmiratsPage() {
                 <li><strong>Sharjah</strong> - Capitale culturelle et musées</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Novembre-avril (hiver doux)<br />
                 <strong>Langue :</strong> Arabe (anglais largement parlé)<br />

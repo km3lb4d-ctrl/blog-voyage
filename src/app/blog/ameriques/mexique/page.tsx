@@ -19,14 +19,14 @@ export default function MexiquePage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir le Mexique</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir le Mexique</h2>
               <p className="text-gray-700 mb-6">
                 Le Mexique captive par sa richesse culturelle millénaire et ses paysages variés. De la Riviera Maya
                 aux cités coloniales, en passant par les sites archéologiques mayas, ce pays coloré mêle tradition
                 et modernité avec passion.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Destinations principales</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Destinations principales</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Riviera Maya</strong> - Cancún, Playa del Carmen, Tulum</li>
                 <li><strong>Chichen Itza</strong> - Pyramide emblématique et merveille du monde</li>
@@ -35,7 +35,7 @@ export default function MexiquePage() {
                 <li><strong>Valladolid</strong> - Ville coloniale authentique</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Novembre-avril (saison sèche)<br />
                 <strong>Langue :</strong> Espagnol<br />

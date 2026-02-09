@@ -19,14 +19,14 @@ export default function ColombiePage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir la Colombie</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir la Colombie</h2>
               <p className="text-gray-700 mb-6">
                 La Colombie séduit par sa diversité géographique exceptionnelle et sa joie de vivre contagieuse.
                 Des ruelles colorées de Carthagène aux plages paradisiaques de San Andrés, en passant par Bogotá
                 perchée dans les Andes, ce pays révèle ses trésors cachés.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Destinations principales</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Destinations principales</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Carthagène</strong> - Joyau colonial fortifié des Caraïbes</li>
                 <li><strong>Bogotá</strong> - Capitale andine moderne et culturelle</li>
@@ -35,7 +35,7 @@ export default function ColombiePage() {
                 <li><strong>Îles Rosario</strong> - Archipel paradisiaque près de Carthagène</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Décembre-mars et juillet-août<br />
                 <strong>Langue :</strong> Espagnol<br />

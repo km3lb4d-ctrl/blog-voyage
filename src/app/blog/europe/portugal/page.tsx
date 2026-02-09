@@ -18,14 +18,14 @@ export default function PortugalPage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir le Portugal</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir le Portugal</h2>
               <p className="text-gray-700 mb-6">
                 Le Portugal charme par son authenticité et son atmosphère nostalgique. Des azulejos de Lisbonne
                 aux caves de Porto, en passant par l'Algarve ensoleillée, le pays offre une expérience unique
                 entre traditions et modernité.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Destinations principales</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Destinations principales</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Lisbonne</strong> - Capitale vallonnée et tramways jaunes</li>
                 <li><strong>Porto</strong> - Ville du vin et architecture baroque</li>
@@ -34,7 +34,7 @@ export default function PortugalPage() {
                 <li><strong>Açores</strong> - Îles volcaniques et nature préservée</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Mars-octobre pour le sud, toute l'année<br />
                 <strong>Langue :</strong> Portugais<br />

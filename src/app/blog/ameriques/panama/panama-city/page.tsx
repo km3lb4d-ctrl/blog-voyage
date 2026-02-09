@@ -21,7 +21,7 @@ export default function PanamaCityPage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir Panama City</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir Panama City</h2>
               <p className="text-gray-700 mb-6">
                 Panama City, capitale dynamique du Panama, est une ville fascinante où contrastes et paradoxes
                 se côtoient harmonieusement : gratte-ciels futuristes dominant une skyline digne de Miami face
@@ -35,7 +35,7 @@ export default function PanamaCityPage() {
                 depuis la Cinta Costera, Panama City offre une expérience urbaine tropicale inoubliable.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Les incontournables</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Les incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Canal de Panama - Écluses de Miraflores</strong> - Observer passage des navires géants, musée interactif</li>
                 <li><strong>Casco Viejo</strong> - Quartier colonial UNESCO avec architecture restaurée et toits-terrasses</li>
@@ -47,7 +47,7 @@ export default function PanamaCityPage() {
                 <li><strong>Panama Viejo</strong> - Ruines de la première ville fondée en 1519 par les Espagnols</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Quartiers de Panama City</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Quartiers de Panama City</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Casco Viejo</strong> - Centre historique colonial, restaurants branchés, ambiance bohème</li>
                 <li><strong>Punta Paitilla/Punta Pacífica</strong> - Skyline moderne avec gratte-ciels luxueux</li>
@@ -56,7 +56,7 @@ export default function PanamaCityPage() {
                 <li><strong>Balboa</strong> - Ancien quartier américain du Canal, architecture unique</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Expériences à vivre</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Expériences à vivre</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>Observer un porte-conteneurs géant franchir les écluses de Miraflores</li>
                 <li>Explorer les ruelles colorées de Casco Viejo au coucher du soleil</li>
@@ -68,7 +68,7 @@ export default function PanamaCityPage() {
                 <li>Prendre le métro moderne, fierté de la ville</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Décembre-avril (saison sèche), mai-novembre = pluies après-midi<br />
                 <strong>Langue :</strong> Espagnol (anglais parlé dans secteur touristique et bancaire)<br />
@@ -78,7 +78,7 @@ export default function PanamaCityPage() {
                 <strong>Durée conseillée :</strong> 2-3 jours (ou hub pour explorer le reste du Panama)
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Mes conseils</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Mes conseils</h3>
               <p className="text-gray-700">
                 🚇 Métro est ultra-moderne, climatisé et efficace pour se déplacer (carte rechargeable)<br />
                 🌊 Visitez écluses Miraflores le matin (8h-11h) pour voir plus de passages de navires<br />
@@ -90,7 +90,7 @@ export default function PanamaCityPage() {
                 🌳 Parc Métropolitain meilleur tôt le matin pour observer faune active
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Spécialités culinaires à goûter</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Spécialités culinaires à goûter</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Ceviche de Corvina</strong> - Poisson blanc mariné citron, spécialité nationale absolue</li>
                 <li><strong>Sancocho</strong> - Soupe de poulet traditionnelle avec yuca et culantro</li>
@@ -128,9 +128,9 @@ export default function PanamaCityPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Canal de Panama</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Merveille d'ingénierie du XXe siècle</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Merveille d'ingénierie du XXe siècle</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le Canal de Panama, inauguré en 1914 après 10 ans de construction titanesque, demeure l'une
                         des prouesses d'ingénierie les plus impressionnantes de l'humanité. Ce passage maritime de
                         77 kilomètres reliant l'océan Pacifique à l'océan Atlantique (mer des Caraïbes) permet aux
@@ -140,7 +140,7 @@ export default function PanamaCityPage() {
                         Chaque jour, environ 40 navires géants (porte-conteneurs, pétroliers, paquebots) franchissent
                         ce canal mythique.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Les écluses de Miraflores, situées à seulement 15 minutes du centre-ville, offrent le meilleur
                         point d'observation public. Depuis la terrasse panoramique du musée interactif, on assiste
                         fasciné au ballet millimétré des "mulas" (locomotives électriques) guidant un porte-conteneurs
@@ -179,9 +179,9 @@ export default function PanamaCityPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Casco Viejo</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le joyau colonial au patrimoine mondial</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le joyau colonial au patrimoine mondial</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Casco Viejo (Vieille Ville), également appelé Casco Antiguo, est le centre historique de
                         Panama City inscrit au patrimoine mondial de l'UNESCO depuis 1997. Fondé en 1673 après la
                         destruction de la première ville Panama Viejo par le pirate Henry Morgan, ce quartier colonial
@@ -191,7 +191,7 @@ export default function PanamaCityPage() {
                         bâtiments coloniaux restaurés avec soin, boutique-hotels de charme installés dans d'anciennes
                         demeures, restaurants gastronomiques et rooftop bars branchés investissant les toits-terrasses.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Se promener dans Casco Viejo en fin d'après-midi, c'est voyager dans le temps : balcons en
                         fer forgé débordant de bougainvilliers, façades colorées aux influences espagnoles, françaises
                         et caribéennes, églises coloniales dorées à l'or fin, et contraste saisissant avec la skyline
@@ -230,9 +230,9 @@ export default function PanamaCityPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Causeway Amador</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Promenade maritime avec vue spectaculaire</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Promenade maritime avec vue spectaculaire</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le Causeway Amador (Calzada de Amador) est une promenade maritime de 6 kilomètres construite
                         en 1913 avec les roches excavées lors de la construction du Canal de Panama. Cette digue
                         artificielle relie le continent à quatre petites îles (Naos, Perico, Culebra et Flamenco)
@@ -241,7 +241,7 @@ export default function PanamaCityPage() {
                         loisirs préféré des Panaméens le week-end et l'une des expériences incontournables pour
                         les visiteurs.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         L'attrait principal du Causeway est la vue spectaculaire qu'il offre : d'un côté la skyline
                         impressionnante de Panama City avec ses gratte-ciels étincelants, de l'autre le majestueux
                         Pont des Amériques enjambant l'entrée du Canal, et au loin les navires attendant leur tour
@@ -281,9 +281,9 @@ export default function PanamaCityPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Parc Métropolitain</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Forêt tropicale au cœur de la métropole</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Forêt tropicale au cœur de la métropole</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le Parc Métropolitain (Parque Natural Metropolitano) est l'une des particularités les plus
                         étonnantes de Panama City : une véritable forêt tropicale primaire de 265 hectares préservée
                         en plein cœur de la capitale moderne. Situé à seulement 10 minutes du centre-ville, ce parc
@@ -292,7 +292,7 @@ export default function PanamaCityPage() {
                         toucans colorés, iguanes géants, agoutis, et plus de 250 espèces d'oiseaux tropicaux. Plusieurs
                         sentiers balisés de difficulté variable serpentent dans la jungle luxuriante.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le sentier le plus populaire, Los Momótides (1,5 km), mène au mirador Cerro Cedro qui culmine
                         à 150 mètres d'altitude. Depuis cette plateforme d'observation panoramique, la vue est surréaliste :
                         au premier plan, la canopée dense de la forêt tropicale avec toucans volant entre les arbres,

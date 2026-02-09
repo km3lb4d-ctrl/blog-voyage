@@ -19,14 +19,14 @@ export default function PanamaPage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir le Panama</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir le Panama</h2>
               <p className="text-gray-700 mb-6">
                 Le Panama surprend par ses contrastes saisissants. Coincé entre deux océans, ce pays offre
                 à la fois le skyline futuriste de Panama City, le charme colonial du Casco Viejo et les îles
                 paradisiaques encore préservées du tourisme de masse.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Destinations principales</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Destinations principales</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Panama City</strong> - Métropole moderne et Casco Viejo colonial</li>
                 <li><strong>Canal de Panama</strong> - Merveille d'ingénierie du XXe siècle</li>
@@ -35,7 +35,7 @@ export default function PanamaPage() {
                 <li><strong>San Blas</strong> - Îles paradisiaques des Kunas</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Décembre-avril (saison sèche)<br />
                 <strong>Langue :</strong> Espagnol<br />

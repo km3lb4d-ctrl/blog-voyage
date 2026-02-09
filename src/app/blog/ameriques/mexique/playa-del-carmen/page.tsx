@@ -21,7 +21,7 @@ export default function PlayaDelCarmenPage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir Playa del Carmen</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir Playa del Carmen</h2>
               <p className="text-gray-700 mb-6">
                 Playa del Carmen, affectueusement appelée "Playa" par les locaux, est l'ancien village de pêcheurs
                 devenu l'épicentre cosmopolite de la Riviera Maya. Située idéalement entre Cancún au nord et Tulum
@@ -33,7 +33,7 @@ export default function PlayaDelCarmenPage() {
                 offre le parfait équilibre entre détente caribéenne et animation urbaine.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Les incontournables</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Les incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Quinta Avenida (5e Avenue)</strong> - Artère piétonne de 4 km bordée de boutiques, restaurants et bars</li>
                 <li><strong>Playa Mamitas</strong> - Beach club populaire avec DJ sets, transats et ambiance festive</li>
@@ -45,7 +45,7 @@ export default function PlayaDelCarmenPage() {
                 <li><strong>Tulum Ruinas</strong> - Site maya en bord de mer à 45 minutes au sud</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Zones et quartiers</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Zones et quartiers</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Quinta Avenida</strong> - Cœur touristique avec shopping, restaurants et vie nocturne</li>
                 <li><strong>Playa Mamitas/Fusión</strong> - Zone de beach clubs branchés et bars de plage</li>
@@ -54,7 +54,7 @@ export default function PlayaDelCarmenPage() {
                 <li><strong>Colosio (zona local)</strong> - Quartier authentique en retrait avec prix locaux</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Expériences à vivre</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Expériences à vivre</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>Flâner sur la Quinta Avenida au coucher du soleil avec ses artistes de rue</li>
                 <li>Plonger dans les cenotes Dos Ojos ou Gran Cenote</li>
@@ -66,7 +66,7 @@ export default function PlayaDelCarmenPage() {
                 <li>Vivre un temazcal (rituel de purification maya dans une cabane de sudation)</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Novembre-avril (saison sèche, éviter ouragans juin-novembre)<br />
                 <strong>Langue :</strong> Espagnol (anglais très répandu, beaucoup d'expats internationaux)<br />
@@ -76,7 +76,7 @@ export default function PlayaDelCarmenPage() {
                 <strong>Durée conseillée :</strong> 4-7 jours (base idéale pour explorer Riviera Maya)
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Mes conseils</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Mes conseils</h3>
               <p className="text-gray-700">
                 💰 Payez toujours en pesos pour meilleurs taux, évitez USD<br />
                 🚐 Colectivos sur Av. Juárez sont moyen le moins cher (30-50 pesos vers Tulum/Cancún)<br />
@@ -88,7 +88,7 @@ export default function PlayaDelCarmenPage() {
                 🚴 Vélo est parfait pour explorer, Playa est plate et se prête bien au cyclisme
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Spécialités culinaires à goûter</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Spécialités culinaires à goûter</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Tacos al Pastor</strong> - Porc mariné grillé vertical avec ananas, incontournable mexicain</li>
                 <li><strong>Cochinita Pibil</strong> - Porc mariné achiote cuit lentement dans feuille de bananier</li>
@@ -126,9 +126,9 @@ export default function PlayaDelCarmenPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Quinta Avenida</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">L'artère vibrante de Playa</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">L'artère vibrante de Playa</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         La Quinta Avenida (5e Avenue) est le cœur battant de Playa del Carmen, une artère piétonne
                         de 4 kilomètres qui s'étend parallèlement à la plage depuis l'embarcadère de Cozumel jusqu'au
                         nord de la ville. Jour et nuit, cette avenue cosmopolite vibre au son des musiciens de rue,
@@ -136,7 +136,7 @@ export default function PlayaDelCarmenPage() {
                         côtoient magasins de souvenirs colorés, restaurants fusion rivalisent avec taquerías authentiques,
                         et bars à cocktails branchés se succèdent sur plusieurs pâtés de maisons.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le soir, la Quinta Avenida se transforme en véritable festival de lumières et de sons : terrasses
                         bondées où s'échappent rythmes de salsa et reggaeton, artistes de rue jonglant avec le feu,
                         couples déambulant main dans la main entre les palmiers illuminés. C'est sur cette avenue que
@@ -173,9 +173,9 @@ export default function PlayaDelCarmenPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Playa Mamitas</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le temple des beach clubs branchés</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le temple des beach clubs branchés</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Playa Mamitas est l'épicentre de la vie de plage branchée à Playa del Carmen. Cette section
                         de sable blanc d'environ 500 mètres concentre les beach clubs les plus populaires et festifs
                         de la Riviera Maya. Mamitas Beach Club, le plus célèbre, offre une expérience complète :
@@ -183,7 +183,7 @@ export default function PlayaDelCarmenPage() {
                         en journée, piscine à débordement face à la mer, et transformation progressive en soirée
                         dansante où les pieds s'enfoncent dans le sable au rythme des basses.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         L'ambiance à Mamitas est résolument internationale et festive : groupes d'amis sirotant des
                         micheladas glacées, couples profitant du soleil caribéen, et jeunes voyageurs socialisant
                         entre deux baignades dans les eaux turquoise. Les clubs voisins comme Fusión et Coralina
@@ -221,9 +221,9 @@ export default function PlayaDelCarmenPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Cenote Dos Ojos</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Cathédrale sous-marine du Yucatán</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Cathédrale sous-marine du Yucatán</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Cenote Dos Ojos (Deux Yeux), situé à seulement 20 minutes au nord de Playa del Carmen, est
                         l'un des systèmes de grottes sous-marines les plus spectaculaires et accessibles du Yucatán.
                         Son nom provient des deux cavernes circulaires ("yeux") visibles depuis la surface, connectées
@@ -232,7 +232,7 @@ export default function PlayaDelCarmenPage() {
                         jusqu'à 100 mètres), température constante à 25°C, et jeux de lumière extraordinaires créés
                         par les rayons du soleil perçant les ouvertures naturelles.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Plonger dans Dos Ojos, c'est pénétrer dans un monde souterrain mystique où le temps s'est
                         arrêté il y a des millions d'années. Les stalactites et stalagmites millénaires créent des
                         formations rocheuses spectaculaires, tandis que les "haloclines" (zones où eau douce et salée
@@ -270,9 +270,9 @@ export default function PlayaDelCarmenPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Cozumel</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Paradis de la plongée à 45 minutes de ferry</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Paradis de la plongée à 45 minutes de ferry</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Cozumel, la plus grande île habitée du Mexique, est accessible en ferry rapide depuis Playa
                         del Carmen en seulement 45 minutes de traversée. Cette île paradisiaque de 48 km de long
                         est mondialement célèbre pour ses sites de plongée exceptionnels : le récif Palancar, classé
@@ -281,7 +281,7 @@ export default function PlayaDelCarmenPage() {
                         dans des jardins de coraux. L'eau d'une clarté cristalline et les courants favorables font
                         de Cozumel un sanctuaire pour plongeurs de tous niveaux.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Mais Cozumel, c'est bien plus que la plongée. San Miguel, le charmant centre-ville principal,
                         propose restaurants de fruits de mer fraîchement pêchés, boutiques artisanales et malecón
                         (promenade) parfait pour observer le coucher de soleil. Les plages de la côte ouest offrent

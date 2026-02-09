@@ -21,7 +21,7 @@ export default function TulumPage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir Tulum</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir Tulum</h2>
               <p className="text-gray-700 mb-6">
                 Tulum, joyau bohème-chic de la Riviera Maya, a su préserver son âme spirituelle tout en devenant
                 l'une des destinations les plus prisées du Mexique. Célèbre pour ses ruines mayas spectaculaires
@@ -33,7 +33,7 @@ export default function TulumPage() {
                 à la nature, patrimoine culturel millénaire et fête sous les étoiles.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Les incontournables</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Les incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Ruines de Tulum</strong> - Cité maya fortifiée surplombant la mer Caraïbes, site iconique</li>
                 <li><strong>Gran Cenote</strong> - Cenote cristallin idéal pour snorkeling avec tortues et stalactites</li>
@@ -45,7 +45,7 @@ export default function TulumPage() {
                 <li><strong>Cenote Calavera</strong> - Cenote "tête de mort" parfait pour cliff jumping</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Zones de Tulum</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Zones de Tulum</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Tulum Pueblo (centre-ville)</strong> - Authentique, prix abordables, restaurants locaux</li>
                 <li><strong>Zona Hotelera (plage)</strong> - Cabañas luxueuses, beach clubs, vie bohème</li>
@@ -54,7 +54,7 @@ export default function TulumPage() {
                 <li><strong>Boca Paila Road</strong> - Route longeant la plage du sud jusqu'à Sian Ka'an</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Expériences à vivre</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Expériences à vivre</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>Admirer le lever de soleil depuis les ruines face à la mer Caraïbes</li>
                 <li>Participer à une session de yoga sur la plage au lever du jour</li>
@@ -66,7 +66,7 @@ export default function TulumPage() {
                 <li>Déguster un bowl d'açai dans un café healthy du centro</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Novembre-avril (saison sèche, moins de moustiques)<br />
                 <strong>Langue :</strong> Espagnol (anglais très répandu, communauté internationale importante)<br />
@@ -76,7 +76,7 @@ export default function TulumPage() {
                 <strong>Durée conseillée :</strong> 4-7 jours (ou plus pour les digital nomads)
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Mes conseils</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Mes conseils</h3>
               <p className="text-gray-700">
                 🏨 Logez dans pueblo pour économiser, en zona hotelera pour l'expérience plage<br />
                 🚴 Vélo électrique est idéal pour trajet pueblo-plage (3 km, route avec côtes)<br />
@@ -88,7 +88,7 @@ export default function TulumPage() {
                 ⚡ Zona hotelera a souvent coupures d'électricité, prévoyez power bank
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Spécialités culinaires à goûter</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Spécialités culinaires à goûter</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Cochinita Pibil</strong> - Porc mariné achiote cuit dans feuille de bananier, spécialité yucatèque</li>
                 <li><strong>Tikin Xic</strong> - Poisson entier grillé mariné achiote, recette maya traditionnelle</li>
@@ -126,9 +126,9 @@ export default function TulumPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Ruines de Tulum</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Cité maya face aux Caraïbes</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Cité maya face aux Caraïbes</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Les ruines de Tulum comptent parmi les sites mayas les plus spectaculaires et photographiés
                         au monde, et pour cause : cette ancienne cité fortifiée se dresse majestueusement sur une
                         falaise de 12 mètres dominant les eaux turquoise cristallines de la mer des Caraïbes. Construite
@@ -137,7 +137,7 @@ export default function TulumPage() {
                         colonnes massives, tandis que le Temple des Fresques conserve des peintures murales représentant
                         des divinités mayas.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Visiter Tulum au lever du soleil est une expérience magique : les premiers rayons illuminent
                         les pierres grises des temples tandis que la mer s'éveille dans des teintes dorées et turquoise.
                         L'enceinte fortifiée, bien préservée, entoure le site et témoigne de l'importance stratégique
@@ -175,9 +175,9 @@ export default function TulumPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Zona Hotelera</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le paradis bohème de la plage</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le paradis bohème de la plage</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         La Zona Hotelera de Tulum, qui s'étend sur 10 kilomètres le long de la plage au sud des ruines,
                         incarne l'essence bohème-chic qui a fait la réputation mondiale de Tulum. Loin des resorts
                         all-inclusive standardisés, cette bande de sable blanc est ponctuée de cabañas écologiques
@@ -186,7 +186,7 @@ export default function TulumPage() {
                         de panneaux solaires, l'éclairage est à la bougie, et l'architecture privilégie matériaux
                         naturels et ouverture sur l'océan.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         La journée type en zona hotelera commence par une session de yoga face à la mer au lever du
                         soleil, se poursuit par un açaí bowl healthy, une baignade dans les eaux turquoise, puis une
                         sieste dans un hamac suspendu entre deux palmiers. Le soir, les beach clubs s'animent :
@@ -225,9 +225,9 @@ export default function TulumPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Gran Cenote</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Piscine naturelle cristalline</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Piscine naturelle cristalline</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Gran Cenote, situé à seulement 4 kilomètres au nord de Tulum sur la route de Cobá, est l'un
                         des cenotes les plus accessibles et spectaculaires de la région. Ce cenote semi-ouvert offre
                         une eau d'une clarté absolument incroyable, maintenue à une température constante de 25°C
@@ -236,7 +236,7 @@ export default function TulumPage() {
                         poissons argentés glissant entre les colonnes, et parfois même des tortues d'eau douce nageant
                         paisiblement dans ce sanctuaire aquatique.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Gran Cenote se compose de plusieurs bassins connectés : une zone ouverte large et peu profonde
                         parfaite pour les familles, et des passages plus intimes menant à des cavernes semi-submergées
                         où les rayons du soleil créent des jeux de lumière magiques à travers les ouvertures naturelles.
@@ -274,9 +274,9 @@ export default function TulumPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Cobá</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Pyramide à escalader au cœur de la jungle</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Pyramide à escalader au cœur de la jungle</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Cobá, situé à 47 kilomètres au nord-ouest de Tulum au cœur de la jungle yucatèque, est l'un
                         des sites archéologiques mayas les plus fascinants du Mexique. Contrairement à Chichén Itzá
                         ou Tulum, Cobá offre une expérience plus authentique et moins touristique : la majorité des
@@ -284,7 +284,7 @@ export default function TulumPage() {
                         et de découverte. Mais la véritable star de Cobá est la pyramide Nohoch Mul, haute de 42 mètres
                         (120 marches), qui reste l'une des rares pyramides mayas qu'on peut encore escalader au Mexique.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         L'ascension de Nohoch Mul est raide et impressionnante (les marches sont étroites et hautes),
                         mais la récompense au sommet est exceptionnelle : une vue panoramique à 360 degrés sur la canopée
                         de la jungle yucatèque s'étendant à perte de vue, ponctuée çà et là par les sommets d'autres

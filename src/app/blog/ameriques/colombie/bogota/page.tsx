@@ -21,7 +21,7 @@ export default function BogotaPage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir Bogotá</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir Bogotá</h2>
               <p className="text-gray-700 mb-6">
                 Bogotá, capitale colombienne perchée à 2640 mètres d'altitude dans la cordillère des Andes,
                 est une métropole dynamique de 8 millions d'habitants qui incarne la transformation de la Colombie
@@ -33,7 +33,7 @@ export default function BogotaPage() {
                 côtoie l'art contemporain.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Les incontournables</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Les incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>La Candelaria</strong> - Centre historique colonial aux façades colorées et rues pavées</li>
                 <li><strong>Cerro de Monserrate</strong> - Sanctuaire à 3152m avec vue panoramique époustouflante</li>
@@ -45,7 +45,7 @@ export default function BogotaPage() {
                 <li><strong>Usaquén</strong> - Village colonial au nord, marché dominical artisanal</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Quartiers à explorer</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Quartiers à explorer</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>La Candelaria</strong> - Cœur historique et culturel, hostels et musées</li>
                 <li><strong>Chapinero</strong> - Quartier LGBT-friendly, bars alternatifs et street food</li>
@@ -54,7 +54,7 @@ export default function BogotaPage() {
                 <li><strong>Parque 93</strong> - Quartier résidentiel chic avec parcs et restaurants</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Expériences à vivre</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Expériences à vivre</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>Monter au Cerro de Monserrate en funiculaire ou téléphérique au lever du soleil</li>
                 <li>Faire un tour de street art guidé dans La Candelaria</li>
@@ -66,7 +66,7 @@ export default function BogotaPage() {
                 <li>Découvrir la vie nocturne de la Zona Rosa et Parque 93</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Décembre-mars et juillet-août (saison sèche, mais Bogotá peut être visitée toute l'année)<br />
                 <strong>Langue :</strong> Espagnol (peu d'anglais parlé)<br />
@@ -76,7 +76,7 @@ export default function BogotaPage() {
                 <strong>Durée conseillée :</strong> 3-4 jours minimum
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Mes conseils</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Mes conseils</h3>
               <p className="text-gray-700">
                 🧥 L'altitude rend les nuits fraîches (10-15°C), prévoir un pull même en été<br />
                 🎨 Réserver un tour de street art avec guide local (15-20€, incontournable)<br />
@@ -88,7 +88,7 @@ export default function BogotaPage() {
                 📱 Acheter une SIM locale (Claro, Movistar) pour GPS et Uber
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Spécialités culinaires à goûter</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Spécialités culinaires à goûter</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Ajiaco</strong> - Soupe traditionnelle bogotanaise au poulet et trois types de pommes de terre</li>
                 <li><strong>Bandeja Paisa</strong> - Plat généreux avec haricots, riz, viande, chorizo, œuf et arepa</li>
@@ -124,16 +124,16 @@ export default function BogotaPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">La Candelaria</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Cœur colonial et culturel</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Cœur colonial et culturel</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         La Candelaria est le centre historique de Bogotá, un labyrinthe de ruelles pavées bordées de
                         maisons coloniales aux façades colorées qui racontent quatre siècles d'histoire. Chaque coin de
                         rue révèle un trésor : églises baroques aux retables dorés, palais coloniaux reconvertis en musées,
                         cafés bohèmes cachés dans des patios secrets, et surtout, des fresques murales géantes qui font
                         de Bogotá l'une des capitales mondiales du street art.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le quartier abrite les musées incontournables de la ville : le Musée de l'Or avec ses 34 000 pièces
                         d'or précolombien étincelantes, le Musée Botero qui expose gratuitement les œuvres généreuses de
                         l'artiste colombien, et la Plaza de Bolívar où trône la cathédrale face au palais présidentiel.
@@ -167,16 +167,16 @@ export default function BogotaPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Cerro de Monserrate</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Vue à 360° sur toute la capitale</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Vue à 360° sur toute la capitale</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Culminant à 3152 mètres d'altitude, le Cerro de Monserrate domine majestueusement Bogotá et offre
                         l'un des panoramas urbains les plus spectaculaires d'Amérique du Sud. On accède au sommet en
                         funiculaire historique, en téléphérique moderne, ou à pied pour les plus courageux (1h30 de montée
                         raide mais gratuite). Au sommet, un sanctuaire blanc du XVIIe siècle attire pèlerins et touristes,
                         tandis que les terrasses des restaurants dévoilent Bogotá étendue à perte de vue.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         La vue est particulièrement magique au lever ou au coucher du soleil, quand la lumière rasante
                         embrase les façades de la ville et que les montagnes environnantes se parent de nuances dorées.
                         Par temps clair (rare !), on distingue l'immense tapis urbain qui s'étend sur 40 km du nord au sud.
@@ -210,16 +210,16 @@ export default function BogotaPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Zona Rosa & Zona T</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le quartier branché et gastronomique</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le quartier branché et gastronomique</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         La Zona Rosa (et sa célèbre Zona T, formée par l'intersection des avenues) est le quartier chic et
                         moderne de Bogotá, où se concentrent les meilleurs restaurants, bars à cocktails sophistiqués et
                         clubs branchés de la capitale. C'est ici que bat le cœur de la nouvelle Bogotá cosmopolite : terrasses
                         animées où la jeunesse dorée siroते des mojitos, restaurants fusion qui réinventent la cuisine
                         colombienne, et boutiques de créateurs colombiens qui rivalisent avec les marques internationales.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         L'ambiance change radicalement entre jour et nuit : calme et business en semaine, le quartier
                         s'embrase le weekend quand les Bogotanais sortent faire la fête jusqu'au petit matin. Les restaurants
                         étoilés côtoient les bars à craft beer artisanale et les clubs de salsa où touristes et locaux
@@ -253,16 +253,16 @@ export default function BogotaPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Usaquén</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Village colonial au cœur de la ville moderne</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Village colonial au cœur de la ville moderne</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Usaquén était autrefois un village indépendant avant d'être absorbé par l'expansion de Bogotá,
                         et il a miraculeusement conservé son âme de pueblo paisible. Son centre historique, organisé autour
                         d'une charmante place bordée d'une église coloniale blanche, ressemble à un décor de carte postale :
                         maisons basses aux murs de chaux, ruelles pavées fleuries, et une atmosphère décontractée qui
                         contraste avec l'effervescence du centre-ville situé à quelques kilomètres au sud.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le dimanche, Usaquén se transforme en destination prisée des Bogotanais qui affluent pour son célèbre
                         marché aux puces artisanal. Les rues piétonnes se remplissent de stands colorés proposant artisanat,
                         bijoux, vêtements et produits gourmands locaux, tandis que les terrasses des restaurants et cafés

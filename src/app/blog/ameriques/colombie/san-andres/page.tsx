@@ -21,7 +21,7 @@ export default function SanAndresPage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir San Andrés</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir San Andrés</h2>
               <p className="text-gray-700 mb-6">
                 San Andrés est une petite île caribéenne colombienne située à 700 km des côtes, plus proche du Nicaragua
                 que du continent sud-américain. Célèbre pour sa "mer aux sept couleurs" qui offre des dégradés de bleu
@@ -33,7 +33,7 @@ export default function SanAndresPage() {
                 Andrés offre un dépaysement total dans une Colombie loin des clichés andins.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Les incontournables</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Les incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Johnny Cay</strong> - Îlot paradisiaque de sable blanc, ambiance reggae et plage idyllique</li>
                 <li><strong>Acuario & Haynes Cay</strong> - Snorkeling avec raies, poissons tropicaux dans eau cristalline</li>
@@ -45,7 +45,7 @@ export default function SanAndresPage() {
                 <li><strong>Tour de l'île en golf cart</strong> - Faire le tour complet en 2-3h</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Plages et cayos</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Plages et cayos</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Playa Spratt Bight</strong> - Plage principale, animée et accessible</li>
                 <li><strong>San Luis</strong> - Côte est plus calme, eau turquoise et moins de touristes</li>
@@ -54,7 +54,7 @@ export default function SanAndresPage() {
                 <li><strong>Haynes Cay</strong> - Mangrove et récifs coralliens pour snorkeling</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Expériences à vivre</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Expériences à vivre</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>Louer un golf cart pour explorer l'île à son rythme</li>
                 <li>Faire du snorkeling à l'Acuario avec les raies</li>
@@ -66,7 +66,7 @@ export default function SanAndresPage() {
                 <li>Danser sur de la musique reggae dans les bars de plage</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Décembre-avril (saison sèche), éviter septembre-novembre (ouragans)<br />
                 <strong>Langue :</strong> Espagnol et créole sanandresano (anglais compris)<br />
@@ -77,7 +77,7 @@ export default function SanAndresPage() {
                 <strong>Durée conseillée :</strong> 3-4 jours (5-7 jours avec Providencia)
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Mes conseils</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Mes conseils</h3>
               <p className="text-gray-700">
                 🏝️ Privilégier Providencia si vous cherchez authenticité (San Andrés très touristique)<br />
                 🚗 Louer un golf cart dès l'arrivée pour explorer l'île librement<br />
@@ -89,7 +89,7 @@ export default function SanAndresPage() {
                 ⚠️ Éviter achats duty-free sur l'île (pas vraiment moins cher qu'ailleurs)
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Spécialités culinaires à goûter</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Spécialités culinaires à goûter</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Rondón</strong> - Ragoût traditionnel raizal au lait de coco, poisson et tubercules</li>
                 <li><strong>Coconut rice</strong> - Riz cuit au lait de coco, accompagnement de base</li>
@@ -125,9 +125,9 @@ export default function SanAndresPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">La Mer aux Sept Couleurs</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Un phénomène naturel spectaculaire</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Un phénomène naturel spectaculaire</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         La "mer aux sept couleurs" (el mar de los siete colores) est le trésor naturel de San Andrés,
                         un phénomène visuel époustouflant créé par les différentes profondeurs de l'eau, la clarté
                         cristalline, le fond de sable blanc et les récifs coralliens. Selon l'angle du soleil et la
@@ -135,7 +135,7 @@ export default function SanAndresPage() {
                         vert émeraude sur les herbiers, bleu azur au-dessus du sable blanc, et bleu profond indigo
                         là où le récif plonge dans l'abyme.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le meilleur endroit pour admirer ce spectacle naturel est depuis la côte est de l'île, notamment
                         à San Luis où l'eau peu profonde crée des dégradés particulièrement photogéniques. Au lever et
                         au coucher du soleil, la lumière rasante transforme la mer en un tableau impressionniste vivant
@@ -169,9 +169,9 @@ export default function SanAndresPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Johnny Cay</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">L'îlot paradisiaque emblématique</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">L'îlot paradisiaque emblématique</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Johnny Cay est le petit îlot de carte postale situé à seulement 15 minutes en bateau de San Andrés,
                         une minuscule île de sable blanc bordée de cocotiers penchés et entourée d'une eau turquoise
                         cristalline. Cet îlot d'un hectare à peine est devenu l'emblème touristique de San Andrés, le lieu
@@ -179,7 +179,7 @@ export default function SanAndresPage() {
                         y est festive et décontractée : musique reggae diffusée par les sound systems, vendeurs ambulants
                         proposant noix de coco fraîches et bijoux artisanaux, et familles colombiennes venues pique-niquer.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         On y vient pour se prélasser sur la plage de sable fin, nager dans une eau à 28°C, déguster un
                         coconut rice ou un poisson grillé les pieds dans le sable, et profiter de l'atmosphère insouciante
                         typiquement caribéenne. Le week-end, Johnny Cay se transforme en fête improvisée où locaux et
@@ -214,9 +214,9 @@ export default function SanAndresPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Acuario & Haynes Cay</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Piscine naturelle et snorkeling paradisiaque</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Piscine naturelle et snorkeling paradisiaque</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         L'Acuario (aquarium naturel) et Haynes Cay forment un duo d'îlots connectés par une passe peu
                         profonde, situés au large de la côte est de San Andrés. L'Acuario porte bien son nom : c'est une
                         piscine naturelle peu profonde (50 cm à 1,5 m) aux eaux cristallines où évoluent librement des
@@ -224,7 +224,7 @@ export default function SanAndresPage() {
                         la main des visiteurs. Marcher dans cette eau turquoise translucide entouré de poissons qui
                         frôlent vos jambes est une expérience magique, presque surréaliste.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Haynes Cay, accessible à pied depuis l'Acuario à marée basse, est une petite mangrove entourée de
                         récifs coralliens parfaits pour le snorkeling. La visibilité exceptionnelle (souvent 20-30 mètres)
                         permet d'observer coraux cerveau, éponges géantes, poissons-perroquets, poissons-anges et parfois
@@ -259,16 +259,16 @@ export default function SanAndresPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">West View</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Cliff jumping et snorkeling sensationnel</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Cliff jumping et snorkeling sensationnel</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         West View est l'un des spots les plus spectaculaires de San Andrés, une formation rocheuse naturelle
                         aménagée en plateforme de saut où les visiteurs peuvent plonger dans une eau turquoise profonde
                         depuis différentes hauteurs (3, 5 ou 7 mètres). L'adrénaline du saut se combine avec le plaisir
                         du snorkeling : une fois dans l'eau, on nage au-dessus d'un récif corallien somptueux qui s'enfonce
                         progressivement dans le bleu profond, créant un effet vertigineux et fascinant.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le site dispose d'un bar flottant où l'on peut siroter une coco loco (cocktail au rhum servi dans
                         une noix de coco) entre deux plongeons. La visibilité exceptionnelle permet d'observer facilement
                         la vie sous-marine : bancs de sergents-majors rayés, poissons-perroquets grignotant le corail,

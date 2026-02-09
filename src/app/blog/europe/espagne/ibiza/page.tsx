@@ -21,7 +21,7 @@ export default function IbizaPage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir Ibiza</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir Ibiza</h2>
               <p className="text-gray-700 mb-6">
                 Ibiza, perle des Baléares, offre deux visages enchanteurs : une île festive de renommée mondiale la nuit,
                 avec ses clubs légendaires pulsant jusqu'à l'aube, et un paradis méditerranéen aux criques sauvages le jour.
@@ -30,7 +30,7 @@ export default function IbizaPage() {
                 c'est une philosophie de vie où la liberté et la créativité règnent.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Les incontournables</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Les incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Dalt Vila</strong> - Vieille ville fortifiée classée UNESCO avec remparts du XVIe siècle</li>
                 <li><strong>Café del Mar</strong> - Club de plage légendaire pour les couchers de soleil filmés par le cinéma</li>
@@ -42,7 +42,7 @@ export default function IbizaPage() {
                 <li><strong>Mercat Vell</strong> - Marché ancien et bohème du centre historique</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Zones à explorer</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Zones à explorer</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Ibiza City</strong> - Capitale avec Dalt Vila historique et vie nocturne intérieure</li>
                 <li><strong>West Coast</strong> - Cala Conta, Cala Bassa, couchers de soleil spectaculaires</li>
@@ -51,7 +51,7 @@ export default function IbizaPage() {
                 <li><strong>Arrière-pays</strong> - Villages pittoresques, marchés hippies authentiques</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Expériences à vivre</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Expériences à vivre</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>Regarder le coucher de soleil depuis Café del Mar avec cocktail en main</li>
                 <li>Danser jusqu'à l'aube dans les super-clubs Pacha, Privilege ou Hi Ibiza</li>
@@ -63,7 +63,7 @@ export default function IbizaPage() {
                 <li>Participer à la vie nocturne underground dans les bars de la vieille ville</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Mai-juin et septembre-octobre (climat idéal, moins de foule)<br />
                 <strong>Durée recommandée :</strong> 4-7 jours<br />
@@ -73,7 +73,7 @@ export default function IbizaPage() {
                 <strong>Vie nocturne :</strong> Clubs ouvrent tard (24h-2h), fermeture à 6h-7h du matin<br />
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Mes conseils</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Mes conseils</h3>
               <p className="text-gray-700">
                 Réservez clubs et restaurants huppés à l'avance en haute saison<br />
                 Le marché bohème du mercredi soir (Mercat Vell) est l'âme d'Ibiza<br />
@@ -85,7 +85,7 @@ export default function IbizaPage() {
                 Juillet-août sont très touristiques et chers ; mai-juin est parfait<br />
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Spécialités culinaires à goûter</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Spécialités culinaires à goûter</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Flaó</strong> - Gâteau baléare traditionnel à la ricotta et menthe</li>
                 <li><strong>Buñuelos de Ibiza</strong> - Beignets sucrés aux fruits</li>
@@ -123,15 +123,15 @@ export default function IbizaPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Dalt Vila</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">La vieille ville fortifiée</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">La vieille ville fortifiée</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Dalt Vila est le cœur historique d'Ibiza, une vieille ville fortifiée classée au patrimoine UNESCO, perchée
                         sur une colline dominant la baie d'Ibiza. Les remparts du XVIe siècle entourent des ruelles étroites pavées,
                         où se mêlent histoire médiévale et bohème urbain. La cathédrale gothique-méditerranéenne domine avec ses murs
                         blancs brillants, tandis que les ruelles cachent bars branchés, galeries d'art et petits restaurants.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le soir, Dalt Vila s'illumine magiquement, les restaurants en terrasse débordent de touristes et locals, et on
                         peut regarder les couchers de soleil depuis les remparts. C'est le lieu parfait pour une promenade contemplative le jour
                         et une sortie nocturne authentique le soir, loin de l'électro-pop des super-clubs.
@@ -165,15 +165,15 @@ export default function IbizaPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Monde du Clubbing</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Les temples de la musique électro</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Les temples de la musique électro</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Ibiza est le cœur battant de la musique électro mondiale. Les super-clubs Pacha, Privilege et Hi Ibiza
                         sont des institutions légendaires, chacun avec sa propre personnalité : Pacha dans le centre pour l'ambiance glamour,
                         Privilege pour les spectacles pyrotechniques géants, Hi Ibiza pour la piste de danse la plus grande d'Europe.
                         Des DJs internationaux de renom y mixent devant des foules de 10 000 personnes.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Mais Ibiza, ce n'est pas seulement les méga-clubs : les petits bars de plage, les after-parties cachées, et l'underground
                         punk de la scène locale offrent des expériences tout aussi authentiques. Le clubbing ici n'est pas un divertissement,
                         c'est une culture, une philosophie, une façon de vivre jusqu'à l'aube avec des étrangers qui deviennent des amis.
@@ -207,15 +207,15 @@ export default function IbizaPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Benirràs & Vie Bohème</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">L'Ibiza hippie authentique</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">L'Ibiza hippie authentique</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Benirràs et les villages de la côte nord incarnent l'âme bohème originelle d'Ibiza. La plage de Benirràs est célèbre
                         pour son drumming circle du dimanche soir : des musiciens traditionnels et talentueux jouent des percussions tandis que
                         le soleil plonge dans la mer. C'est mystique, authentique, loin du clubbing commercial. Les hippies argentins, les
                         musiciens de rue, les voyageurs du monde entier se retrouvent ici.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Les marchés hippies de Punta Arabí et Las Dalias sont des institutions, où vendeurs d'artisanat, de vêtements bohèmes,
                         de bijoux fait main et de sculptures côtoient les flaneur contemplatives. L'arrière-pays d'Ibiza offre des villages
                         pittoresques, des restaurants bio, et une philosophie de vie alternative que beaucoup recherchent.
@@ -249,14 +249,14 @@ export default function IbizaPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Plages & Criques</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Eaux turquoise et sable blanc</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Eaux turquoise et sable blanc</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Les plages d'Ibiza sont tout simplement spectaculaires : Cala Comte avec ses eaux turquoise, Cala Bassa dorée, les
                         criques cachées de la côte nord accessibles seulement à pied ou en bateau. Le sable blanc immaculé, l'eau limpide
                         et chaude, les falaises de calcaire blanc qui dégringolent jusqu'à la mer créent des décors de carte postale.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Côté touristique, Playa d'en Bossa offre clubs de plage, sports nautiques et atmosphère festive. Mais les vraies
                         perles sont les petites criques secrètes où les locaux se baignent : Cala Xaracà, Cala Mastella, Cala San Vicente.
                         Louer un bateau ou un scooter permet de les découvrir. Chaque plage a son propre caractère, des clubs animés aux

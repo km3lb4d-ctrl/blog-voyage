@@ -21,7 +21,7 @@ export default function TurquiePage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir la Turquie</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir la Turquie</h2>
               <p className="text-gray-700 mb-6">
                 La Turquie fascine par sa position unique à cheval entre deux continents. Des mosquées
                 ottomanes d'Istanbul aux cheminées de fées de Cappadoce, en passant par les plages
@@ -30,7 +30,7 @@ export default function TurquiePage() {
                 ses racines ancestrales à une modernité dynamique.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Destinations principales</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Destinations principales</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Istanbul</strong> - Mégapole transcontinentale, ancien Constantinople</li>
                 <li><strong>Cappadoce</strong> - Paysages lunaires et montgolfières au lever du soleil</li>
@@ -40,7 +40,7 @@ export default function TurquiePage() {
                 <li><strong>Bodrum</strong> - Saint-Tropez turc, jet-set et vie nocturne</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Avril-juin et septembre-octobre (côtes), toute l'année (Istanbul)<br />
                 <strong>Langue :</strong> Turc<br />
@@ -49,7 +49,7 @@ export default function TurquiePage() {
                 <strong>Durée conseillée :</strong> 10-15 jours pour un premier voyage
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Conseils de voyage</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Conseils de voyage</h3>
               <p className="text-gray-700">
                 🕌 Respectez les codes vestimentaires dans les mosquées<br />
                 🧿 Le nazar boncuk (œil bleu) est le porte-bonheur traditionnel<br />
@@ -59,7 +59,7 @@ export default function TurquiePage() {
                 🍽️ Goûtez au petit-déjeuner turc (kahvaltı), c'est un festin
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Spécialités culinaires</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Spécialités culinaires</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Kebabs</strong> - Bien au-delà du döner, une cuisine raffinée</li>
                 <li><strong>Meze</strong> - Assortiment d'entrées à partager</li>
@@ -140,24 +140,6 @@ export default function TurquiePage() {
               </Link>
 
             </div>
-          </div>
-        </section>
-
-        {/* CTA Section */}
-        <section className="section section-dark py-20">
-          <div className="max-w-4xl mx-auto px-6 text-center">
-            <h2 className="text-4xl font-bold text-white mb-6">
-              Retour en Europe
-            </h2>
-            <p className="text-[#a1a1a6] text-lg mb-8">
-              Découvrez d'autres destinations européennes et leurs trésors culturels.
-            </p>
-            <Link
-              href="/blog/europe"
-              className="inline-block px-8 py-4 bg-[#0071e3] text-white rounded-full font-semibold hover:bg-[#0077ED] transition-colors duration-300"
-            >
-              Explorer l'Europe
-            </Link>
           </div>
         </section>
       </main>

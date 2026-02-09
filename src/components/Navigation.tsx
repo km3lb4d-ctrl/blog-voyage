@@ -104,13 +104,9 @@ export default function Navigation() {
               <div className="flex flex-col items-center gap-3 max-h-0 overflow-hidden group-hover:max-h-[1000px] transition-all duration-500 ease-in-out">
                 {/* Europe */}
                 <div className="flex flex-col items-center gap-1">
-                  <Link
-                    href="/blog/europe"
-                    onClick={handleLinkClick}
-                    className="text-lg sm:text-xl text-[#a1a1a6] hover:text-[#2997ff] transition-colors font-medium"
-                  >
+                  <span className="text-lg sm:text-xl text-[#a1a1a6] font-medium cursor-default">
                     Europe
-                  </Link>
+                  </span>
                   <div className="flex flex-wrap gap-2 justify-center">
                     <Link href="/blog/europe/france" onClick={handleLinkClick} className="text-sm text-[#6e6e73] hover:text-[#2997ff] transition-colors">France</Link>
                     <Link href="/blog/europe/espagne" onClick={handleLinkClick} className="text-sm text-[#6e6e73] hover:text-[#2997ff] transition-colors">Espagne</Link>
@@ -119,18 +115,15 @@ export default function Navigation() {
                     <Link href="/blog/europe/portugal" onClick={handleLinkClick} className="text-sm text-[#6e6e73] hover:text-[#2997ff] transition-colors">Portugal</Link>
                     <Link href="/blog/europe/turquie" onClick={handleLinkClick} className="text-sm text-[#6e6e73] hover:text-[#2997ff] transition-colors">Turquie</Link>
                     <Link href="/blog/europe/malte" onClick={handleLinkClick} className="text-sm text-[#6e6e73] hover:text-[#2997ff] transition-colors">Malte</Link>
+                    <Link href="/blog/europe/chypre" onClick={handleLinkClick} className="text-sm text-[#6e6e73] hover:text-[#2997ff] transition-colors">Chypre</Link>
                   </div>
                 </div>
 
                 {/* Asie */}
                 <div className="flex flex-col items-center gap-1">
-                  <Link
-                    href="/blog/asie"
-                    onClick={handleLinkClick}
-                    className="text-lg sm:text-xl text-[#a1a1a6] hover:text-[#2997ff] transition-colors font-medium"
-                  >
+                  <span className="text-lg sm:text-xl text-[#a1a1a6] font-medium cursor-default">
                     Asie
-                  </Link>
+                  </span>
                   <div className="flex flex-wrap gap-2 justify-center">
                     <Link href="/blog/asie/thailande" onClick={handleLinkClick} className="text-sm text-[#6e6e73] hover:text-[#2997ff] transition-colors">Thaïlande</Link>
                     <Link href="/blog/asie/jordanie" onClick={handleLinkClick} className="text-sm text-[#6e6e73] hover:text-[#2997ff] transition-colors">Jordanie</Link>
@@ -141,13 +134,9 @@ export default function Navigation() {
 
                 {/* Afrique */}
                 <div className="flex flex-col items-center gap-1">
-                  <Link
-                    href="/blog/afrique"
-                    onClick={handleLinkClick}
-                    className="text-lg sm:text-xl text-[#a1a1a6] hover:text-[#2997ff] transition-colors font-medium"
-                  >
+                  <span className="text-lg sm:text-xl text-[#a1a1a6] font-medium cursor-default">
                     Afrique
-                  </Link>
+                  </span>
                   <div className="flex flex-wrap gap-2 justify-center">
                     <Link href="/blog/afrique/ile-maurice" onClick={handleLinkClick} className="text-sm text-[#6e6e73] hover:text-[#2997ff] transition-colors">Île Maurice</Link>
                   </div>
@@ -155,17 +144,14 @@ export default function Navigation() {
 
                 {/* Amériques */}
                 <div className="flex flex-col items-center gap-1">
-                  <Link
-                    href="/blog/ameriques"
-                    onClick={handleLinkClick}
-                    className="text-lg sm:text-xl text-[#a1a1a6] hover:text-[#2997ff] transition-colors font-medium"
-                  >
+                  <span className="text-lg sm:text-xl text-[#a1a1a6] font-medium cursor-default">
                     Amériques
-                  </Link>
+                  </span>
                   <div className="flex flex-wrap gap-2 justify-center">
                     <Link href="/blog/ameriques/etats-unis" onClick={handleLinkClick} className="text-sm text-[#6e6e73] hover:text-[#2997ff] transition-colors">États-Unis</Link>
                     <Link href="/blog/ameriques/mexique" onClick={handleLinkClick} className="text-sm text-[#6e6e73] hover:text-[#2997ff] transition-colors">Mexique</Link>
                     <Link href="/blog/ameriques/colombie" onClick={handleLinkClick} className="text-sm text-[#6e6e73] hover:text-[#2997ff] transition-colors">Colombie</Link>
+                    <Link href="/blog/ameriques/panama" onClick={handleLinkClick} className="text-sm text-[#6e6e73] hover:text-[#2997ff] transition-colors">Panama</Link>
                   </div>
                 </div>
               </div>

@@ -18,14 +18,14 @@ export default function IndonesiePage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir l'Indonésie</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir l'Indonésie</h2>
               <p className="text-gray-700 mb-6">
                 L'Indonésie, plus grand archipel du monde, offre une diversité culturelle et naturelle exceptionnelle.
                 De Bali spirituelle à Java volcanique, en passant par les dragons de Komodo, chaque île révèle
                 ses trésors uniques.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Destinations principales</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Destinations principales</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Bali</strong> - Île des dieux, rizières et temples</li>
                 <li><strong>Java</strong> - Borobudur et volcans actifs</li>
@@ -34,7 +34,7 @@ export default function IndonesiePage() {
                 <li><strong>Gili</strong> - Trois îles paradisiaques sans véhicules motorisés</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Avril-octobre (saison sèche)<br />
                 <strong>Langue :</strong> Bahasa Indonesia<br />

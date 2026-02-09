@@ -21,8 +21,8 @@ export default function IstanbulPage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir Istanbul</h2>
-              <p className="text-gray-700 mb-6">
+              <h2 className="text-black font-bold !mb-6">Découvrir Istanbul</h2>
+              <p className="text-gray-700 !mb-6">
                 Istanbul, ancienne Constantinople et Byzance, est une ville fascinante qui s'étend sur deux continents,
                 séparée par le majestueux détroit du Bosphore. Entre mosquées ottomanes aux dômes étincelants,
                 palais somptueux aux trésors inestimables et bazars animés aux mille couleurs, la ville offre une
@@ -30,7 +30,7 @@ export default function IstanbulPage() {
                 une histoire millénaire, des empires byzantin et ottoman à la République turque moderne.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Les incontournables</h3>
+              <h3 className="text-black font-semibold mt-8 !mb-4">Les incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Sainte-Sophie (Ayasofya)</strong> - Chef-d'œuvre byzantin devenu mosquée, symbole de la ville</li>
                 <li><strong>Mosquée Bleue (Sultan Ahmed)</strong> - Splendeur de l'architecture ottomane avec 6 minarets</li>
@@ -42,7 +42,7 @@ export default function IstanbulPage() {
                 <li><strong>Îles aux Princes</strong> - Escapade paisible en mer de Marmara</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Quartiers emblématiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Quartiers emblématiques</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Sultanahmet</strong> - Cœur historique avec les monuments principaux</li>
                 <li><strong>Beyoğlu</strong> - Quartier bohème, galeries d'art et cafés branchés</li>
@@ -51,7 +51,7 @@ export default function IstanbulPage() {
                 <li><strong>Balat</strong> - Ancien quartier juif aux maisons colorées Instagram</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Expériences à vivre</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Expériences à vivre</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>Regarder le coucher de soleil depuis la tour de Galata</li>
                 <li>Prendre un çay au bord du Bosphore à Ortaköy</li>
@@ -63,7 +63,7 @@ export default function IstanbulPage() {
                 <li>Explorer les cafés cachés de Balat</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Avril-mai et septembre-octobre (climat doux, moins de touristes)<br />
                 <strong>Langue :</strong> Turc (anglais parlé dans les zones touristiques)<br />
@@ -73,7 +73,7 @@ export default function IstanbulPage() {
                 <strong>Durée conseillée :</strong> 4-5 jours minimum
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Mes conseils</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Mes conseils</h3>
               <p className="text-gray-700">
                 🎫 Achetez une Istanbulkart dès l'aéroport (transports illimités)<br />
                 🕌 Visitez les mosquées tôt le matin pour éviter la foule<br />
@@ -85,7 +85,7 @@ export default function IstanbulPage() {
                 🏨 Logez à Sultanahmet pour les sites ou Beyoğlu pour l'ambiance
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Spécialités culinaires à goûter</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Spécialités culinaires à goûter</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Döner & Kebab</strong> - Authentiques, loin des versions européennes</li>
                 <li><strong>Balık ekmek</strong> - Sandwich au maquereau grillé, spécialité d'Eminönü</li>
@@ -112,7 +112,7 @@ export default function IstanbulPage() {
                   {/* Image */}
                   <div className="md:w-1/2 relative h-80 md:h-auto overflow-hidden">
                     <img
-                      src="/images/agia sofia.png"
+                      src="/images/agia sofia.jpg"
                       alt="Sultanahmet"
                       className="w-full h-full object-cover"
                     />
@@ -123,14 +123,14 @@ export default function IstanbulPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Sultanahmet</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Cœur historique d'Istanbul</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Cœur historique d'Istanbul</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le quartier de Sultanahmet est le cœur historique d'Istanbul, où chaque pierre raconte mille ans d'histoire.
                         C'est ici que se concentrent les monuments les plus emblématiques de la ville : la majestueuse Sainte-Sophie
                         avec ses dômes imposants, la Mosquée Bleue aux six minarets élancés, et le somptueux Palais de Topkapi.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         En déambulant dans ses ruelles pavées, on découvre la Basilique Citerne, cathédrale souterraine aux colonnes
                         mystérieuses, et l'Hippodrome byzantin où se déroulaient autrefois courses de chars et cérémonies impériales.
                         L'atmosphère unique de Sultanahmet mêle touristes émerveillés et vendeurs de simit dans une ambiance à la fois
@@ -165,14 +165,14 @@ export default function IstanbulPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Beyoğlu</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le quartier bohème et branché</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le quartier bohème et branché</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Beyoğlu incarne l'Istanbul moderne et créative. Son artère principale, l'avenue Istiklal, est une rue piétonne
                         effervescente où se mêlent boutiques de mode, librairies indépendantes, pâtisseries traditionnelles et cafés
                         branchés. Le tramway nostalgique rouge serpente au milieu de la foule cosmopolite.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Dominant le quartier, la tour de Galata offre une vue panoramique époustouflante sur la ville et le Bosphore.
                         Les ruelles adjacentes regorgent de galeries d'art contemporain, de bars à vin cachés et de restaurants
                         fusion. Le soir, Beyoğlu s'anime avec sa vie nocturne légendaire, des concerts de jazz aux clubs underground.
@@ -206,14 +206,14 @@ export default function IstanbulPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Balat</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le quartier aux maisons arc-en-ciel</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le quartier aux maisons arc-en-ciel</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Balat est l'ancien quartier juif d'Istanbul, devenu célèbre pour ses maisons colorées qui dévalent les ruelles
                         pentues jusqu'à la Corne d'Or. Rouge vif, jaune canari, bleu azur : chaque façade est une explosion de couleurs
                         qui fait le bonheur des photographes et influenceurs du monde entier.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Mais Balat, c'est bien plus qu'un décor Instagram. C'est un quartier vivant où l'histoire se lit à chaque coin
                         de rue : églises orthodoxes grecques, synagogues séfarades, mosquées ottomanes cohabitent harmonieusement.
                         Les cafés bohèmes se sont installés dans les anciennes maisons, proposant lattes artistiques et brunchs créatifs
@@ -248,14 +248,14 @@ export default function IstanbulPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Bosphore</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le détroit entre deux continents</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le détroit entre deux continents</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le Bosphore est bien plus qu'un simple détroit : c'est l'âme d'Istanbul, la ligne magique qui sépare l'Europe
                         de l'Asie. Sur ses rives se succèdent palais ottomans aux yali en bois précieux, mosquées aux minarets élancés,
                         forteresses médiévales et villages de pêcheurs préservés du temps.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Une croisière sur le Bosphore au coucher du soleil est un incontournable absolu. À bord d'un ferry public
                         bondé de locaux ou d'un bateau privé plus intimiste, on contemple Istanbul sous son plus beau jour : la lumière
                         dorée caressant les dômes, les mouettes qui dansent dans le sillage du bateau, et cette sensation unique
@@ -290,15 +290,15 @@ export default function IstanbulPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Grand Bazar</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le labyrinthe aux 4000 boutiques</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le labyrinthe aux 4000 boutiques</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Entrer dans le Grand Bazar (Kapalı Çarşı), c'est plonger dans un monde à part, une caverne d'Ali Baba
                         géante où scintillent tapis persans, lampes en mosaïque, bijoux en or et épices multicolores. Avec ses
                         61 rues couvertes et plus de 4000 boutiques, c'est le plus ancien et le plus grand marché couvert du monde,
                         un labyrinthe envoûtant où il est presque obligatoire de se perdre.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         L'art de la négociation est roi ici : les commerçants vous accueillent avec un çay brûlant et le prix affiché
                         n'est qu'une suggestion. Entre deux négociations acharnées pour un kilim anatolien, on admire les plafonds
                         voûtés ottomans et l'effervescence d'un commerce vieux de 500 ans qui n'a jamais cessé de vibrer.
@@ -315,13 +315,13 @@ export default function IstanbulPage() {
                 </div>
               </div>
 
-              {/* Kadiköy */}
+              {/* Galata */}
               <div className="bg-white rounded-3xl overflow-hidden shadow-xl">
                 <div className="flex flex-col md:flex-row-reverse">
                   {/* Image */}
                   <div className="md:w-1/2 relative h-80 md:h-auto overflow-hidden">
                     <img
-                      src="https://images.unsplash.com/photo-1570939274717-7eda259b50ed?w=1200&q=80"
+                      src="/images/galata.jpg"
                       alt="Kadiköy"
                       className="w-full h-full object-cover"
                     />
@@ -331,23 +331,23 @@ export default function IstanbulPage() {
                   </div>
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
-                    <h3 className="text-3xl font-bold text-gray-900 mb-3">Kadiköy</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">L'Istanbul authentique de la rive asiatique</p>
+                    <h3 className="text-3xl font-bold text-gray-900 mb-3">Karaköy</h3>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">L'Istanbul authentique de la rive asiatique</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
-                        Traverser le Bosphore pour rejoindre Kadiköy, c'est découvrir l'Istanbul des Stambouliotes, loin de l'agitation
-                        touristique de Sultanahmet. Ce quartier de la rive asiatique pulse au rythme d'une vie locale authentique :
-                        marchés de quartier débordant de produits frais, vendeurs de balık ekmek (sandwichs au poisson) sur le port,
-                        et cafés où les habitués jouent au backgammon en sirotant leur çay.
+                      <p className="text-gray-700 !mb-4">
+                       Grimper les ruelles pavées de Karaköy (anciennement Galata ou Pera), c'est s'immerger dans l'histoire cosmopolite d'Istanbul, 
+                       là où l'héritage génois rencontre l'effervescence créative moderne. Ce quartier escarpé vibre autour 
+                       de sa tour emblématique : ateliers d'artisans luthiers, galeries d'art nichées dans des édifices néoclassiques, 
+                       et terrasses de toit offrant une vue imprenable sur la Corne d'Or. Ici,l'ambiance effervescente se mélange au parfum du café turc.
                       </p>
-                      <p className="text-gray-700 mb-4">
-                        La rue commerçante de Bahariye regorge de boutiques vintage, librairies alternatives et pâtisseries artisanales.
-                        L'ambiance y est résolument bohème et décontractée, avec des murals de street art à chaque coin de rue. Le soir,
-                        les meyhane (tavernes) se remplissent pour des soirées rakı-meze arrosées, dans une atmosphère conviviale
-                        typiquement locale. Kadiköy, c'est l'Istanbul sans filtre, tel que le vivent ses habitants.
-                      </p>
-                      <p className="text-gray-600 text-sm italic">
-                        [Espace réservé pour votre récit personnel]
+                      <p className="text-gray-700 !mb-4">
+                        La rue Serdar-ı Ekrem regorge de concept-stores pointus, de designers locaux et 
+                        de papeteries d'un autre temps. L'ambiance y est à la fois sophistiquée et
+                         historique, où chaque façade décrépite cache un trésor de modernité. Le soir, 
+                         les bars et les bistrots branchés s'animent sous les lumières tamisées, 
+                         mêlant voyageurs curieux et jeunesse dorée stambouliote. Galata, c'est l'Istanbul 
+                         vertical, suspendu entre un passé glorieux et une avant-garde artistique
+                          vibrante.
                       </p>
                     </div>
                     <div className="flex flex-wrap gap-2 mt-4">

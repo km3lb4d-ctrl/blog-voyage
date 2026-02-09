@@ -21,7 +21,7 @@ export default function TabogaPage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir Taboga</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir Taboga</h2>
               <p className="text-gray-700 mb-6">
                 Taboga, affectueusement surnommée "l'Île aux Fleurs" pour ses jardins luxuriants couverts
                 d'hibiscus, bougainvilliers et orchidées sauvages, est une petite île paradisiaque située à
@@ -35,7 +35,7 @@ export default function TabogaPage() {
                 l'authenticité insulaire panaméenne préservée du développement touristique de masse.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Les incontournables</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Les incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Playa Restinga</strong> - Plage principale avec sable doré et eaux calmes, parfaite pour familles</li>
                 <li><strong>Village de Taboga</strong> - Maisons colorées et église San Pedro (1550), seconde plus ancienne du continent</li>
@@ -47,7 +47,7 @@ export default function TabogaPage() {
                 <li><strong>Plongée et snorkeling</strong> - Eaux claires avec poissons tropicaux et coraux</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Zones de l'île</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Zones de l'île</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Village central</strong> - Cœur historique avec église coloniale, restaurants et boutiques</li>
                 <li><strong>Playa Restinga</strong> - Zone de plage principale avec restaurants de fruits de mer</li>
@@ -56,7 +56,7 @@ export default function TabogaPage() {
                 <li><strong>Morro Taboga</strong> - Îlot rocheux visible depuis la plage, spot photo iconique</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Expériences à vivre</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Expériences à vivre</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>Se baigner dans les eaux calmes de Playa Restinga au lever du soleil</li>
                 <li>Escalader Cerro Vigía pour admirer Panama City au loin et l'océan à 360°</li>
@@ -68,7 +68,7 @@ export default function TabogaPage() {
                 <li>Chercher les baleines à bosse de juillet à octobre depuis les hauteurs</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Décembre-avril (saison sèche), juillet-octobre pour baleines<br />
                 <strong>Langue :</strong> Espagnol<br />
@@ -78,7 +78,7 @@ export default function TabogaPage() {
                 <strong>Durée conseillée :</strong> Excursion journée (ou nuit sur place pour lever de soleil tranquille)
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Mes conseils</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Mes conseils</h3>
               <p className="text-gray-700">
                 ⛴️ Ferry part tôt le matin (8h-9h), arrivez 30 min avant pour acheter billets<br />
                 🎒 Apportez eau, snacks, crème solaire - restaurants limités et chers sur l'île<br />
@@ -90,7 +90,7 @@ export default function TabogaPage() {
                 🐋 Juillet-octobre pour baleines, louez jumelles ou tour d'observation
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Spécialités culinaires à goûter</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Spécialités culinaires à goûter</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Ceviche de Corvina</strong> - Poisson blanc ultra frais pêché le matin même</li>
                 <li><strong>Pescado Frito</strong> - Poisson entier frit avec patacones et salade</li>
@@ -128,9 +128,9 @@ export default function TabogaPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Playa Restinga</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">La plage principale de sable doré</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">La plage principale de sable doré</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Playa Restinga est la plage principale et la plus accessible de l'île de Taboga, s'étirant
                         sur environ 500 mètres de sable doré fin face à l'océan Pacifique. Contrairement aux plages
                         de sable blanc caribéen, le sable volcanique de Taboga prend des teintes dorées et parfois
@@ -139,7 +139,7 @@ export default function TabogaPage() {
                         de 26-28°C toute l'année. Le long de la plage, des palapas en palme offrent ombre bienvenue,
                         et plusieurs restaurants de fruits de mer proposent tables et chaises directement sur le sable.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         L'arrière-plan spectaculaire de Playa Restinga ajoute à son charme : d'un côté les collines
                         verdoyantes couvertes de végétation tropicale, de l'autre la vue lointaine sur la skyline
                         futuriste de Panama City émergeant de la brume à l'horizon. Le célèbre rocher Morro Taboga,
@@ -178,9 +178,9 @@ export default function TabogaPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Village de Taboga</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Charme colonial et authenticité insulaire</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Charme colonial et authenticité insulaire</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le village de Taboga, seule agglomération de l'île abritant environ 1 500 habitants, déploie
                         son charme colonial authentique le long de ruelles étroites grimpant depuis l'embarcadère du
                         ferry jusqu'aux collines verdoyantes. Les maisons traditionnelles aux façades colorées (jaune,
@@ -189,7 +189,7 @@ export default function TabogaPage() {
                         (interdites sur l'île), créant une atmosphère paisible où résonnent seulement chants d'oiseaux,
                         conversations des habitants sur le pas de leur porte, et cloches de l'église historique.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         L'église San Pedro, fondée en 1550, est l'un des plus anciens édifices religieux du continent
                         américain et le cœur spirituel de l'île. Sa façade blanche simple contraste avec son intérieur
                         orné de statues coloniales et autels dorés. La place centrale ombragée par des frangipaniers
@@ -228,9 +228,9 @@ export default function TabogaPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Cerro Vigía</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le point culminant avec vue panoramique 360°</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le point culminant avec vue panoramique 360°</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Cerro Vigía, culminant à 307 mètres d'altitude, est le point le plus élevé de l'île de Taboga
                         et offre sans conteste la vue panoramique la plus spectaculaire. La randonnée jusqu'au sommet
                         démarre depuis le village et grimpe à travers une forêt tropicale dense pendant environ 45 minutes
@@ -239,7 +239,7 @@ export default function TabogaPage() {
                         fréquemment iguanes se prélassant sur les branches, papillons multicolores, et agoutis (petits
                         rongeurs terrestres) détalant dans les sous-bois.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Arrivé au sommet, la récompense est époustouflante : vue panoramique à 360 degrés embrassant
                         l'ensemble de l'île de Taboga, le village coloré miniaturisé en contrebas, l'océan Pacifique
                         s'étendant à l'infini parsemé de navires attendant pour franchir le Canal de Panama, et au
@@ -279,9 +279,9 @@ export default function TabogaPage() {
                   {/* Texte */}
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Observation des baleines</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Spectacle majestueux de juillet à octobre</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Spectacle majestueux de juillet à octobre</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         De juillet à octobre, l'île de Taboga devient l'un des meilleurs spots d'observation des
                         baleines à bosse (Megaptera novaeangliae) au Panama. Ces géants des océans, mesurant jusqu'à
                         15 mètres de long et pesant 30 tonnes, migrent chaque année depuis les eaux froides de
@@ -290,7 +290,7 @@ export default function TabogaPage() {
                         l'observation : eaux relativement calmes, profondeur adéquate, et proximité du littoral
                         permettant de voir ces cétacés majestueux depuis la côte ou lors d'excursions en bateau.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Observer une baleine à bosse jaillir hors de l'eau dans un saut spectaculaire (breaching),
                         retombant dans une explosion d'écume blanche, reste un moment inoubliable et émouvant. Les
                         mâles chantent des mélodies complexes pour attirer les femelles, audibles même sous l'eau

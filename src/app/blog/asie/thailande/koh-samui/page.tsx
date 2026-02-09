@@ -18,14 +18,14 @@ export default function KohSamuiPage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir Koh Samui</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir Koh Samui</h2>
               <p className="text-gray-700 mb-6">
                 Koh Samui, deuxième plus grande île de Thaïlande, est un paradis tropical réputé pour ses plages
                 bordées de palmiers, ses resorts luxueux et son atmosphère décontractée. Entre cascades, temples,
                 marchés nocturnes et spots de plongée, l'île offre un équilibre parfait entre détente et aventure.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Sites incontournables</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Sites incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Chaweng Beach</strong> - Plage principale avec ambiance festive</li>
                 <li><strong>Lamai Beach</strong> - Alternative plus calme à Chaweng</li>
@@ -34,7 +34,7 @@ export default function KohSamuiPage() {
                 <li><strong>Ang Thong Marine Park</strong> - Archipel de 42 îles protégées</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Décembre-août (éviter octobre-novembre)<br />
                 <strong>Durée recommandée :</strong> 4-6 jours<br />

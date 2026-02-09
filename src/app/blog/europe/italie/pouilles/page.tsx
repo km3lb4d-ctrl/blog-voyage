@@ -21,7 +21,7 @@ export default function PougliesPage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir les Pouilles</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir les Pouilles</h2>
               <p className="text-gray-700 mb-6">
                 Les Pouilles (Puglia en italien), région du sud de l'Italie formant le talon de la botte, séduisent par
                 leur authenticité préservée loin du tourisme de masse du nord du pays. Entre les trulli coniques
@@ -31,7 +31,7 @@ export default function PougliesPage() {
                 ses burrata crémeuses et ses orecchiette faites main incarne la dolce vita méditerranéenne authentique.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Les incontournables</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Les incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Alberobello</strong> - Village aux 1500 trulli coniques classé UNESCO</li>
                 <li><strong>Polignano a Mare</strong> - Village perché sur falaises au-dessus de la mer</li>
@@ -43,7 +43,7 @@ export default function PougliesPage() {
                 <li><strong>Matera</strong> - Sassi troglodytiques (en Basilicate voisine)</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Zones et territoires</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Zones et territoires</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Valle d'Itria</strong> - Vallée des trulli, Alberobello, Locorotondo, Cisternino</li>
                 <li><strong>Salento</strong> - Péninsule sud, Lecce, Otranto, Gallipoli, plages paradisiaques</li>
@@ -52,7 +52,7 @@ export default function PougliesPage() {
                 <li><strong>Côte Adriatique</strong> - De Bari à Otranto, falaises et criques</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Expériences à vivre</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Expériences à vivre</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>Dormir dans un trullo traditionnel restauré à Alberobello</li>
                 <li>Admirer le coucher de soleil depuis Polignano a Mare</li>
@@ -64,7 +64,7 @@ export default function PougliesPage() {
                 <li>Explorer les villages blancs de la Valle d'Itria en vélo</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Mai-juin et septembre-octobre (juillet-août très chaud et fréquenté)<br />
                 <strong>Langue :</strong> Italien (peu d'anglais hors zones touristiques)<br />
@@ -74,7 +74,7 @@ export default function PougliesPage() {
                 <strong>Aéroports :</strong> Bari (nord) ou Brindisi (sud)
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Mes conseils</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Mes conseils</h3>
               <p className="text-gray-700">
                 🚗 Louez une voiture, transports publics très limités<br />
                 🏖️ Réservez plages et restaurants en août, très fréquenté<br />
@@ -86,7 +86,7 @@ export default function PougliesPage() {
                 🌊 Les plages du Salento sont parmi les plus belles d'Italie
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Spécialités culinaires à goûter</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Spécialités culinaires à goûter</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Orecchiette alle Cime di Rapa</strong> - Pâtes oreilles aux feuilles de navet</li>
                 <li><strong>Burrata</strong> - Mozzarella crémeuse originaire d'Andria</li>
@@ -122,9 +122,9 @@ export default function PougliesPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Alberobello</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Le village aux 1500 trulli coniques</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Le village aux 1500 trulli coniques</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Alberobello est un village extraordinaire unique au monde, classé au patrimoine UNESCO pour ses 1500 trulli,
                         ces maisons traditionnelles en pierre sèche coiffées d'un toit conique. Construits sans mortier selon une
                         technique ancestrale, les trulli créent un paysage urbain de conte de fées, avec leurs toits gris en forme
@@ -132,7 +132,7 @@ export default function PougliesPage() {
                         forte densité de trulli, formant un labyrinthe de ruelles pavées où chaque maison semble sortir d'un livre
                         d'histoires.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Aujourd'hui, certains trulli sont transformés en boutiques artisanales vendant produits locaux et souvenirs,
                         d'autres en restaurants servant cuisine traditionnelle pugliese, et d'autres encore en hébergements
                         touristiques permettant l'expérience unique de dormir sous un toit conique. Le Trullo Sovrano, seul trullo
@@ -167,9 +167,9 @@ export default function PougliesPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Lecce</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">La Florence baroque du sud</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">La Florence baroque du sud</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Lecce, capitale du Salento, est un joyau baroque extraordinaire surnommé la "Florence du sud" pour sa
                         concentration exceptionnelle de palais et d'églises richement ornés. Construite en pietra leccese, pierre
                         calcaire blonde locale facile à sculpter, la ville est un musée à ciel ouvert d'architecture baroque
@@ -177,7 +177,7 @@ export default function PougliesPage() {
                         animaux fantastiques sculptés avec une exubérance typiquement méridionale. La Basilique Santa Croce, chef-
                         d'œuvre absolu du baroque lecchese, fascine par son incroyable profusion décorative.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le centre historique piétonnier invite à la flânerie dans ses ruelles pavées bordées de palais ocre, de
                         boutiques artisanales perpétuant la tradition locale de la papier-mâché, et de cafés où déguster un
                         pasticciotto, pâtisserie emblématique de Lecce. La Piazza Sant'Oronzo, avec son amphithéâtre romain et
@@ -212,9 +212,9 @@ export default function PougliesPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Polignano a Mare</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">Village spectaculaire perché sur les falaises</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">Village spectaculaire perché sur les falaises</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Polignano a Mare est l'un des villages les plus photogéniques d'Italie, spectaculairement perché sur des
                         falaises calcaires blanches plongeant dans une mer Adriatique d'un bleu profond éblouissant. Le centre
                         historique, construit sur un promontoire rocheux, enchante par ses maisons blanches aux balcons fleuris
@@ -222,7 +222,7 @@ export default function PougliesPage() {
                         la roche. La Lama Monachile, petite plage de galets nichée entre deux falaises accessibles par un escalier
                         raide, offre un cadre de baignade unique sous le regard des maisons perchées.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Le village est particulièrement magique au coucher du soleil, quand les derniers rayons embrasent les
                         falaises blanches et que les restaurants s'illuminent. Les terrasses panoramiques surplombant la mer
                         sont parfaites pour un aperitivo romantique. Polignano est aussi la ville natale de Domenico Modugno,
@@ -257,9 +257,9 @@ export default function PougliesPage() {
                   </div>
                   <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
                     <h3 className="text-3xl font-bold text-gray-900 mb-3">Ostuni</h3>
-                    <p className="text-sm text-[#f56300] font-semibold mb-4">La Città Bianca éclatante sur sa colline</p>
+                    <p className="text-sm text-[#f56300] font-semibold !mb-4">La Città Bianca éclatante sur sa colline</p>
                     <div className="prose prose-gray">
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         Ostuni, surnommée la Città Bianca (Ville Blanche), est un village spectaculaire couronné d'un écrin de
                         maisons blanchies à la chaux qui scintillent au soleil, perché sur trois collines dominant un océan
                         d'oliviers centenaires s'étendant jusqu'à la mer Adriatique visible au loin. Cette tradition de peindre
@@ -267,7 +267,7 @@ export default function PougliesPage() {
                         son caractère unique et photogénique. Le centre historique labyrinthique invite à se perdre dans ses
                         ruelles étroites montant en escaliers, ses passages voûtés, ses places cachées et ses patios fleuris.
                       </p>
-                      <p className="text-gray-700 mb-4">
+                      <p className="text-gray-700 !mb-4">
                         La Cathédrale gothique couronne le sommet de la vieille ville, sa façade baroque contrastant avec
                         l'austérité gothique de l'intérieur. Des terrasses panoramiques offrent des vues imprenables sur la
                         campagne environnante jusqu'à la mer, particulièrement au coucher du soleil quand tout prend des teintes

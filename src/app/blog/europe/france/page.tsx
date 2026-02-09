@@ -2,6 +2,7 @@
 
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import Link from 'next/link';
 
 export default function FrancePage() {
   return (
@@ -53,13 +54,13 @@ export default function FrancePage() {
             <h2 className="text-4xl font-bold text-center mb-12">Régions visitées</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Corse */}
-              <div className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer">
+              <Link href="/blog/europe/france/corse" className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer block">
                 {/* Image Container avec overlay */}
                 <div className="relative h-64 overflow-hidden">
                   <div
                     className="absolute inset-0 w-full h-full"
                     style={{
-                      backgroundImage: 'url(https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?w=1200&q=80)',
+                      backgroundImage: 'url(https://images.unsplash.com/photo-1527004013197-933c4bb611b3?w=1200&q=80)',
                       backgroundSize: 'cover',
                       backgroundPosition: 'center',
                       transform: 'scale(1.1)',
@@ -144,7 +145,7 @@ export default function FrancePage() {
 
                 {/* Hover effet - bordure animée */}
                 <div className="absolute inset-0 rounded-3xl border-2 border-transparent group-hover:border-[#0071e3] transition-colors duration-300 pointer-events-none"></div>
-              </div>
+              </Link>
             </div>
           </div>
         </section>

@@ -18,14 +18,14 @@ export default function MaltePage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir Malte</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir Malte</h2>
               <p className="text-gray-700 mb-6">
                 Malte, petit archipel au cœur de la Méditerranée, fascine par son histoire millénaire
                 et ses paysages spectaculaires. Entre cités fortifiées inscrites à l'UNESCO, lagons turquoise
                 et villages de pêcheurs, l'île offre une diversité remarquable dans un espace concentré.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Sites incontournables</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Sites incontournables</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>La Valette</strong> - Capitale fortifiée et baroque</li>
                 <li><strong>Mdina</strong> - Cité silencieuse médiévale</li>
@@ -34,7 +34,7 @@ export default function MaltePage() {
                 <li><strong>Temples mégalithiques</strong> - Plus anciens que Stonehenge</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Avril-juin et septembre-octobre<br />
                 <strong>Langue :</strong> Maltais et Anglais<br />

@@ -19,13 +19,13 @@ export default function ItaliePage() {
         <section className="section py-20">
           <div className="container mx-auto px-6 max-w-4xl">
             <div className="prose prose-lg mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Découvrir l'Italie</h2>
+              <h2 className="text-black font-bold !mb-6">Découvrir l'Italie</h2>
               <p className="text-gray-700 mb-6">
                 L'Italie enchante par son patrimoine artistique inégalé, sa gastronomie raffinée et ses paysages variés.
                 De Rome éternelle à Venise romantique, en passant par la Toscane bucolique, l'Italie est un voyage dans le temps et les sens.
               </p>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Destinations principales</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Destinations principales</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li><strong>Rome</strong> - Ville éternelle et capitale de l'Empire romain</li>
                 <li><strong>Florence</strong> - Berceau de la Renaissance italienne</li>
@@ -34,7 +34,7 @@ export default function ItaliePage() {
                 <li><strong>Toscane</strong> - Collines, vignobles et villes médiévales</li>
               </ul>
 
-              <h3 className="text-2xl font-semibold mt-8 mb-4">Informations pratiques</h3>
+              <h3 className="text-black font-semibold !mt-8 !mb-4">Informations pratiques</h3>
               <p className="text-gray-700">
                 <strong>Meilleure période :</strong> Avril-juin et septembre-octobre<br />
                 <strong>Langue :</strong> Italien<br />
