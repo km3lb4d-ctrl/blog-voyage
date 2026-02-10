@@ -44,49 +44,34 @@ export default function Home() {
       </section>
 
       {/* Présentation des sections */}
-      <section className="min-h-screen bg-[#1d1d1f] flex flex-col items-center py-20">
-        <div className="w-full mt-56">
-          <h2 className="headline text-center text-white px-4" style={{ marginBottom: '64px' }}>Explorez le blog</h2>
+      <section className="min-h-screen bg-[#1d1d1f] flex flex-col items-center justify-center py-20">
+        <div className="w-full max-w-5xl mx-auto px-6">
+          <h2 className="headline text-center text-white mb-16 px-4">Découvrez mes voyages</h2>
 
-          <div className="space-y-0">
-            {/* Itinéraires */}
-            <Link href="/itineraires" className="group block">
-              <div className="bg-[#2d2d2d] overflow-hidden transition-all duration-500 ease-out group-hover:-translate-y-2 group-hover:shadow-2xl flex flex-col md:flex-row items-stretch w-full h-[400px]">
-                <div className="md:w-1/2 overflow-hidden h-full">
-                  <img
-                    src="/images/colombie/randonnee-bogota.jpg"
-                    alt="Itinéraires"
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
-                <div className="p-8 md:w-1/2 flex flex-col justify-center h-full">
-                  <h3 className="text-3xl font-bold mb-4 text-white">Itinéraires de voyages</h3>
-                  <p className="text-[#a1a1a6] text-base">
-                    Des programmes détaillés jour par jour pour organiser votre prochain voyage.
-                  </p>
+          {/* Blog */}
+          <Link href="/blog" className="group block">
+            <div className="bg-[#2d2d2d] rounded-3xl overflow-hidden transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl flex flex-col md:flex-row items-stretch w-full">
+              <div className="md:w-1/2 h-80 md:h-96 overflow-hidden">
+                <img
+                  src="/images/colombie/carthagene.jpg"
+                  alt="Blog de voyage"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+              </div>
+              <div className="p-10 md:w-1/2 flex flex-col justify-center h-full">
+                <h3 className="text-4xl font-bold mb-6 text-white group-hover:text-[#f56300] transition-colors">Blog de voyage</h3>
+                <p className="text-[#a1a1a6] text-lg leading-relaxed mb-6">
+                  Découvrez mes guides détaillés, itinéraires complets et conseils pratiques pour organiser vos propres aventures à travers le monde.
+                </p>
+                <div className="inline-flex items-center text-[#0071e3] font-semibold text-lg group-hover:gap-2 transition-all">
+                  Voir tous les articles
+                  <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
                 </div>
               </div>
-            </Link>
-
-            {/* Conseils */}
-            <Link href="/conseils" className="group block">
-              <div className="bg-[#2d2d2d] overflow-hidden transition-all duration-500 ease-out group-hover:-translate-y-2 group-hover:shadow-2xl flex flex-col md:flex-row items-stretch w-full h-[400px]">
-                <div className="md:w-1/2 overflow-hidden h-full">
-                  <img
-                    src="/images/colombie/san-andres.jpg"
-                    alt="Conseils"
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
-                <div className="p-8 md:w-1/2 flex flex-col justify-center h-full">
-                  <h3 className="text-3xl font-bold mb-4 text-white">Conseils de Voyage</h3>
-                  <p className="text-[#a1a1a6] text-base">
-                    Astuces pratiques : préparer son sac, gérer son budget, photographier ses souvenirs.
-                  </p>
-                </div>
-              </div>
-            </Link>
-          </div>
+            </div>
+          </Link>
         </div>
       </section>
 
